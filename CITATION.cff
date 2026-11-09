@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and the attributed experimental and theoretical sources."
+title: "Methanol hyperfine and Zeeman spectroscopy"
+version: 0.1.0
+authors:
+  - family-names: Lankhaar
+    given-names: Boy
+license: EUPL-1.2
+repository-code: "https://github.com/blankhaar/methanol-hyperfine-l26"

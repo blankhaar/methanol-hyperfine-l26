@@ -1,0 +1,808 @@
+{
+  "transitions": [
+    {
+      "label_GHz": "6.18",
+      "upper": "E_1_17_-2_E",
+      "lower": "E_1_18_-3_E",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 627.0618940578639,
+        "shape": [
+          35,
+          21
+        ],
+        "norm": 0.9999999999997204
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 626.855713818213,
+        "shape": [
+          37,
+          21
+        ],
+        "norm": 0.9999999999999796
+      },
+      "archived_spinfree_difference_MHz": 6181.128083599096
+    },
+    {
+      "label_GHz": "6.7",
+      "upper": "A_0_5_1_+",
+      "lower": "A_0_6_0_+",
+      "sources": [
+        "L2018_Table3",
+        "D2020_Table1",
+        "manuscript_eight_families"
+      ],
+      "approximate_nominal_MHz": 6668.5192,
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 161.78165325235818,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999926
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 161.5592139158672,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.9999999999998687
+      },
+      "archived_spinfree_difference_MHz": 6668.563544252386
+    },
+    {
+      "label_GHz": "7.68",
+      "upper": "A_0_12_4_-",
+      "lower": "A_0_13_3_-",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 309.33913261935754,
+        "shape": [
+          25,
+          21
+        ],
+        "norm": 0.9999999999999448
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 309.0828790433096,
+        "shape": [
+          27,
+          21
+        ],
+        "norm": 0.9999999999999357
+      },
+      "archived_spinfree_difference_MHz": 7682.288943469735
+    },
+    {
+      "label_GHz": "7.83",
+      "upper": "A_0_12_4_+",
+      "lower": "A_0_13_3_+",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 309.3391769577662,
+        "shape": [
+          25,
+          21
+        ],
+        "norm": 0.9999999999999447
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 309.07796659133976,
+        "shape": [
+          27,
+          21
+        ],
+        "norm": 0.9999999999999356
+      },
+      "archived_spinfree_difference_MHz": 7830.8897806063
+    },
+    {
+      "label_GHz": "9.91",
+      "upper": "E_0_9_-1_E",
+      "lower": "E_0_8_-2_E",
+      "sources": [
+        "L2018_Table17"
+      ],
+      "approximate_nominal_MHz": 9936.202,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 204.11682732180856,
+        "shape": [
+          19,
+          21
+        ],
+        "norm": 0.9999999999999533
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 203.78539331296926,
+        "shape": [
+          17,
+          21
+        ],
+        "norm": 0.9999999999999872
+      },
+      "archived_spinfree_difference_MHz": 9936.141617472607
+    },
+    {
+      "label_GHz": "12.2",
+      "upper": "E_0_2_0_E",
+      "lower": "E_0_3_-1_E",
+      "sources": [
+        "L2018_Table7",
+        "D2020_Table1",
+        "manuscript_eight_families"
+      ],
+      "approximate_nominal_MHz": 12178.597,
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 141.64610059169902,
+        "shape": [
+          5,
+          21
+        ],
+        "norm": 0.9999999999999951
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 141.23986674884816,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999574
+      },
+      "archived_spinfree_difference_MHz": 12178.584227104706
+    },
+    {
+      "label_GHz": "20.3",
+      "upper": "E_0_17_6_E",
+      "lower": "E_0_18_5_E",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 498.5922614489741,
+        "shape": [
+          35,
+          21
+        ],
+        "norm": 0.9999999999998226
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 497.91356312566506,
+        "shape": [
+          37,
+          21
+        ],
+        "norm": 0.9999999999999847
+      },
+      "archived_spinfree_difference_MHz": 20346.863858529865
+    },
+    {
+      "label_GHz": "20.9",
+      "upper": "A_1_10_1_+",
+      "lower": "A_1_11_2_+",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 442.14729403779813,
+        "shape": [
+          21,
+          21
+        ],
+        "norm": 0.9999999999999669
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 441.4477894546297,
+        "shape": [
+          23,
+          21
+        ],
+        "norm": 0.9999999999999903
+      },
+      "archived_spinfree_difference_MHz": 20970.619837033442
+    },
+    {
+      "label_GHz": "24.929",
+      "upper": "E_0_3_2_E",
+      "lower": "E_0_3_1_E",
+      "sources": [
+        "L2018_Table9"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 152.8245579933359,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999722
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 151.99302512291064,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999977
+      },
+      "archived_spinfree_difference_MHz": 24928.72831325853
+    },
+    {
+      "label_GHz": "24.933",
+      "upper": "E_0_4_2_E",
+      "lower": "E_0_4_1_E",
+      "sources": [
+        "L2018_Table11"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 159.279401330912,
+        "shape": [
+          9,
+          21
+        ],
+        "norm": 0.9999999999999712
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 158.44770915076677,
+        "shape": [
+          9,
+          21
+        ],
+        "norm": 0.999999999999997
+      },
+      "archived_spinfree_difference_MHz": 24933.504298512016
+    },
+    {
+      "label_GHz": "24.934",
+      "upper": "E_0_2_2_E",
+      "lower": "E_0_2_1_E",
+      "sources": [
+        "L2018_Table8"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 147.98366935075683,
+        "shape": [
+          5,
+          21
+        ],
+        "norm": 0.9999999999999706
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 147.15194724724853,
+        "shape": [
+          5,
+          21
+        ],
+        "norm": 0.9999999999999972
+      },
+      "archived_spinfree_difference_MHz": 24934.401378368308
+    },
+    {
+      "label_GHz": "24.959",
+      "upper": "E_0_5_2_E",
+      "lower": "E_0_5_1_E",
+      "sources": [
+        "L2018_Table13",
+        "D2020_Table1",
+        "manuscript_eight_families"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 167.34847167760967,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999708
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 166.51592495728542,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999966
+      },
+      "archived_spinfree_difference_MHz": 24959.12276858441
+    },
+    {
+      "label_GHz": "25.018",
+      "upper": "E_0_6_2_E",
+      "lower": "E_0_6_1_E",
+      "sources": [
+        "L2018_Table14"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 177.03209546774966,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.999999999999968
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 176.19757895398,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.9999999999999986
+      },
+      "archived_spinfree_difference_MHz": 25018.1756904592
+    },
+    {
+      "label_GHz": "25.125",
+      "upper": "E_0_7_2_E",
+      "lower": "E_0_7_1_E",
+      "sources": [
+        "L2018_Table15"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 188.33063495905762,
+        "shape": [
+          15,
+          21
+        ],
+        "norm": 0.999999999999968
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 187.49255743073937,
+        "shape": [
+          15,
+          21
+        ],
+        "norm": 0.9999999999999959
+      },
+      "archived_spinfree_difference_MHz": 25124.932220909326
+    },
+    {
+      "label_GHz": "25.294",
+      "upper": "E_0_8_2_E",
+      "lower": "E_0_8_1_E",
+      "sources": [
+        "L2018_Table16"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 201.24445807445898,
+        "shape": [
+          17,
+          21
+        ],
+        "norm": 0.9999999999999637
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 200.40072494725658,
+        "shape": [
+          17,
+          21
+        ],
+        "norm": 0.9999999999999958
+      },
+      "archived_spinfree_difference_MHz": 25294.482810003363
+    },
+    {
+      "label_GHz": "25.541",
+      "upper": "E_0_9_2_E",
+      "lower": "E_0_9_1_E",
+      "sources": [
+        "L2018_Table18"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 215.77389333757267,
+        "shape": [
+          19,
+          21
+        ],
+        "norm": 0.9999999999999645
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 214.92192171950018,
+        "shape": [
+          19,
+          21
+        ],
+        "norm": 0.9999999999999963
+      },
+      "archived_spinfree_difference_MHz": 25541.46655281911
+    },
+    {
+      "label_GHz": "36",
+      "upper": "E_0_4_-1_E",
+      "lower": "E_0_3_0_E",
+      "sources": [
+        "L2018_Table10",
+        "D2020_Table1",
+        "manuscript_eight_families"
+      ],
+      "approximate_nominal_MHz": 36169.265,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 147.6923839599594,
+        "shape": [
+          9,
+          21
+        ],
+        "norm": 0.9999999999999576
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 146.48590727010262,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999946
+      },
+      "archived_spinfree_difference_MHz": 36169.26123718651
+    },
+    {
+      "label_GHz": "37.7",
+      "upper": "E_0_7_-2_E",
+      "lower": "E_0_8_-1_E",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 190.8713420657957,
+        "shape": [
+          15,
+          21
+        ],
+        "norm": 0.9999999999999855
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 189.61368013481916,
+        "shape": [
+          17,
+          21
+        ],
+        "norm": 0.9999999999999556
+      },
+      "archived_spinfree_difference_MHz": 37703.756162047874
+    },
+    {
+      "label_GHz": "38.293",
+      "upper": "A_0_6_2_-",
+      "lower": "A_0_5_3_-",
+      "sources": [
+        "manuscript_eight_families"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 187.77368426187803,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.9999999999999982
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 186.49635825355827,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999745
+      },
+      "archived_spinfree_difference_MHz": 38293.27037015097
+    },
+    {
+      "label_GHz": "38.453",
+      "upper": "A_0_6_2_+",
+      "lower": "A_0_5_3_+",
+      "sources": [
+        "manuscript_eight_families"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 187.7789826510582,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.9999999999999984
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 186.49634100375982,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999747
+      },
+      "archived_spinfree_difference_MHz": 38452.62921767451
+    },
+    {
+      "label_GHz": "44",
+      "upper": "A_0_7_0_+",
+      "lower": "A_0_6_1_+",
+      "sources": [
+        "L2018_Table4",
+        "D2020_Table1",
+        "manuscript_eight_families"
+      ],
+      "approximate_nominal_MHz": 44069.41,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 172.84731303456712,
+        "shape": [
+          15,
+          21
+        ],
+        "norm": 0.9999999999998685
+      },
+      "lower_frozen_H": true,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 171.37731716925396,
+        "shape": [
+          13,
+          21
+        ],
+        "norm": 0.9999999999999908
+      },
+      "archived_spinfree_difference_MHz": 44069.367371207096
+    },
+    {
+      "label_GHz": "44.9",
+      "upper": "E_1_2_0_E",
+      "lower": "E_1_3_1_E",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 341.4237930699247,
+        "shape": [
+          5,
+          21
+        ],
+        "norm": 0.9999999999999869
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 339.9242292050188,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999906
+      },
+      "archived_spinfree_difference_MHz": 44955.79369881351
+    },
+    {
+      "label_GHz": "45.8",
+      "upper": "E_0_9_3_E",
+      "lower": "E_0_10_2_E",
+      "sources": [
+        "D2020_Table1"
+      ],
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 233.44834441685344,
+        "shape": [
+          19,
+          21
+        ],
+        "norm": 0.9999999999999727
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 231.91916806787873,
+        "shape": [
+          21,
+          21
+        ],
+        "norm": 0.9999999999999624
+      },
+      "archived_spinfree_difference_MHz": 45843.553637459576
+    },
+    {
+      "label_GHz": "85",
+      "upper": "E_0_5_-1_E",
+      "lower": "E_0_4_0_E",
+      "sources": [
+        "L2018_Table12"
+      ],
+      "approximate_nominal_MHz": 84521.169,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 155.75687082701452,
+        "shape": [
+          11,
+          21
+        ],
+        "norm": 0.9999999999999561
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 152.93754801228778,
+        "shape": [
+          9,
+          21
+        ],
+        "norm": 0.9999999999999951
+      },
+      "archived_spinfree_difference_MHz": 84521.17165224098
+    },
+    {
+      "label_GHz": "95",
+      "upper": "A_0_8_0_+",
+      "lower": "A_0_7_1_+",
+      "sources": [
+        "L2018_Table5"
+      ],
+      "approximate_nominal_MHz": 95169.463,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 185.74563752723452,
+        "shape": [
+          17,
+          21
+        ],
+        "norm": 0.9999999999998685
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 182.57112835576712,
+        "shape": [
+          15,
+          21
+        ],
+        "norm": 0.9999999999999915
+      },
+      "archived_spinfree_difference_MHz": 95169.39074577572
+    },
+    {
+      "label_GHz": "104",
+      "upper": "E_0_11_-1_E",
+      "lower": "E_0_10_-2_E",
+      "sources": [
+        "L2018_Table6"
+      ],
+      "approximate_nominal_MHz": 104300.414,
+      "upper_frozen_H": false,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 237.94149355543206,
+        "shape": [
+          23,
+          21
+        ],
+        "norm": 0.9999999999999521
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 234.46240879160882,
+        "shape": [
+          21,
+          21
+        ],
+        "norm": 0.9999999999999847
+      },
+      "archived_spinfree_difference_MHz": 104300.3372936918
+    },
+    {
+      "label_GHz": "107",
+      "upper": "A_0_3_1_+",
+      "lower": "A_0_4_0_+",
+      "sources": [
+        "L2018_Table2",
+        "manuscript_eight_families"
+      ],
+      "approximate_nominal_MHz": 107013.803,
+      "upper_frozen_H": true,
+      "upper_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 147.38647051980925,
+        "shape": [
+          7,
+          21
+        ],
+        "norm": 0.9999999999999926
+      },
+      "lower_frozen_H": false,
+      "lower_wave": {
+        "npz_path": "wavefunctions.npz",
+        "energy_cm_inverse": 143.81687333206966,
+        "shape": [
+          9,
+          21
+        ],
+        "norm": 0.9999999999998708
+      },
+      "archived_spinfree_difference_MHz": 107013.83149823389
+    }
+  ],
+  "source": "Transition coverage for the L26 magnetic catalogue; nominal-frequency sources are recorded per transition"
+}

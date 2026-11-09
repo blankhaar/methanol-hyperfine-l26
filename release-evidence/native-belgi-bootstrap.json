@@ -1,0 +1,59 @@
+{
+  "mode": "bootstrap",
+  "configuration": {
+    "provider": "native BELGI",
+    "source_tree_sha256": "6ed8a782fd0dd2cbbe7ef01ca285ae700f8a50e91a0ad2d944a8ca04321a0e8e",
+    "source_files": 58,
+    "constants_sha256": "11353561e41ef266477e76898282d46b58f7fe92f228cd1f41061b9c95716f3d",
+    "driver_sha256": "595d976ca25b1327e77b671cc9b9df1883c1b068b8730df6f9bc9684554e1d2d",
+    "adapter_sha256": "d362d353d4cce86decd447026f732913d494d91d54b33530e4f6817f654a122f",
+    "input_interface_sha256": "ec48583b4c7866f5062828aac761f974e820e1d9ca130e6a04f6222976b7a9b1",
+    "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+    "compiler_binary_sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39",
+    "platform": "darwin",
+    "vtmax": 2,
+    "state_tracking_label": 1,
+    "energy_unit": "cm^-1",
+    "torsional_fourier_basis": "m = 3*n + sigma",
+    "coefficient_convention": "native real coefficients; no renormalization",
+    "native_limitation": "ENCAL exports zero for the ninth contracted torsional vector"
+  },
+  "linearization": "native",
+  "allowance": 4.640706899033262,
+  "checks": [
+    {
+      "label": "zero",
+      "valid": true,
+      "status": "valid",
+      "anchor_success": true,
+      "stage_success": true,
+      "anchor_message": "Optimization terminated successfully",
+      "stage_message": "Optimization terminated successfully",
+      "anchor_Q": 926.4872858759727,
+      "selective_Q": 931.1279927758401,
+      "global_Q": 1590.0982024424743,
+      "slack": -8.340917769939686e-10,
+      "bound_violation": 0.0,
+      "active_response_count": 28,
+      "seconds": 0.29370629199547693
+    },
+    {
+      "label": "nominal-draw-0",
+      "valid": true,
+      "status": "valid",
+      "anchor_success": true,
+      "stage_success": true,
+      "anchor_message": "Optimization terminated successfully",
+      "stage_message": "Optimization terminated successfully",
+      "anchor_Q": 4087.3098938632793,
+      "selective_Q": 4091.950600763077,
+      "global_Q": 3518.8828366446896,
+      "slack": -7.646008270967286e-10,
+      "bound_violation": 0.0,
+      "active_response_count": 28,
+      "seconds": 0.28457070799777284
+    }
+  ],
+  "passed": true,
+  "seconds": 43.56251237500692
+}

@@ -1,0 +1,293 @@
+{
+  "mode": "derivatives",
+  "configuration": {
+    "provider": "native BELGI",
+    "source_tree_sha256": "6ed8a782fd0dd2cbbe7ef01ca285ae700f8a50e91a0ad2d944a8ca04321a0e8e",
+    "source_files": 58,
+    "constants_sha256": "11353561e41ef266477e76898282d46b58f7fe92f228cd1f41061b9c95716f3d",
+    "driver_sha256": "595d976ca25b1327e77b671cc9b9df1883c1b068b8730df6f9bc9684554e1d2d",
+    "adapter_sha256": "d362d353d4cce86decd447026f732913d494d91d54b33530e4f6817f654a122f",
+    "input_interface_sha256": "ec48583b4c7866f5062828aac761f974e820e1d9ca130e6a04f6222976b7a9b1",
+    "compiler": "GNU Fortran (Homebrew GCC 16.2.0) 16.2.0",
+    "compiler_binary_sha256": "3adab458e780ec0c1d831e84a50214dd52ba0e8c2a9b805e0e40a1f2b0f6ca39",
+    "platform": "darwin",
+    "vtmax": 2,
+    "state_tracking_label": 1,
+    "energy_unit": "cm^-1",
+    "torsional_fourier_basis": "m = 3*n + sigma",
+    "coefficient_convention": "native real coefficients; no renormalization",
+    "native_limitation": "ENCAL exports zero for the ninth contracted torsional vector"
+  },
+  "checks": [
+    {
+      "direction": "molecular-0",
+      "step": 0.001,
+      "max_scaled_error": 1.3052489232674713e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-0",
+      "step": 0.0005,
+      "max_scaled_error": 3.6811261959653063e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-1",
+      "step": 0.001,
+      "max_scaled_error": 3.724539195592777e-08,
+      "passed": true
+    },
+    {
+      "direction": "molecular-1",
+      "step": 0.0005,
+      "max_scaled_error": 3.702690006468154e-08,
+      "passed": true
+    },
+    {
+      "direction": "molecular-2",
+      "step": 0.001,
+      "max_scaled_error": 7.368803748609987e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-2",
+      "step": 0.0005,
+      "max_scaled_error": 6.979393022722713e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-3",
+      "step": 0.001,
+      "max_scaled_error": 3.674549956412393e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-3",
+      "step": 0.0005,
+      "max_scaled_error": 3.7358342673717015e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-4",
+      "step": 0.001,
+      "max_scaled_error": 3.3991721069825953e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-4",
+      "step": 0.0005,
+      "max_scaled_error": 3.0487314853656217e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-5",
+      "step": 0.001,
+      "max_scaled_error": 1.7091398283632098e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-5",
+      "step": 0.0005,
+      "max_scaled_error": 2.3164216630456626e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-6",
+      "step": 0.001,
+      "max_scaled_error": 5.988388512281548e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-6",
+      "step": 0.0005,
+      "max_scaled_error": 6.152701519926071e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-7",
+      "step": 0.001,
+      "max_scaled_error": 1.2672390359291796e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-7",
+      "step": 0.0005,
+      "max_scaled_error": 9.895157332406868e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-8",
+      "step": 0.001,
+      "max_scaled_error": 2.5831495831241114e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-8",
+      "step": 0.0005,
+      "max_scaled_error": 1.6209111726450676e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-9",
+      "step": 0.001,
+      "max_scaled_error": 7.134594707559894e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-9",
+      "step": 0.0005,
+      "max_scaled_error": 8.379714996984561e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-10",
+      "step": 0.001,
+      "max_scaled_error": 1.570566533597162e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-10",
+      "step": 0.0005,
+      "max_scaled_error": 1.2811313910773836e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-11",
+      "step": 0.001,
+      "max_scaled_error": 9.907932529973351e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-11",
+      "step": 0.0005,
+      "max_scaled_error": 1.249685559027991e-10,
+      "passed": true
+    },
+    {
+      "direction": "molecular-12",
+      "step": 0.001,
+      "max_scaled_error": 2.6520367291116287e-09,
+      "passed": true
+    },
+    {
+      "direction": "molecular-12",
+      "step": 0.0005,
+      "max_scaled_error": 5.731163599254074e-10,
+      "passed": true
+    },
+    {
+      "direction": "response-0",
+      "step": 2.9660248310624836e-05,
+      "max_scaled_error": 2.1778751179216127e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-0",
+      "step": 1.4830124155312418e-05,
+      "max_scaled_error": 4.465448308083736e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-1",
+      "step": 4.776679910061645e-05,
+      "max_scaled_error": 1.599306594449179e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-1",
+      "step": 2.3883399550308225e-05,
+      "max_scaled_error": 2.7311411147836612e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-2",
+      "step": 2.3663341646297363e-05,
+      "max_scaled_error": 2.956732080428969e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-2",
+      "step": 1.1831670823148682e-05,
+      "max_scaled_error": 5.59052977934342e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-3",
+      "step": 1.0769470426972218e-05,
+      "max_scaled_error": 7.00070635524519e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-3",
+      "step": 5.384735213486109e-06,
+      "max_scaled_error": 1.5335860742426988e-07,
+      "passed": true
+    },
+    {
+      "direction": "response-4",
+      "step": 9.524975451571788e-06,
+      "max_scaled_error": 7.654390214370532e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-4",
+      "step": 4.762487725785894e-06,
+      "max_scaled_error": 1.5779901541392374e-07,
+      "passed": true
+    },
+    {
+      "direction": "response-5",
+      "step": 3.654158349473569e-05,
+      "max_scaled_error": 2.1398605850589045e-08,
+      "passed": true
+    },
+    {
+      "direction": "response-5",
+      "step": 1.8270791747367846e-05,
+      "max_scaled_error": 3.206734103949893e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-0",
+      "step": 2.307654870626213e-05,
+      "max_scaled_error": 3.514867010293021e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-0",
+      "step": 1.1538274353131065e-05,
+      "max_scaled_error": 6.89383175562358e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-1",
+      "step": 4.051494628270529e-05,
+      "max_scaled_error": 1.8361525957674707e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-1",
+      "step": 2.0257473141352645e-05,
+      "max_scaled_error": 3.527240521357519e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-2",
+      "step": 2.484139564355688e-05,
+      "max_scaled_error": 2.592682645267616e-08,
+      "passed": true
+    },
+    {
+      "direction": "mixed-2",
+      "step": 1.242069782177844e-05,
+      "max_scaled_error": 5.639289064798131e-08,
+      "passed": true
+    }
+  ],
+  "comparison_max": 3.82656869107878e-08,
+  "selective_table_comparison_max": 1.7763568394002505e-15,
+  "max_independent_difference": 1.5779901541392374e-07,
+  "threshold": 5e-05,
+  "passed": true,
+  "seconds": 46.3653993330081
+}

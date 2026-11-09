@@ -1,0 +1,12 @@
+L26 methanol hyperfine and Zeeman spectroscopy — version 0.1.0
+
+Model: Lankhaar (2026), abbreviated L26.
+Eigenfunctions: computed from bundled BELGI/GLOBALFIT source and Xu constants.
+Products: fitted tensors, spectra, conditional uncertainty ranges, magnetic
+catalogues, line-center shifts and candidate experimental transitions.
+
+The numerical model, assumptions and validation limits are documented in docs/.
+Conditional uncertainty ranges are not calibrated confidence intervals.
+Project-authored software is EUPL-1.2. BELGI and other third-party components
+retain their own terms and attribution.
+Repository: https://github.com/blankhaar/methanol-hyperfine-l26

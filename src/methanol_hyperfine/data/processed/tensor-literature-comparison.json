@@ -1,0 +1,124 @@
+{
+  "status": "Primary-table transcription for comparison; not new fit data",
+  "units": "kHz",
+  "visual_check_date": "2026-09-21",
+  "Lankhaar": {
+    "SR_source": "2016 Table I, DOI 10.1063/1.4972004",
+    "ST_source": "2018 erratum Table I, DOI 10.1063/1.5030801; supersedes the erroneous 2016 Table II",
+    "adopted_values": "data/processed/lankhaar-tensors.json"
+  },
+  "Coudert": {
+    "doi": "10.1063/1.4926942",
+    "source": "../methanol-hyperfine-internal-rotation/references/legacy-papers/coudert-15.pdf",
+    "tables": "VI calculated SR, VIII nuclear-only ST, X fitted constants",
+    "axis_order": "abc = zxy; original signs retained",
+    "constant_SR_calculated": {
+      "CH3": {
+        "aa": -12.62634,
+        "bb": -0.66629,
+        "cc": -0.75476
+      },
+      "OH": {
+        "aa": -12.87733,
+        "bb": -0.74107,
+        "cc": -2.8516
+      }
+    },
+    "constant_SR_fitted": {
+      "CH3_aa": {
+        "value": -1.766,
+        "standard_error": 0.91,
+        "printed": "\u22121.766(910)"
+      },
+      "OH_aa": {
+        "value": -28.535,
+        "standard_error": 1.055,
+        "printed": "\u221228.535(1055)"
+      }
+    },
+    "ST_z_nuclear_only": {
+      "CH3": -27.51335,
+      "OH": 59.98014
+    },
+    "ST_OH_z_fitted": {
+      "value": 69.29,
+      "standard_error": 12.625,
+      "printed": "69.290(12625)"
+    },
+    "second_harmonic_SR": {
+      "xx": 1.66596,
+      "yy": -1.66243,
+      "xy": -1.66486
+    },
+    "notes": "Unlisted fitted Cartesian components were held at calculated values, not measured as independent parameters. ST coefficients are s, not total d. Do not compare ST signs without the full phase/momentum mapping."
+  },
+  "Belov": {
+    "doi": "10.1063/1.4954941",
+    "source": "https://doi.org/10.1063/1.4954941",
+    "table": "V, Fit A(2)",
+    "order": [
+      "(Axx2+Ayy2)/2",
+      "(Axx2-Ayy2)/2",
+      "Axy2"
+    ],
+    "values": [
+      0.0078,
+      1.74,
+      1.547
+    ],
+    "standard_errors": [
+      0.0079,
+      0.027,
+      0.029
+    ],
+    "printed": [
+      "0.0078(79)",
+      "1.740(27)",
+      "1.547(29)"
+    ],
+    "notes": "Effective E-state constants, with Azz2 and all first harmonics fixed at zero. Table V maps Coudert Axx2=cxx2, Ayy2=cyy2, Axy2=-cxy2."
+  },
+  "Xu": {
+    "doi": "10.1016/j.jms.2018.12.003",
+    "source": "https://doi.org/10.1016/j.jms.2018.12.003",
+    "table": "3, RAM fit and printed IAM conversion; Eq. (13)",
+    "parameter_order": [
+      "OH_Cza",
+      "CH3_Cza",
+      "OH_Czz",
+      "OH_Cxx_minus_yy",
+      "OH_Cxx_plus_yy_plus_zz",
+      "Css"
+    ],
+    "RAM_values": [
+      -65.1,
+      13.432,
+      -62.61,
+      1.44,
+      -1.92,
+      -5.27
+    ],
+    "RAM_standard_errors": [
+      0.13,
+      0.062,
+      0.32,
+      0.15,
+      0.18,
+      0.57
+    ],
+    "RAM_printed": [
+      "\u221265.10(13)",
+      "13.432(62)",
+      "\u221262.61(32)",
+      "1.44(15)",
+      "\u22121.92(18)",
+      "\u22125.27(57)"
+    ],
+    "IAM_SR_printed": {
+      "aa": -11.79,
+      "bb": -0.48,
+      "cc": -3.36
+    },
+    "notes": "Printed IAM quantities are effective diagonal coefficients, not a unique reconstruction of a complete Cartesian tensor. Table 3 warns that only magnitudes of its cross-paper ST comparisons can be compared because of phase conventions. Css is empirical and is not a Cartesian DD element."
+  }
+}

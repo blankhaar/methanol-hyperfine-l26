@@ -1,0 +1,463 @@
+{
+  "profiles": [
+    {
+      "id": "C2015-p01-1",
+      "block": "low",
+      "lab": "Lille",
+      "frequency_mhz": 2502.7783,
+      "species": "A",
+      "Q": 23.538087687226273,
+      "normalized_amplitude_rms": 0.0388128536954252
+    },
+    {
+      "id": "C2015-p01-2",
+      "block": "low",
+      "lab": "Heuvel-Dymanus",
+      "frequency_mhz": 2502.7783,
+      "species": "A",
+      "Q": 72.08225086135253,
+      "normalized_amplitude_rms": 0.06792101335467958
+    },
+    {
+      "id": "C2015-p02-1",
+      "block": "low",
+      "lab": "Lille",
+      "frequency_mhz": 5005.3209,
+      "species": "A",
+      "Q": 85.11217785316921,
+      "normalized_amplitude_rms": 0.07380500919722746
+    },
+    {
+      "id": "C2015-p02-2",
+      "block": "low",
+      "lab": "Heuvel-Dymanus",
+      "frequency_mhz": 5005.3209,
+      "species": "A",
+      "Q": 32.59354341018362,
+      "normalized_amplitude_rms": 0.04567260424205906
+    },
+    {
+      "id": "C2015-p03-1",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 6668.5188,
+      "species": "A",
+      "Q": 77.60125309627043,
+      "normalized_amplitude_rms": 0.07047325874515317
+    },
+    {
+      "id": "C2015-p03-2",
+      "block": "low",
+      "lab": "Lille",
+      "frequency_mhz": 6668.5188,
+      "species": "A",
+      "Q": 278.6622138773257,
+      "normalized_amplitude_rms": 0.133545429304596
+    },
+    {
+      "id": "C2015-p05-2",
+      "block": "low",
+      "lab": "Lille",
+      "frequency_mhz": 12178.6002,
+      "species": "E",
+      "Q": 16.582276175004004,
+      "normalized_amplitude_rms": 0.03257707284579534
+    },
+    {
+      "id": "C2015-p06-1",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 12178.6002,
+      "species": "E",
+      "Q": 137.4461938676322,
+      "normalized_amplitude_rms": 0.09378995899097334
+    },
+    {
+      "id": "C2015-p06-2",
+      "block": "low",
+      "lab": "Heuvel-Dymanus",
+      "frequency_mhz": 17513.3413,
+      "species": "A",
+      "Q": 47.44766728151994,
+      "normalized_amplitude_rms": 0.05510581372248555
+    },
+    {
+      "id": "C2015-p07-1",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 19967.3914,
+      "species": "E",
+      "Q": 37.90849114900063,
+      "normalized_amplitude_rms": 0.04925589744930083
+    },
+    {
+      "id": "C2015-p07-2",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 24928.6994,
+      "species": "E",
+      "Q": 243.98766951250502,
+      "normalized_amplitude_rms": 0.12496083726032056
+    },
+    {
+      "id": "C2015-p08-1",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 24933.4693,
+      "species": "E",
+      "Q": 139.8217865537216,
+      "normalized_amplitude_rms": 0.09459701020348467
+    },
+    {
+      "id": "C2015-p08-2",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 24934.3801,
+      "species": "E",
+      "Q": 81.58924523845471,
+      "normalized_amplitude_rms": 0.07226141221468828
+    },
+    {
+      "id": "C2015-p09-1",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 24959.0781,
+      "species": "E",
+      "Q": 92.23629236340611,
+      "normalized_amplitude_rms": 0.0768317819086476
+    },
+    {
+      "id": "C2015-p09-2",
+      "block": "low",
+      "lab": "Hannover",
+      "frequency_mhz": 25018.1215,
+      "species": "E",
+      "Q": 82.81617806993644,
+      "normalized_amplitude_rms": 0.137919110265847
+    },
+    {
+      "id": "C2015-p10-1",
+      "block": "low",
+      "lab": "Heuvel-Dymanus",
+      "frequency_mhz": 48372.4555,
+      "species": "A",
+      "Q": 140.67288721389002,
+      "normalized_amplitude_rms": 0.09488448124793095
+    },
+    {
+      "id": "Xu-F2-34",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 23.003437481514702,
+      "normalized_amplitude_rms": 0.06405837795305934
+    },
+    {
+      "id": "Xu-F2-35",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 40.98013879130714,
+      "normalized_amplitude_rms": 0.05121258519781692
+    },
+    {
+      "id": "Xu-F2-36",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 20.966087467586377,
+      "normalized_amplitude_rms": 0.05101745835884313
+    },
+    {
+      "id": "Xu-F2-37",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 12.66014538306695,
+      "normalized_amplitude_rms": 0.028464878438459646
+    },
+    {
+      "id": "Xu-F2-38",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 28.647082694314363,
+      "normalized_amplitude_rms": 0.042818375639859574
+    },
+    {
+      "id": "Xu-F2-48",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 20.312187632467648,
+      "normalized_amplitude_rms": 0.03605523552104367
+    },
+    {
+      "id": "Xu-F3-01",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 53.39931179319571,
+      "normalized_amplitude_rms": 0.10982350533569815
+    },
+    {
+      "id": "Xu-F3-02",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 33.34853555308923,
+      "normalized_amplitude_rms": 0.08732978402436459
+    },
+    {
+      "id": "Xu-F3-03",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 74.2259227614365,
+      "normalized_amplitude_rms": 0.0796947638688653
+    },
+    {
+      "id": "Xu-F3-04",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 62.994055744799745,
+      "normalized_amplitude_rms": 0.13313106790227322
+    },
+    {
+      "id": "Xu-F3-05",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 77.39726077205509,
+      "normalized_amplitude_rms": 0.09670723666764884
+    },
+    {
+      "id": "Xu-F3-06",
+      "block": "direct",
+      "lab": "Lille",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 105.768196566755,
+      "normalized_amplitude_rms": 0.08227493287917237
+    },
+    {
+      "id": "Xu-F4-10",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 48.286951520166106,
+      "normalized_amplitude_rms": 0.05559105051436454
+    },
+    {
+      "id": "Xu-F4-11",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 70.34067241205109,
+      "normalized_amplitude_rms": 0.06709547700382844
+    },
+    {
+      "id": "Xu-F4-12",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 57.92297231892336,
+      "normalized_amplitude_rms": 0.06088571448551043
+    },
+    {
+      "id": "Xu-F4-13",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 70.67271560879777,
+      "normalized_amplitude_rms": 0.06725365268119686
+    },
+    {
+      "id": "Xu-F4-14",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 39.03397250339928,
+      "normalized_amplitude_rms": 0.049981739067559004
+    },
+    {
+      "id": "Xu-F4-15",
+      "block": "direct",
+      "lab": "Nizhny Novgorod",
+      "frequency_mhz": null,
+      "species": "E",
+      "Q": 50.35629902852969,
+      "normalized_amplitude_rms": 0.056769737869976994
+    }
+  ],
+  "endpoint_sha256": "7ccd2be80ff8984fc12d175ed77383ff1f0c62c353bfbdfe6c344b62816a5458",
+  "triplet": [
+    {
+      "crossovers": true,
+      "nuisance": [
+        2.7025538393362094,
+        2.7037429229463434,
+        2.302585092994047
+      ],
+      "gamma_khz": 14.935529772936773,
+      "modulation_khz": 10.00000000000001,
+      "cost": 24.470251052839313,
+      "success": true,
+      "optimality": 0.0015234965776822751,
+      "linear_amplitudes": [
+        2.829707552493246,
+        5.659415104986492,
+        -0.1201772947131417,
+        -0.03428230515776636,
+        -0.15701880056513717
+      ],
+      "nstarts": 12,
+      "bounds": {
+        "centre": [
+          -120,
+          120
+        ],
+        "gamma_khz": [
+          2,
+          35
+        ],
+        "modulation_khz": [
+          10,
+          40
+        ]
+      },
+      "starts": [
+        {
+          "initial": [
+            -10.0,
+            2.0794415416798357,
+            2.4849066497880004
+          ],
+          "cost": 24.4702510528398,
+          "success": true
+        },
+        {
+          "initial": [
+            -10.0,
+            2.0794415416798357,
+            3.4011973816621555
+          ],
+          "cost": 24.470251052841736,
+          "success": true
+        },
+        {
+          "initial": [
+            -10.0,
+            2.772588722239781,
+            2.4849066497880004
+          ],
+          "cost": 24.470251052839313,
+          "success": true
+        },
+        {
+          "initial": [
+            -10.0,
+            2.772588722239781,
+            3.4011973816621555
+          ],
+          "cost": 24.470251052841657,
+          "success": true
+        },
+        {
+          "initial": [
+            -10.0,
+            3.332204510175204,
+            2.4849066497880004
+          ],
+          "cost": 24.470251052841903,
+          "success": true
+        },
+        {
+          "initial": [
+            -10.0,
+            3.332204510175204,
+            3.4011973816621555
+          ],
+          "cost": 24.470251052843352,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            2.0794415416798357,
+            2.4849066497880004
+          ],
+          "cost": 24.470251052840954,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            2.0794415416798357,
+            3.4011973816621555
+          ],
+          "cost": 49.96266607518488,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            2.772588722239781,
+            2.4849066497880004
+          ],
+          "cost": 24.470251052841643,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            2.772588722239781,
+            3.4011973816621555
+          ],
+          "cost": 24.470251052840467,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            3.332204510175204,
+            2.4849066497880004
+          ],
+          "cost": 24.47025105284025,
+          "success": true
+        },
+        {
+          "initial": [
+            10.0,
+            3.332204510175204,
+            3.4011973816621555
+          ],
+          "cost": 24.47025105284604,
+          "success": true
+        }
+      ],
+      "weight": 7.3101057364713204,
+      "thermal_background": true,
+      "provenance": "Same response and bounds as the original figure; explicit deterministic 12-start grid. Molecular endpoint fixed.",
+      "observation_source": "current-figures/evidence/figure_data/figure_data.npz: triplet__x, triplet__y"
+    }
+  ],
+  "triplet_source_origin_khz": -2.0201060733739524
+}

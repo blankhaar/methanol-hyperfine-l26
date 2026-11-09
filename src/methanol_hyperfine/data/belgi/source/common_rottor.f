@@ -1,0 +1,1 @@
+      COMMON/ROTOR/NROTOR,NDIMTO                                                

@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+.generated/
+figures/build/
+
+# Authoring sources are maintained separately from the code distribution.
+/publication/
+/private-source-data/
+/private-audit/
+/local-only-upstream/
+/validation/
+# Supplementary authoring material.
+/supplement/tex/
+/supplement/reference/
+# Local recovery inventories are outside the source distribution.
+/LOCAL_PACKAGE_MANIFEST.json
+/LOCAL_SHA256SUMS
+*.zip
+.DS_Store
+
+# Defense in depth for private files also rejected by the explicit export policy.
+/supplement/adopted-zeeman/table-source/*.tex
+/release-evidence/claude-access.json
+/release-evidence/private-export-audit.json
+/release-evidence/private-rights-review.json
+/release-evidence/publication/
+.env
+.env.*

@@ -1,0 +1,52 @@
+      double precision A1T1(KDMX,9,9),                                                    
+     &       A1T2(KDMX,9,9),A2T2(KDMX,9,9),A3T2(KDMX,9,9),                      
+     &       A4T2(KDMX,9,9),A5T2(KDMX,9,9),A7T2(KDMX,9,9),                      
+     &       A1T4(KDMX,9,9),A2T4(KDMX,9,9),A3T4(KDMX,9,9),                      
+     &       A4T4(KDMX,9,9),A5T4(KDMX,9,9),A6T4(KDMX,9,9),                      
+     &       A1T5(KDMX,9,9),A2T5(KDMX,9,9),A3T5(KDMX,9,9),                      
+     &       A4T5(KDMX,9,9),A5T5(KDMX,9,9),                                     
+     &       A4T5B(KDMX,9,9),A5T5B(KDMX,9,9),                                   
+     &       A7T5(KDMX,9,9),A8T5(KDMX,9,9),A9T5(KDMX,9,9),                      
+     &       A10T5(KDMX,9,9),A11T5(KDMX,9,9),A12T5(KDMX,9,9),                   
+     &       A13T5(KDMX,9,9),A14T5(KDMX,9,9),A15T5(KDMX,9,9),                   
+     &       A16T5(KDMX,9,9),A17T5(KDMX,9,9),                                   
+     &       A1TS(KDMX,9,9),A2TS(KDMX,9,9),A5TS(KDMX,9,9),                      
+     &       A8T2(KDMX,9,9),A9T2(KDMX,9,9),A20T4(KDMX,9,9),
+     &       A21T4(KDMX,9,9)
+     &       ,A8T5B(KDMX,9,9),A9T5B(KDMX,9,9),       
+     &       A14T5B(KDMX,9,9),A15T5B(KDMX,9,9)
+     &       ,A5T4B(KDMX,9,9),A6T4B(KDMX,9,9)
+     &       ,A10T2(KDMX,9,9),A11T2(KDMX,9,9),
+     &     A4T2B(KDMX, 9, 9), A5T2B(KDMX, 9, 9),
+     &     A7T4(KDMX, 9, 9), A8T4(KDMX, 9, 9),
+     &     A12TS(KDMX, 9, 9),A4T5C(KDMX, 9, 9),A3T5C(KDMX, 9, 9),
+     &     A1T4B(KDMX, 9, 9),
+     &     A2T58(KDMX, 9, 9),A10T58(KDMX, 9, 9),A11T58(KDMX, 9, 9),
+     &     A16T58(KDMX, 9, 9),A17T58(KDMX, 9, 9),A3T59(KDMX, 9, 9),
+     &     A8T59(KDMX, 9, 9),A9T59(KDMX, 9, 9),A14T59(KDMX, 9, 9),
+     &     A15T59(KDMX, 9, 9), A9T4(KDMX, 9, 9),A22T4(KDMX, 9, 9),
+     &     A23T4(KDMX, 9, 9),A12T2(KDMX, 9, 9),A13T2(KDMX, 9, 9),
+     &     A2TG1(KDMX, 9, 9),A2TG2(KDMX, 9, 9),AK7T1(KDMX, 9, 9),
+     &     AK7T2(KDMX, 9, 9),AK7T3(KDMX, 9, 9),
+     &     A1T31(KDMX, 9, 9),A1T32(KDMX, 9, 9),A8T5C(KDMX, 9, 9),
+     &     A9T5C(KDMX, 9, 9),A14T5C(KDMX, 9, 9),A15T5C(KDMX, 9, 9),
+     &     A4T5D(KDMX, 9, 9),A3T5D(KDMX, 9, 9),A6T4C(KDMX,9,9),
+     &     A11T2K(KDMX,9,9),A10T2K(KDMX,9,9),A10T2KK(KDMX,9,9),
+     &     A3T2K(KDMX,9,9),A3T2KK(KDMX,9,9),A2T2K(KDMX,9,9),
+     &     A2T2KK(KDMX,9,9)
+ 
+      COMMON /VRTD/ A1T1,A1T2,A2T2,A3T2,A4T2,A5T2,A7T2,                         
+     &              A1T4,A2T4,A3T4,A4T4,A5T4,A6T4,                              
+     &              A1T5,A2T5,A3T5,A4T5,A5T5,A7T5,A8T5,A9T5,                    
+     &              A10T5,A11T5,A12T5,A13T5,A14T5,A15T5,A16T5,A17T5,            
+     &              A1TS,A2TS,A5TS,A8T2,A9T2,A20T4,A21T4                       
+     &              ,A8T5B,A9T5B,A14T5B,A15T5B
+     &              ,A4T5B,A5T5B
+     &              ,A5T4B,A6T4B,A10T2,A11T2,
+     &     A4T2B, A5T2B, A7T4, A8T4, A12TS,A4T5C,A3T5C,A1T4B,
+     &     A2T58,A10T58,A11T58,A16T58,A17T58, A3T59, A8T59,
+     &     A9T59, A14T59, A15T59, A9T4, A22T4, A23T4, 
+     &     A12T2, A13T2, A2TG1, A2TG2, AK7T1, AK7T2, AK7T3,
+     &     A1T31, A1T32, A8T5C, A9T5C, A14T5C, A15T5C,
+     &     A4T5D,A3T5D, A6T4C, A11T2K,A10T2K,A10T2KK,A3T2K,
+     &     A3T2KK, A2T2K, A2T2KK

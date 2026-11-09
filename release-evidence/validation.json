@@ -1,0 +1,25 @@
+{
+  "fit": "L26",
+  "passed": true,
+  "exact_residual_and_jacobian_replay": true,
+  "operator_states": 204,
+  "independent_hamiltonian_max_khz": 3.351623381340333e-14,
+  "magnetic_families": 27,
+  "magnetic_component_rows": 750,
+  "printed_magnetic_rows": 224,
+  "response_patterns": 136,
+  "response_scenarios": 232,
+  "conditional_draw_checks": [
+    0,
+    512,
+    640
+  ],
+  "figures": 12,
+  "experiment_families": 14,
+  "experiment_transitions": 128,
+  "Table_VIII_rule": "height >= 10% and prominence >= 5% of positive-phase profile maximum",
+  "conditional_table_footnotes_present": true,
+  "scope": "Scientific numerical reference checks; current test execution is independently reproducible with scripts/run_tests.py",
+  "regression_tests": 22,
+  "test_command": "python scripts/run_tests.py"
+}

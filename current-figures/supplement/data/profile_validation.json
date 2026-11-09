@@ -1,0 +1,347 @@
+{
+  "endpoint_sha256": "0e97841825f14dae87d7bf4a2fbdd18a9e2f48264c584d6205d504d4d55ece69",
+  "residual_replay_max_abs": 0.0,
+  "profiles": [
+    {
+      "key": "direct_00",
+      "scan_id": "Xu-F2-34",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": true,
+      "samples": 300,
+      "included_samples": 300,
+      "rms_normalized_signal": 0.06405837795305934
+    },
+    {
+      "key": "direct_01",
+      "scan_id": "Xu-F2-35",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 298,
+      "included_samples": 298,
+      "rms_normalized_signal": 0.05121258519781692
+    },
+    {
+      "key": "direct_02",
+      "scan_id": "Xu-F2-36",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 297,
+      "included_samples": 297,
+      "rms_normalized_signal": 0.05101745835884313
+    },
+    {
+      "key": "direct_03",
+      "scan_id": "Xu-F2-37",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 296,
+      "included_samples": 296,
+      "rms_normalized_signal": 0.028464878438459646
+    },
+    {
+      "key": "direct_04",
+      "scan_id": "Xu-F2-38",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 300,
+      "included_samples": 300,
+      "rms_normalized_signal": 0.042818375639859574
+    },
+    {
+      "key": "direct_05",
+      "scan_id": "Xu-F2-48",
+      "family": "direct",
+      "figure_page": 1,
+      "main_paper_display": true,
+      "samples": 739,
+      "included_samples": 739,
+      "rms_normalized_signal": 0.03605523552104367
+    },
+    {
+      "key": "direct_06",
+      "scan_id": "Xu-F3-01",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 380,
+      "included_samples": 380,
+      "rms_normalized_signal": 0.10982350533569815
+    },
+    {
+      "key": "direct_07",
+      "scan_id": "Xu-F3-02",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 379,
+      "included_samples": 379,
+      "rms_normalized_signal": 0.08732978402436459
+    },
+    {
+      "key": "direct_08",
+      "scan_id": "Xu-F3-03",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 350,
+      "included_samples": 350,
+      "rms_normalized_signal": 0.0796947638688653
+    },
+    {
+      "key": "direct_09",
+      "scan_id": "Xu-F3-04",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 376,
+      "included_samples": 376,
+      "rms_normalized_signal": 0.13313106790227322
+    },
+    {
+      "key": "direct_10",
+      "scan_id": "Xu-F3-05",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 343,
+      "included_samples": 343,
+      "rms_normalized_signal": 0.09670723666764884
+    },
+    {
+      "key": "direct_11",
+      "scan_id": "Xu-F3-06",
+      "family": "direct",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 331,
+      "included_samples": 331,
+      "rms_normalized_signal": 0.08227493287917237
+    },
+    {
+      "key": "direct_12",
+      "scan_id": "Xu-F4-10",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 298,
+      "included_samples": 298,
+      "rms_normalized_signal": 0.05559105051436454
+    },
+    {
+      "key": "direct_13",
+      "scan_id": "Xu-F4-11",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 310,
+      "included_samples": 310,
+      "rms_normalized_signal": 0.06709547700382844
+    },
+    {
+      "key": "direct_14",
+      "scan_id": "Xu-F4-12",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 340,
+      "included_samples": 340,
+      "rms_normalized_signal": 0.06088571448551043
+    },
+    {
+      "key": "direct_15",
+      "scan_id": "Xu-F4-13",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 353,
+      "included_samples": 353,
+      "rms_normalized_signal": 0.06725365268119686
+    },
+    {
+      "key": "direct_16",
+      "scan_id": "Xu-F4-14",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 300,
+      "included_samples": 300,
+      "rms_normalized_signal": 0.049981739067559004
+    },
+    {
+      "key": "direct_17",
+      "scan_id": "Xu-F4-15",
+      "family": "direct",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 343,
+      "included_samples": 343,
+      "rms_normalized_signal": 0.056769737869976994
+    },
+    {
+      "key": "low_00",
+      "scan_id": "C2015-p01-1",
+      "family": "low",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 263,
+      "included_samples": 256,
+      "rms_normalized_signal": 0.0388128536954252
+    },
+    {
+      "key": "low_01",
+      "scan_id": "C2015-p01-2",
+      "family": "low",
+      "figure_page": 1,
+      "main_paper_display": true,
+      "samples": 234,
+      "included_samples": 234,
+      "rms_normalized_signal": 0.06792101335467958
+    },
+    {
+      "key": "low_02",
+      "scan_id": "C2015-p02-1",
+      "family": "low",
+      "figure_page": 1,
+      "main_paper_display": false,
+      "samples": 306,
+      "included_samples": 295,
+      "rms_normalized_signal": 0.07380500919722746
+    },
+    {
+      "key": "low_03",
+      "scan_id": "C2015-p02-2",
+      "family": "low",
+      "figure_page": 1,
+      "main_paper_display": true,
+      "samples": 113,
+      "included_samples": 113,
+      "rms_normalized_signal": 0.04567260424205906
+    },
+    {
+      "key": "low_04",
+      "scan_id": "C2015-p03-1",
+      "family": "low",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 90,
+      "included_samples": 90,
+      "rms_normalized_signal": 0.07047325874515317
+    },
+    {
+      "key": "low_05",
+      "scan_id": "C2015-p03-2",
+      "family": "low",
+      "figure_page": 2,
+      "main_paper_display": true,
+      "samples": 480,
+      "included_samples": 467,
+      "rms_normalized_signal": 0.133545429304596
+    },
+    {
+      "key": "low_06",
+      "scan_id": "C2015-p05-2",
+      "family": "low",
+      "figure_page": 2,
+      "main_paper_display": true,
+      "samples": 555,
+      "included_samples": 546,
+      "rms_normalized_signal": 0.03257707284579534
+    },
+    {
+      "key": "low_07",
+      "scan_id": "C2015-p06-1",
+      "family": "low",
+      "figure_page": 2,
+      "main_paper_display": false,
+      "samples": 107,
+      "included_samples": 107,
+      "rms_normalized_signal": 0.09378995899097334
+    },
+    {
+      "key": "low_08",
+      "scan_id": "C2015-p06-2",
+      "family": "low",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 208,
+      "included_samples": 208,
+      "rms_normalized_signal": 0.05510581372248555
+    },
+    {
+      "key": "low_09",
+      "scan_id": "C2015-p07-1",
+      "family": "low",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 172,
+      "included_samples": 172,
+      "rms_normalized_signal": 0.04925589744930083
+    },
+    {
+      "key": "low_10",
+      "scan_id": "C2015-p07-2",
+      "family": "low",
+      "figure_page": 3,
+      "main_paper_display": true,
+      "samples": 171,
+      "included_samples": 171,
+      "rms_normalized_signal": 0.12496083726032056
+    },
+    {
+      "key": "low_11",
+      "scan_id": "C2015-p08-1",
+      "family": "low",
+      "figure_page": 3,
+      "main_paper_display": false,
+      "samples": 172,
+      "included_samples": 172,
+      "rms_normalized_signal": 0.09459701020348467
+    },
+    {
+      "key": "low_12",
+      "scan_id": "C2015-p08-2",
+      "family": "low",
+      "figure_page": 4,
+      "main_paper_display": false,
+      "samples": 188,
+      "included_samples": 188,
+      "rms_normalized_signal": 0.07226141221468828
+    },
+    {
+      "key": "low_13",
+      "scan_id": "C2015-p09-1",
+      "family": "low",
+      "figure_page": 4,
+      "main_paper_display": false,
+      "samples": 188,
+      "included_samples": 188,
+      "rms_normalized_signal": 0.0768317819086476
+    },
+    {
+      "key": "low_14",
+      "scan_id": "C2015-p09-2",
+      "family": "low",
+      "figure_page": 4,
+      "main_paper_display": false,
+      "samples": 188,
+      "included_samples": 188,
+      "rms_normalized_signal": 0.137919110265847
+    },
+    {
+      "key": "low_15",
+      "scan_id": "C2015-p10-1",
+      "family": "low",
+      "figure_page": 4,
+      "main_paper_display": true,
+      "samples": 315,
+      "included_samples": 315,
+      "rms_normalized_signal": 0.09488448124793095
+    }
+  ],
+  "recomputed_fit": false
+}

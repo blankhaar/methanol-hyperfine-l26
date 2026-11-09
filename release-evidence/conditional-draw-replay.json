@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "fit": "L26",
+  "same_basis_anchor_allowance": 4.640706911811662,
+  "checks": [
+    {
+      "index": 0,
+      "table_sigma": 1.0,
+      "max_coefficient_error": 0.0
+    },
+    {
+      "index": 512,
+      "table_sigma": 0.5,
+      "max_coefficient_error": 0.0
+    },
+    {
+      "index": 640,
+      "table_sigma": 2.0,
+      "max_coefficient_error": 0.0
+    }
+  ],
+  "archived_draws": 768,
+  "uncertainty": "conditional local-quadratic ranges; not calibrated confidence intervals"
+}

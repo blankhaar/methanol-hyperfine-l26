@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "assumptions": "Conditional common-velocity projection, NOT a revised observed mu constraint.\n\nmu=m_p/m_e, K=d ln nu/d ln mu, epsilon=(h_astro-h_ref)/nu.\nFit epsilon_i = b + K_i * delta_mu. b absorbs a common fractional Doppler shift.\nThe source-specific h_ref values are UNKNOWN; zero is set only to isolate the\nsimulated astronomical-side contribution. Quoted frequency-center errors are\nused as independent observation errors; no reference uncertainty/covariance,\nsource kinematics, line-width uncertainty, or actual radiative transfer is added.\n",
+  "published_Dapra_handling": "Section6.1 already simulated broadened hyperfine spectra and Gaussian-fit pulls. They varied rest frequencies by +/-1kHz and included a maximum 1e-9 hyperfine systematic in Delta mu/mu. The present pair/three-line scenarios must not be added independently to that already-budgeted systematic or reported as a correction to their complete six-line analysis.",
+  "source": "https://academic.oup.com/mnras/article/472/4/4434/4157801",
+  "rows": [
+    {
+      "fit": "L26",
+      "scenario": "L1498-1 published fitted width scale",
+      "targets": [
+        "96.741GHz",
+        "157.271GHz"
+      ],
+      "apparent_delta_mu_over_mu": -1.937810461691772e-09,
+      "common_fractional_offset": -6.51250597459929e-09,
+      "observed_center_only_sigma_mu": 8.678434452069694e-09,
+      "absolute_bias_over_observed_center_only_sigma": 0.22329032642859098
+    },
+    {
+      "fit": "L26",
+      "scenario": "L1498-1 published fitted width scale",
+      "targets": [
+        "96.739GHz",
+        "157.271GHz"
+      ],
+      "apparent_delta_mu_over_mu": -1.4908869911207414e-10,
+      "common_fractional_offset": -2.519798055703456e-10,
+      "observed_center_only_sigma_mu": 8.678475443982681e-09,
+      "absolute_bias_over_observed_center_only_sigma": 0.017179134754070943
+    },
+    {
+      "fit": "L26",
+      "scenario": "L1498-1 published fitted width scale",
+      "targets": [
+        "96.739GHz",
+        "96.741GHz",
+        "157.271GHz"
+      ],
+      "apparent_delta_mu_over_mu": -1.0434681905080896e-09,
+      "common_fractional_offset": -3.382308025456398e-09,
+      "observed_center_only_sigma_mu": 8.171131058093245e-09,
+      "absolute_bias_over_observed_center_only_sigma": 0.1277018056728594
+    },
+    {
+      "fit": "L26",
+      "scenario": "L1498-1 published fitted width scale",
+      "targets": [
+        "96.739GHz",
+        "96.741GHz",
+        "96.744GHz",
+        "145.097GHz",
+        "145.103GHz",
+        "157.271GHz"
+      ],
+      "apparent_delta_mu_over_mu": -4.706574144963636e-10,
+      "common_fractional_offset": -1.377470309415359e-09,
+      "observed_center_only_sigma_mu": 7.800091166484167e-09,
+      "absolute_bias_over_observed_center_only_sigma": 0.06033998891175896
+    },
+    {
+      "fit": "L26",
+      "scenario": "PKS1830 fitted FWHM 12 km per s",
+      "targets": [
+        "12.2GHz",
+        "48.372GHz"
+      ],
+      "apparent_delta_mu_over_mu": -1.3592243946740709e-12,
+      "common_fractional_offset": -7.828044403868283e-12,
+      "observed_center_only_sigma_mu": 7.417152002357496e-08,
+      "absolute_bias_over_observed_center_only_sigma": 1.8325421863298067e-05
+    }
+  ],
+  "tests": {
+    "pairs_match_analytic_difference": true,
+    "common_velocity_shift_invariance": true
+  }
+}

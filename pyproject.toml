@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77,<85", "wheel>=0.45,<0.49"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "methanol-hyperfine"
+version = "0.1.0"
+description = "Methanol hyperfine and Zeeman spectroscopy: L26 reproducible research package"
+readme = "README.md"
+license = "EUPL-1.2"
+license-files = ["LICENSE", "LICENSE_STATUS.txt", "THIRD_PARTY_NOTICES.md", "docs/LICENSING.md"]
+requires-python = ">=3.12"
+authors = [{name = "Boy Lankhaar"}]
+dependencies = ["numpy>=2.3.5,<3", "scipy>=1.16.3,<2", "sympy==1.14.0", "matplotlib>=3.10.7,<4", "pywigxjpf==1.13.3"]
+# The software license scope and third-party exceptions are in docs/LICENSING.md.
+
+
+[project.urls]
+Repository = "https://github.com/blankhaar/methanol-hyperfine-l26"
+Documentation = "https://github.com/blankhaar/methanol-hyperfine-l26/tree/main/docs"
+
+[project.scripts]
+methanol-release = "methanol_release.cli:main"
+methanol-hyperfine = "methanol_release.cli:main"
+methanol-zeeman = "methanol_zeeman.__main__:main"
+methanol-line-shift = "methanol_line_shift.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["methanol_hyperfine", "methanol_zeeman", "methanol_line_shift", "methanol_release"]
+namespaces = false
+
+[tool.setuptools.package-data]
+methanol_release = ["data/**/*"]
+methanol_hyperfine = ["data/**/*"]
+methanol_zeeman = ["data/inputs/*", "data/reference/*"]
+methanol_line_shift = ["data/*"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["**/__pycache__/*", "**/*.pyc"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

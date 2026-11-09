@@ -1,0 +1,98 @@
+{
+  "magnetic_inputs": {
+    "g_Fourier": {
+      "aa": [
+        0.305,
+        0.0165,
+        4.86e-05
+      ],
+      "bb": [
+        -0.06,
+        -0.0014,
+        1.04e-05
+      ],
+      "cc": [
+        -0.038,
+        -0.00125,
+        7e-06
+      ],
+      "ab": [
+        0.139,
+        -0.019,
+        2.04e-05
+      ],
+      "ba": [
+        0.027,
+        -0.00365,
+        4e-06
+      ],
+      "ac": [
+        0,
+        0.014,
+        3.15e-05
+      ],
+      "ca": [
+        0,
+        0.00269,
+        5.8e-06
+      ],
+      "bc": [
+        0,
+        0.000297,
+        -7e-06
+      ],
+      "cb": [
+        0,
+        0.000287,
+        -6.8e-06
+      ]
+    }
+  },
+  "source": "Takagi2021 Table6 for n=0 diagonal elements; Lankhaar2018 Supplementary Table1 for all remaining Fourier entries",
+  "source_url": "https://doi.org/10.1038/s41550-017-0341-8",
+  "harmonics": [
+    0,
+    3,
+    6
+  ],
+  "cosine_components": [
+    "aa",
+    "bb",
+    "cc",
+    "ab",
+    "ba"
+  ],
+  "sine_components": [
+    "ac",
+    "ca",
+    "bc",
+    "cb"
+  ],
+  "adoption": {
+    "date": "2026-10-27",
+    "measured_diagonal_source_DOI": "10.1016/j.jms.2021.111420",
+    "primary_pdf_sha256": "472dafb42924e9de877496b672795ba1006ecdab017ae436c646cc2a0cd0ab21",
+    "constant_diagonals": {
+      "aa": 0.305,
+      "bb": -0.06,
+      "cc": -0.038
+    },
+    "quoted_parenthetical_errors": {
+      "aa": 0.006,
+      "bb": 0.004,
+      "cc": 0.004,
+      "gx": 0.003
+    },
+    "effective_torsion_gx": 0.425,
+    "effective_transverse_torsion": [
+      0,
+      0
+    ],
+    "higher_harmonics_and_offdiagonals": "Computed Lankhaar2018 values; no inferred experimental off-diagonal entries",
+    "frame_scope": "Takagi constant RAM diagonal fit applied under existing approximate PAM/RAM alignment; not an exact measured Fourier decomposition",
+    "correlation_scope": "Takagi constrained combinations yield correlated derived diagonal values; covariance unavailable here; no independent-error propagation performed",
+    "absolute_sign": "Takagi assumed positive g_alpha from CH3F analogy; retain published signs",
+    "torsion_scope": "Retain measured effective gx, not independently derived g_alpha; no rho/lambda/f changes or duplicate torsional correction",
+    "source_gamma_native_alpha": "Existing single-c conversion and native torsional convention retained exactly once"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "program": "BELGI-Cs / methanol GLOBALFIT source lineage",
+  "source_files": 58,
+  "source_tree_sha256": "6ed8a782fd0dd2cbbe7ef01ca285ae700f8a50e91a0ad2d944a8ca04321a0e8e",
+  "constants_sha256": "11353561e41ef266477e76898282d46b58f7fe92f228cd1f41061b9c95716f3d",
+  "interface_source_sha256": "0811411658e0ae0e69c58f4d8bd0c3a6531a731744ef44e89dc218f50c67c6a4",
+  "interface_scope": "Complete CST order, strict constants parser, source inventory and prediction-only native compile routine",
+  "build_patch": "SETUP max = 2*nn2+1 -> max = kdmx; original source retained unchanged",
+  "references": [
+    "10.1006/jmsp.1994.1047",
+    "10.1016/j.jms.2008.03.017"
+  ],
+  "project_driver_sha256": "595d976ca25b1327e77b671cc9b9df1883c1b068b8730df6f9bc9684554e1d2d",
+  "project_driver_scope": "Prediction interface for A/E vt=0,1,2 states with J<=46; request capacity 13254"
+}

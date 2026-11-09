@@ -1,0 +1,64 @@
+{
+  "6.18": {
+    "frequency_MHz": 6181.128,
+    "source": "Breen2019 Table1,adoptedcatalog/laboratoryfrequency; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.021,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "astronomical_refinement_note": "Not adopted here: inferred by assumed maser velocity correspondence, not a hyperfine-free laboratory frequency.",
+    "Breen2019_suggested_astronomical_refinement_MHz": 6181.146
+  },
+  "7.68": {
+    "frequency_MHz": 7682.232,
+    "source": "Breen2019 Table1,adoptedcatalog/laboratoryfrequency; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.05,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "astronomical_refinement_note": "Not adopted here: inferred by assumed maser velocity correspondence, not a hyperfine-free laboratory frequency.",
+    "Breen2019_suggested_astronomical_refinement_MHz": 7682.246
+  },
+  "7.83": {
+    "frequency_MHz": 7830.864,
+    "source": "Breen2019 Table1,adoptedcatalog/laboratoryfrequency; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.05,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "astronomical_refinement_note": "Not adopted here: inferred by assumed maser velocity correspondence, not a hyperfine-free laboratory frequency.",
+    "Breen2019_suggested_astronomical_refinement_MHz": 7830.848
+  },
+  "20.3": {
+    "frequency_MHz": 20346.846,
+    "source": "MacLeod2019 section2.1 JPL adopted restfrequency; https://arxiv.org/pdf/1910.00685",
+    "quoted_uncertainty_MHz": null,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "alternative_MHz": 20346.83,
+    "alternative_note": "Lovas privatecommunication value alsousedinMacLeod2019; formal uncertainty not stated here."
+  },
+  "38.293": {
+    "frequency_MHz": 38293.292,
+    "source": "Breen2019 Table1,citingXu&Lovas1997; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.014,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "Smu2_D2": 0.9488,
+    "Smu2_source": "Mueller,Menten,Maeder2004 Table1; https://arxiv.org/pdf/astro-ph/0408094",
+    "label_note": "Native A\u2212 at38.293GHz and A+ at38.453GHz agrees withBreen2019. Mueller2004 prints opposite signs for these two rows; retain source labels separately, match strengths by frequency. No global parity conversion inferred."
+  },
+  "38.453": {
+    "frequency_MHz": 38452.652,
+    "source": "Breen2019 Table1,citingXu&Lovas1997; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.014,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value.",
+    "Smu2_D2": 0.9495,
+    "Smu2_source": "Mueller,Menten,Maeder2004 Table1; https://arxiv.org/pdf/astro-ph/0408094",
+    "label_note": "Native A\u2212 at38.293GHz and A+ at38.453GHz agrees withBreen2019. Mueller2004 prints opposite signs for these two rows; retain source labels separately, match strengths by frequency. No global parity conversion inferred."
+  },
+  "44.9": {
+    "frequency_MHz": 44955.807,
+    "source": "Breen2019 Table1,adoptedcatalog/laboratoryfrequency; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.05,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value."
+  },
+  "45.8": {
+    "frequency_MHz": 45843.519,
+    "source": "Breen2019 Table1,adoptedcatalog/laboratoryfrequency; https://arxiv.org/pdf/1904.06853",
+    "quoted_uncertainty_MHz": 0.05,
+    "usage": "Nominal reference only for nu^3 EinsteinA normalization and line identification. Hyperfine offsets remain referenced to calculated statistical centroid; no claim that this nominal frequency is its exact measured absolute value."
+  }
+}

@@ -1,0 +1,682 @@
+[
+  {
+    "upper": "E_0_17_2_E",
+    "lower": "E_0_17_-1_E",
+    "transition": "Belov2016-01"
+  },
+  {
+    "upper": "E_0_18_2_E",
+    "lower": "E_0_18_-1_E",
+    "transition": "Belov2016-02"
+  },
+  {
+    "upper": "E_0_19_2_E",
+    "lower": "E_0_19_-1_E",
+    "transition": "Belov2016-03"
+  },
+  {
+    "upper": "E_0_20_2_E",
+    "lower": "E_0_20_-1_E",
+    "transition": "Belov2016-04"
+  },
+  {
+    "upper": "E_0_21_2_E",
+    "lower": "E_0_21_-1_E",
+    "transition": "Belov2016-05"
+  },
+  {
+    "upper": "E_0_22_2_E",
+    "lower": "E_0_22_-1_E",
+    "transition": "Belov2016-06"
+  },
+  {
+    "upper": "E_0_23_2_E",
+    "lower": "E_0_23_-1_E",
+    "transition": "Belov2016-07"
+  },
+  {
+    "upper": "E_0_24_2_E",
+    "lower": "E_0_24_-1_E",
+    "transition": "Belov2016-08"
+  },
+  {
+    "upper": "E_0_25_2_E",
+    "lower": "E_0_25_-1_E",
+    "transition": "Belov2016-09"
+  },
+  {
+    "upper": "E_0_26_2_E",
+    "lower": "E_0_26_-1_E",
+    "transition": "Belov2016-10"
+  },
+  {
+    "upper": "E_0_27_2_E",
+    "lower": "E_0_27_-1_E",
+    "transition": "Belov2016-11"
+  },
+  {
+    "upper": "E_0_28_2_E",
+    "lower": "E_0_28_-1_E",
+    "transition": "Belov2016-12"
+  },
+  {
+    "upper": "E_0_29_2_E",
+    "lower": "E_0_29_-1_E",
+    "transition": "Belov2016-13"
+  },
+  {
+    "upper": "E_0_30_2_E",
+    "lower": "E_0_30_-1_E",
+    "transition": "Belov2016-14"
+  },
+  {
+    "upper": "E_0_31_2_E",
+    "lower": "E_0_31_-1_E",
+    "transition": "Belov2016-15"
+  },
+  {
+    "upper": "E_0_32_2_E",
+    "lower": "E_0_32_-1_E",
+    "transition": "Belov2016-16"
+  },
+  {
+    "upper": "E_0_33_2_E",
+    "lower": "E_0_33_-1_E",
+    "transition": "Belov2016-17"
+  },
+  {
+    "upper": "E_0_34_2_E",
+    "lower": "E_0_34_-1_E",
+    "transition": "Belov2016-18"
+  },
+  {
+    "upper": "E_0_14_0_E",
+    "lower": "E_0_14_-1_E",
+    "transition": "Belov2016-19"
+  },
+  {
+    "upper": "E_0_15_0_E",
+    "lower": "E_0_15_-1_E",
+    "transition": "Belov2016-20"
+  },
+  {
+    "upper": "E_0_16_0_E",
+    "lower": "E_0_16_-1_E",
+    "transition": "Belov2016-21"
+  },
+  {
+    "upper": "E_0_17_0_E",
+    "lower": "E_0_17_-1_E",
+    "transition": "Belov2016-22"
+  },
+  {
+    "upper": "E_0_18_0_E",
+    "lower": "E_0_18_-1_E",
+    "transition": "Belov2016-23"
+  },
+  {
+    "upper": "E_0_19_0_E",
+    "lower": "E_0_19_-1_E",
+    "transition": "Belov2016-24"
+  },
+  {
+    "upper": "E_0_20_0_E",
+    "lower": "E_0_20_-1_E",
+    "transition": "Belov2016-25"
+  },
+  {
+    "upper": "E_0_21_0_E",
+    "lower": "E_0_21_-1_E",
+    "transition": "Belov2016-26"
+  },
+  {
+    "upper": "E_0_22_0_E",
+    "lower": "E_0_22_-1_E",
+    "transition": "Belov2016-27"
+  },
+  {
+    "upper": "E_0_23_0_E",
+    "lower": "E_0_23_-1_E",
+    "transition": "Belov2016-28"
+  },
+  {
+    "upper": "E_0_24_0_E",
+    "lower": "E_0_24_-1_E",
+    "transition": "Belov2016-29"
+  },
+  {
+    "upper": "E_0_25_0_E",
+    "lower": "E_0_25_-1_E",
+    "transition": "Belov2016-30"
+  },
+  {
+    "upper": "E_0_26_0_E",
+    "lower": "E_0_26_-1_E",
+    "transition": "Belov2016-31"
+  },
+  {
+    "upper": "E_0_27_0_E",
+    "lower": "E_0_27_-1_E",
+    "transition": "Belov2016-32"
+  },
+  {
+    "upper": "E_0_28_0_E",
+    "lower": "E_0_28_-1_E",
+    "transition": "Belov2016-33"
+  },
+  {
+    "upper": "E_0_14_-1_E",
+    "lower": "E_0_13_-2_E",
+    "transition": "Belov2016-34"
+  },
+  {
+    "upper": "E_0_15_-1_E",
+    "lower": "E_0_14_-2_E",
+    "transition": "Belov2016-35"
+  },
+  {
+    "upper": "E_0_16_-1_E",
+    "lower": "E_0_15_-2_E",
+    "transition": "Belov2016-36"
+  },
+  {
+    "upper": "E_0_17_-1_E",
+    "lower": "E_0_16_-2_E",
+    "transition": "Belov2016-37"
+  },
+  {
+    "upper": "E_0_18_-1_E",
+    "lower": "E_0_17_-2_E",
+    "transition": "Belov2016-38"
+  },
+  {
+    "upper": "E_0_19_-1_E",
+    "lower": "E_0_18_-2_E",
+    "transition": "Belov2016-39"
+  },
+  {
+    "upper": "E_0_20_-1_E",
+    "lower": "E_0_19_-2_E",
+    "transition": "Belov2016-40"
+  },
+  {
+    "upper": "E_0_25_-2_E",
+    "lower": "E_0_25_1_E",
+    "transition": "Belov2016-41"
+  },
+  {
+    "upper": "E_0_26_-2_E",
+    "lower": "E_0_26_1_E",
+    "transition": "Belov2016-42"
+  },
+  {
+    "upper": "E_0_27_-2_E",
+    "lower": "E_0_27_1_E",
+    "transition": "Belov2016-43"
+  },
+  {
+    "upper": "E_0_28_-2_E",
+    "lower": "E_0_28_1_E",
+    "transition": "Belov2016-44"
+  },
+  {
+    "upper": "E_0_29_-2_E",
+    "lower": "E_0_29_1_E",
+    "transition": "Belov2016-45"
+  },
+  {
+    "upper": "E_0_30_-2_E",
+    "lower": "E_0_30_1_E",
+    "transition": "Belov2016-46"
+  },
+  {
+    "upper": "E_0_31_-2_E",
+    "lower": "E_0_31_1_E",
+    "transition": "Belov2016-47"
+  },
+  {
+    "upper": "E_0_32_-2_E",
+    "lower": "E_0_32_1_E",
+    "transition": "Belov2016-48"
+  },
+  {
+    "upper": "E_0_33_-2_E",
+    "lower": "E_0_33_1_E",
+    "transition": "Belov2016-49"
+  },
+  {
+    "upper": "E_0_24_3_E",
+    "lower": "E_0_24_-2_E",
+    "transition": "Belov2016-50"
+  },
+  {
+    "upper": "E_0_25_3_E",
+    "lower": "E_0_25_-2_E",
+    "transition": "Belov2016-51"
+  },
+  {
+    "upper": "E_0_26_3_E",
+    "lower": "E_0_26_-2_E",
+    "transition": "Belov2016-52"
+  },
+  {
+    "upper": "E_0_27_3_E",
+    "lower": "E_0_27_-2_E",
+    "transition": "Belov2016-53"
+  },
+  {
+    "upper": "E_0_28_3_E",
+    "lower": "E_0_28_-2_E",
+    "transition": "Belov2016-54"
+  },
+  {
+    "upper": "E_0_30_3_E",
+    "lower": "E_0_30_-2_E",
+    "transition": "Belov2016-55"
+  },
+  {
+    "upper": "E_0_31_3_E",
+    "lower": "E_0_31_-2_E",
+    "transition": "Belov2016-56"
+  },
+  {
+    "upper": "E_0_32_3_E",
+    "lower": "E_0_32_-2_E",
+    "transition": "Belov2016-57"
+  },
+  {
+    "upper": "E_1_7_6_E",
+    "lower": "E_1_7_7_E",
+    "transition": "Xu2019-01"
+  },
+  {
+    "upper": "E_1_8_6_E",
+    "lower": "E_1_8_7_E",
+    "transition": "Xu2019-02"
+  },
+  {
+    "upper": "E_1_9_6_E",
+    "lower": "E_1_9_7_E",
+    "transition": "Xu2019-03"
+  },
+  {
+    "upper": "E_1_10_6_E",
+    "lower": "E_1_10_7_E",
+    "transition": "Xu2019-04"
+  },
+  {
+    "upper": "E_1_11_6_E",
+    "lower": "E_1_11_7_E",
+    "transition": "Xu2019-05"
+  },
+  {
+    "upper": "E_1_12_6_E",
+    "lower": "E_1_12_7_E",
+    "transition": "Xu2019-06"
+  },
+  {
+    "upper": "E_1_13_6_E",
+    "lower": "E_1_13_7_E",
+    "transition": "Xu2019-07"
+  },
+  {
+    "upper": "E_1_14_6_E",
+    "lower": "E_1_14_7_E",
+    "transition": "Xu2019-08"
+  },
+  {
+    "upper": "E_1_15_6_E",
+    "lower": "E_1_15_7_E",
+    "transition": "Xu2019-09"
+  },
+  {
+    "upper": "E_1_8_8_E",
+    "lower": "E_1_8_7_E",
+    "transition": "Xu2019-10"
+  },
+  {
+    "upper": "E_1_9_8_E",
+    "lower": "E_1_9_7_E",
+    "transition": "Xu2019-11"
+  },
+  {
+    "upper": "E_1_10_8_E",
+    "lower": "E_1_10_7_E",
+    "transition": "Xu2019-12"
+  },
+  {
+    "upper": "E_1_11_8_E",
+    "lower": "E_1_11_7_E",
+    "transition": "Xu2019-13"
+  },
+  {
+    "upper": "E_1_12_8_E",
+    "lower": "E_1_12_7_E",
+    "transition": "Xu2019-14"
+  },
+  {
+    "upper": "E_1_13_8_E",
+    "lower": "E_1_13_7_E",
+    "transition": "Xu2019-15"
+  },
+  {
+    "upper": "E_1_14_8_E",
+    "lower": "E_1_14_7_E",
+    "transition": "Xu2019-16"
+  },
+  {
+    "upper": "E_1_15_8_E",
+    "lower": "E_1_15_7_E",
+    "transition": "Xu2019-17"
+  },
+  {
+    "upper": "E_1_16_8_E",
+    "lower": "E_1_16_7_E",
+    "transition": "Xu2019-18"
+  },
+  {
+    "upper": "E_1_17_8_E",
+    "lower": "E_1_17_7_E",
+    "transition": "Xu2019-19"
+  },
+  {
+    "upper": "E_1_18_8_E",
+    "lower": "E_1_18_7_E",
+    "transition": "Xu2019-20"
+  },
+  {
+    "upper": "E_1_19_8_E",
+    "lower": "E_1_19_7_E",
+    "transition": "Xu2019-21"
+  },
+  {
+    "upper": "E_1_20_8_E",
+    "lower": "E_1_20_7_E",
+    "transition": "Xu2019-22"
+  },
+  {
+    "upper": "E_1_21_8_E",
+    "lower": "E_1_21_7_E",
+    "transition": "Xu2019-23"
+  },
+  {
+    "upper": "E_1_22_8_E",
+    "lower": "E_1_22_7_E",
+    "transition": "Xu2019-24"
+  },
+  {
+    "upper": "E_1_23_8_E",
+    "lower": "E_1_23_7_E",
+    "transition": "Xu2019-25"
+  },
+  {
+    "upper": "E_1_24_8_E",
+    "lower": "E_1_24_7_E",
+    "transition": "Xu2019-26"
+  },
+  {
+    "upper": "E_1_7_-2_E",
+    "lower": "E_1_8_-3_E",
+    "transition": "Xu2019-27"
+  },
+  {
+    "upper": "E_1_9_-2_E",
+    "lower": "E_1_10_-3_E",
+    "transition": "Xu2019-28"
+  },
+  {
+    "upper": "E_1_10_-2_E",
+    "lower": "E_1_11_-3_E",
+    "transition": "Xu2019-29"
+  },
+  {
+    "upper": "E_1_11_-2_E",
+    "lower": "E_1_12_-3_E",
+    "transition": "Xu2019-30"
+  },
+  {
+    "upper": "E_1_12_-2_E",
+    "lower": "E_1_13_-3_E",
+    "transition": "Xu2019-31"
+  },
+  {
+    "upper": "E_1_9_6_E",
+    "lower": "E_1_10_7_E",
+    "transition": "Xu2019-32"
+  },
+  {
+    "upper": "E_1_10_6_E",
+    "lower": "E_1_11_7_E",
+    "transition": "Xu2019-33"
+  },
+  {
+    "upper": "E_1_3_3_E",
+    "lower": "E_1_3_2_E",
+    "transition": "Xu2019-34"
+  },
+  {
+    "upper": "E_1_4_3_E",
+    "lower": "E_1_4_2_E",
+    "transition": "Xu2019-35"
+  },
+  {
+    "upper": "E_1_5_3_E",
+    "lower": "E_1_5_2_E",
+    "transition": "Xu2019-36"
+  },
+  {
+    "upper": "E_1_6_3_E",
+    "lower": "E_1_6_2_E",
+    "transition": "Xu2019-37"
+  },
+  {
+    "upper": "E_1_7_3_E",
+    "lower": "E_1_7_2_E",
+    "transition": "Xu2019-38"
+  },
+  {
+    "upper": "E_1_8_3_E",
+    "lower": "E_1_8_2_E",
+    "transition": "Xu2019-39"
+  },
+  {
+    "upper": "E_1_9_3_E",
+    "lower": "E_1_9_2_E",
+    "transition": "Xu2019-40"
+  },
+  {
+    "upper": "E_1_10_3_E",
+    "lower": "E_1_10_2_E",
+    "transition": "Xu2019-41"
+  },
+  {
+    "upper": "E_1_11_3_E",
+    "lower": "E_1_11_2_E",
+    "transition": "Xu2019-42"
+  },
+  {
+    "upper": "E_1_12_3_E",
+    "lower": "E_1_12_2_E",
+    "transition": "Xu2019-43"
+  },
+  {
+    "upper": "E_1_13_3_E",
+    "lower": "E_1_13_2_E",
+    "transition": "Xu2019-44"
+  },
+  {
+    "upper": "E_1_14_3_E",
+    "lower": "E_1_14_2_E",
+    "transition": "Xu2019-45"
+  },
+  {
+    "upper": "E_1_15_3_E",
+    "lower": "E_1_15_2_E",
+    "transition": "Xu2019-46"
+  },
+  {
+    "upper": "E_1_16_3_E",
+    "lower": "E_1_16_2_E",
+    "transition": "Xu2019-47"
+  },
+  {
+    "upper": "E_1_3_3_E",
+    "lower": "E_1_2_2_E",
+    "transition": "Xu2019-48"
+  },
+  {
+    "upper": "E_1_11_3_E",
+    "lower": "E_1_12_2_E",
+    "transition": "Xu2019-49"
+  },
+  {
+    "upper": "E_1_2_0_E",
+    "lower": "E_1_1_1_E",
+    "transition": "Xu2019-50"
+  },
+  {
+    "upper": "E_1_1_0_E",
+    "lower": "E_1_2_1_E",
+    "transition": "Xu2019-51"
+  },
+  {
+    "upper": "E_1_3_-2_E",
+    "lower": "E_1_2_-2_E",
+    "transition": "Xu2019-52"
+  },
+  {
+    "upper": "E_1_3_2_E",
+    "lower": "E_1_2_2_E",
+    "transition": "Xu2019-53"
+  },
+  {
+    "upper": "E_1_2_-1_E",
+    "lower": "E_1_1_-1_E",
+    "transition": "Xu2019-54"
+  },
+  {
+    "upper": "E_1_17_3_E",
+    "lower": "E_1_18_4_E",
+    "transition": "Xu2019-55"
+  },
+  {
+    "upper": "E_1_1_0_E",
+    "lower": "E_1_1_1_E",
+    "transition": "Xu2019-56"
+  },
+  {
+    "upper": "A_0_2_1_-",
+    "lower": "A_0_2_1_+",
+    "transition": "C2015-p01-2"
+  },
+  {
+    "upper": "A_0_3_1_-",
+    "lower": "A_0_3_1_+",
+    "transition": "C2015-p02-2"
+  },
+  {
+    "upper": "A_0_5_1_+",
+    "lower": "A_0_6_0_+",
+    "transition": "C2015-p03-2"
+  },
+  {
+    "upper": "E_0_2_0_E",
+    "lower": "E_0_3_-1_E",
+    "transition": "C2015-p06-1"
+  },
+  {
+    "upper": "A_0_6_1_-",
+    "lower": "A_0_6_1_+",
+    "transition": "C2015-p06-2"
+  },
+  {
+    "upper": "E_0_2_1_E",
+    "lower": "E_0_3_0_E",
+    "transition": "C2015-p07-1"
+  },
+  {
+    "upper": "E_0_3_2_E",
+    "lower": "E_0_3_1_E",
+    "transition": "C2015-p07-2"
+  },
+  {
+    "upper": "E_0_4_2_E",
+    "lower": "E_0_4_1_E",
+    "transition": "C2015-p08-1"
+  },
+  {
+    "upper": "E_0_2_2_E",
+    "lower": "E_0_2_1_E",
+    "transition": "C2015-p08-2"
+  },
+  {
+    "upper": "E_0_5_2_E",
+    "lower": "E_0_5_1_E",
+    "transition": "C2015-p09-1"
+  },
+  {
+    "upper": "E_0_6_2_E",
+    "lower": "E_0_6_1_E",
+    "transition": "C2015-p09-2"
+  },
+  {
+    "upper": "A_0_1_0_+",
+    "lower": "A_0_0_0_+",
+    "transition": "C2015-p10-1"
+  },
+  {
+    "upper": "E_0_24_1_E",
+    "lower": "E_0_24_0_E",
+    "transition": "Belov-F2"
+  },
+  {
+    "upper": "A_0_7_0_+",
+    "lower": "A_0_6_1_+",
+    "transition": "benchmark-44GHz"
+  },
+  {
+    "upper": "E_0_1_0_E",
+    "lower": "E_0_0_0_E",
+    "transition": "benchmark-48.377GHz"
+  },
+  {
+    "upper": "E_0_1_0_E",
+    "lower": "E_0_2_-1_E",
+    "transition": "benchmark-60.531GHz"
+  },
+  {
+    "upper": "A_0_8_0_+",
+    "lower": "A_0_7_1_+",
+    "transition": "benchmark-95GHz"
+  },
+  {
+    "upper": "E_0_2_-1_E",
+    "lower": "E_0_1_-1_E",
+    "transition": "benchmark-96.739GHz"
+  },
+  {
+    "upper": "A_0_2_0_+",
+    "lower": "A_0_1_0_+",
+    "transition": "benchmark-96.741GHz"
+  },
+  {
+    "upper": "E_0_1_0_E",
+    "lower": "E_0_1_-1_E",
+    "transition": "benchmark-157.271GHz"
+  },
+  {
+    "upper": "E_0_2_0_E",
+    "lower": "E_0_1_0_E",
+    "transition": "context-96.744GHz"
+  },
+  {
+    "upper": "E_0_3_-1_E",
+    "lower": "E_0_2_-1_E",
+    "transition": "context-145.097GHz"
+  },
+  {
+    "upper": "A_0_3_0_+",
+    "lower": "A_0_2_0_+",
+    "transition": "context-145.103GHz"
+  }
+]

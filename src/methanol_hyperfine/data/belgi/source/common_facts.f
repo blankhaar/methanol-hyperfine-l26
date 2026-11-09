@@ -1,0 +1,1 @@
+      COMMON/FACTS/GAM(1000)

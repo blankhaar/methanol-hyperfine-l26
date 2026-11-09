@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "source_catalog_sha256": "f38373b771d69aa35ba7b94fdfe74b7eef9920387c8447dc6e7a6390975ecee1",
+  "source_endpoint_sha256": "7ccd2be80ff8984fc12d175ed77383ff1f0c62c353bfbdfe6c344b62816a5458",
+  "estimator_source_sha256": "8b6c5501d598643db7147b066b43fcd7dfbbe4cb0fc98a155931b783dd8a4d33",
+  "curve_rows": 1464,
+  "component_width_range_kHz": [
+    30,
+    2000
+  ],
+  "model": "Statistical-strength patterns calculated from L26 tensors",
+  "fit": "Uniform full-axis least squares; free amplitude, center and width; known zero baseline",
+  "derivative_response": "Ideal zero-dither limits",
+  "molecular_refit": false,
+  "observational_refit": false,
+  "cloud_illustration": {
+    "component_absorption_FWHM_kHz": 43.808544146839616,
+    "fitted_blend_FWHM_kHz": 49.00000000000028,
+    "fitted_center_minus_centroid_Hz": -442.5623158262171,
+    "fitted_blend_velocity_FWHM_kms": 0.15184640948094855
+  },
+  "checks": [
+    {
+      "test": "Independent Hamiltonian assembly",
+      "state": "E_0_2_0_E",
+      "max_abs_khz": 1.3506446028928517e-15
+    },
+    {
+      "test": "Independent Hamiltonian assembly",
+      "state": "E_0_3_-1_E",
+      "max_abs_khz": 2.3914935841127266e-15
+    },
+    {
+      "test": "Complete centroid",
+      "target": "12.2GHz",
+      "n_components": 22,
+      "centroid_Hz": -1.2767564783189306e-12
+    },
+    {
+      "test": "Independent Hamiltonian assembly",
+      "state": "A_0_1_0_+",
+      "max_abs_khz": 7.105427357601002e-15
+    },
+    {
+      "test": "Complete centroid",
+      "target": "96.741GHz",
+      "n_components": 29,
+      "centroid_Hz": 6.661338147750933e-13
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "12.2GHz",
+      "response": "Gaussian",
+      "relative_error": -2.046179112957791e-05
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "12.2GHz",
+      "response": "Lorentz",
+      "relative_error": -4.926926996917658e-05
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "12.2GHz",
+      "response": "dispersion_1f",
+      "relative_error": -7.566091095656535e-05
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "12.2GHz",
+      "response": "absorption_2f",
+      "relative_error": -9.788698784884975e-05
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "96.741GHz",
+      "response": "Gaussian",
+      "relative_error": -4.553594940559513e-05
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "96.741GHz",
+      "response": "Lorentz",
+      "relative_error": -0.0001232692353689835
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "96.741GHz",
+      "response": "dispersion_1f",
+      "relative_error": -0.00014936765822837206
+    },
+    {
+      "test": "Broad-width asymptote",
+      "target": "96.741GHz",
+      "response": "absorption_2f",
+      "relative_error": -0.00012273652912997424
+    }
+  ]
+}

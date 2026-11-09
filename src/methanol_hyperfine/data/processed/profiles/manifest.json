@@ -1,0 +1,740 @@
+{
+  "source": "Coudert et al. (2015), supplementary spectra, https://doi.org/10.1063/1.4926942",
+  "sha256": "3ee68a58312fcd68de77a86a5f30eb135e3cab8c163edfa54aa46c61c69421cc",
+  "profiles": [
+    {
+      "id": "C2015-p01-1",
+      "page": 1,
+      "panel": 1,
+      "lab": "Lille",
+      "species": "A",
+      "upper": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "reference_mhz": 2502.7783,
+      "file": "data/processed/profiles/C2015-p01-1.csv",
+      "tick_pdf_x_pt": [
+        181.72400000000002,
+        264.598,
+        347.50500000000005,
+        430.411
+      ],
+      "tick_frequencies_mhz": [
+        2502.7,
+        2502.75,
+        2502.7999999999997,
+        2502.85
+      ],
+      "linear_calibration": [
+        0.0006031595856940301,
+        2502.5903972787805
+      ],
+      "max_tick_residual_khz": 0.007901163826318225,
+      "line_halfwidth_khz": 0.28334627857148453,
+      "sample_count": 263,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p01-2",
+      "page": 1,
+      "panel": 2,
+      "lab": "Heuvel-Dymanus",
+      "species": "A",
+      "upper": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "reference_mhz": 2502.7783,
+      "file": "data/processed/profiles/C2015-p01-2.csv",
+      "tick_pdf_x_pt": [
+        181.72400000000002,
+        264.598,
+        347.50500000000005,
+        430.411
+      ],
+      "tick_frequencies_mhz": [
+        2502.7,
+        2502.75,
+        2502.7999999999997,
+        2502.85
+      ],
+      "linear_calibration": [
+        0.0006031595856940301,
+        2502.5903972787805
+      ],
+      "max_tick_residual_khz": 0.007901163826318225,
+      "line_halfwidth_khz": 0.28334627857148453,
+      "sample_count": 234,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p02-1",
+      "page": 2,
+      "panel": 1,
+      "lab": "Lille",
+      "species": "A",
+      "upper": {
+        "j": 3,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "lower": {
+        "j": 3,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "reference_mhz": 5005.3209,
+      "file": "data/processed/profiles/C2015-p02-1.csv",
+      "tick_pdf_x_pt": [
+        206.59000000000003,
+        411.624
+      ],
+      "tick_frequencies_mhz": [
+        5005.3,
+        5005.35
+      ],
+      "linear_calibration": [
+        0.00024386199362214518,
+        5005.249620550737
+      ],
+      "max_tick_residual_khz": 9.094947017729282e-10,
+      "line_halfwidth_khz": 0.1166718690566174,
+      "sample_count": 306,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p02-2",
+      "page": 2,
+      "panel": 2,
+      "lab": "Heuvel-Dymanus",
+      "species": "A",
+      "upper": {
+        "j": 3,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "lower": {
+        "j": 3,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "reference_mhz": 5005.3209,
+      "file": "data/processed/profiles/C2015-p02-2.csv",
+      "tick_pdf_x_pt": [
+        206.59000000000003,
+        411.624
+      ],
+      "tick_frequencies_mhz": [
+        5005.3,
+        5005.35
+      ],
+      "linear_calibration": [
+        0.00024386199362214518,
+        5005.249620550737
+      ],
+      "max_tick_residual_khz": 9.094947017729282e-10,
+      "line_halfwidth_khz": 0.1166718690566174,
+      "sample_count": 113,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p03-1",
+      "page": 3,
+      "panel": 1,
+      "lab": "Hannover",
+      "species": "A",
+      "upper": {
+        "j": 5,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 6,
+        "k": 0,
+        "pi_parity": 1
+      },
+      "reference_mhz": 6668.5188,
+      "file": "data/processed/profiles/C2015-p03-1.csv",
+      "tick_pdf_x_pt": [
+        243.87199999999999,
+        374.343
+      ],
+      "tick_frequencies_mhz": [
+        6668.5,
+        6668.55
+      ],
+      "linear_calibration": [
+        0.0003832269239927788,
+        6668.406541683593
+      ],
+      "max_tick_residual_khz": 9.094947017729282e-10,
+      "line_halfwidth_khz": 0.18334879015356112,
+      "sample_count": 90,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p03-2",
+      "page": 3,
+      "panel": 2,
+      "lab": "Lille",
+      "species": "A",
+      "upper": {
+        "j": 5,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 6,
+        "k": 0,
+        "pi_parity": 1
+      },
+      "reference_mhz": 6668.5188,
+      "file": "data/processed/profiles/C2015-p03-2.csv",
+      "tick_pdf_x_pt": [
+        243.87199999999999,
+        374.343
+      ],
+      "tick_frequencies_mhz": [
+        6668.5,
+        6668.55
+      ],
+      "linear_calibration": [
+        0.0003832269239927788,
+        6668.406541683593
+      ],
+      "max_tick_residual_khz": 9.094947017729282e-10,
+      "line_halfwidth_khz": 0.18334879015356112,
+      "sample_count": 480,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p04-1",
+      "page": 4,
+      "panel": 1,
+      "lab": "Lille",
+      "species": "E",
+      "upper": {
+        "j": 9,
+        "k": -1,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 8,
+        "k": -2,
+        "pi_parity": 0
+      },
+      "reference_mhz": 9936.2,
+      "file": "data/processed/profiles/C2015-p04-1.csv",
+      "tick_pdf_x_pt": [
+        219.40100000000004,
+        309.107,
+        398.814
+      ],
+      "tick_frequencies_mhz": [
+        9936.15,
+        9936.199999999999,
+        9936.25
+      ],
+      "linear_calibration": [
+        0.0005573732115449106,
+        9936.027711852907
+      ],
+      "max_tick_residual_khz": 0.00018579157767817378,
+      "line_halfwidth_khz": 0.2666662950922778,
+      "sample_count": 694,
+      "included_primary": false,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p04-2",
+      "page": 4,
+      "panel": 2,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 9,
+        "k": -1,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 8,
+        "k": -2,
+        "pi_parity": 0
+      },
+      "reference_mhz": 9936.2,
+      "file": "data/processed/profiles/C2015-p04-2.csv",
+      "tick_pdf_x_pt": [
+        219.40100000000004,
+        309.107,
+        398.814
+      ],
+      "tick_frequencies_mhz": [
+        9936.15,
+        9936.199999999999,
+        9936.25
+      ],
+      "linear_calibration": [
+        0.0005573732115449106,
+        9936.027711852907
+      ],
+      "max_tick_residual_khz": 0.00018579157767817378,
+      "line_halfwidth_khz": 0.2666662950922778,
+      "sample_count": 131,
+      "included_primary": false,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p05-1",
+      "page": 5,
+      "panel": 1,
+      "lab": "Lille",
+      "species": "A",
+      "upper": {
+        "j": 4,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "lower": {
+        "j": 5,
+        "k": 2,
+        "pi_parity": -1
+      },
+      "reference_mhz": 9978.68,
+      "file": "data/processed/profiles/C2015-p05-1.csv",
+      "tick_pdf_x_pt": [
+        206.59000000000003,
+        274.924,
+        343.29,
+        411.624
+      ],
+      "tick_frequencies_mhz": [
+        9978.6,
+        9978.65,
+        9978.7,
+        9978.75
+      ],
+      "linear_calibration": [
+        0.0007315631392129958,
+        9978.448868712721
+      ],
+      "max_tick_residual_khz": 0.007022792487987317,
+      "line_halfwidth_khz": 0.35000467894623044,
+      "sample_count": 649,
+      "included_primary": false,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p05-2",
+      "page": 5,
+      "panel": 2,
+      "lab": "Lille",
+      "species": "E",
+      "upper": {
+        "j": 2,
+        "k": 0,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 3,
+        "k": -1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 12178.6002,
+      "file": "data/processed/profiles/C2015-p05-2.csv",
+      "tick_pdf_x_pt": [
+        187.64600000000002,
+        298.05400000000003,
+        408.461
+      ],
+      "tick_frequencies_mhz": [
+        12178.55,
+        12178.599999999999,
+        12178.65
+      ],
+      "linear_calibration": [
+        0.00045286778526452644,
+        12178.465021096086
+      ],
+      "max_tick_residual_khz": 0.00015095611161086708,
+      "line_halfwidth_khz": 0.21666734597524845,
+      "sample_count": 555,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p06-1",
+      "page": 6,
+      "panel": 1,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 2,
+        "k": 0,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 3,
+        "k": -1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 12178.6002,
+      "file": "data/processed/profiles/C2015-p06-1.csv",
+      "tick_pdf_x_pt": [
+        187.64600000000002,
+        298.05400000000003,
+        408.461
+      ],
+      "tick_frequencies_mhz": [
+        12178.55,
+        12178.599999999999,
+        12178.65
+      ],
+      "linear_calibration": [
+        0.00045286778526452644,
+        12178.465021096086
+      ],
+      "max_tick_residual_khz": 0.00015095611161086708,
+      "line_halfwidth_khz": 0.21666734597524845,
+      "sample_count": 107,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p06-2",
+      "page": 6,
+      "panel": 2,
+      "lab": "Heuvel-Dymanus",
+      "species": "A",
+      "upper": {
+        "j": 6,
+        "k": 1,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 6,
+        "k": 1,
+        "pi_parity": 1
+      },
+      "reference_mhz": 17513.3413,
+      "file": "data/processed/profiles/C2015-p06-2.csv",
+      "tick_pdf_x_pt": [
+        166.74400000000003,
+        325.571
+      ],
+      "tick_frequencies_mhz": [
+        17513.3,
+        17513.35
+      ],
+      "linear_calibration": [
+        0.00031480793569181836,
+        17513.247507665565
+      ],
+      "max_tick_residual_khz": 7.275957614183426e-09,
+      "line_halfwidth_khz": 0.1500000000063733,
+      "sample_count": 208,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p07-1",
+      "page": 7,
+      "panel": 1,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 3,
+        "k": 0,
+        "pi_parity": 0
+      },
+      "reference_mhz": 19967.3914,
+      "file": "data/processed/profiles/C2015-p07-1.csv",
+      "tick_pdf_x_pt": [
+        165.74400000000003,
+        231.13000000000002,
+        296.54699999999997,
+        361.933,
+        427.35
+      ],
+      "tick_frequencies_mhz": [
+        19967.3,
+        19967.35,
+        19967.399999999998,
+        19967.45,
+        19967.5
+      ],
+      "linear_calibration": [
+        0.0007645084541619522,
+        19967.173292051397
+      ],
+      "max_tick_residual_khz": 0.007110262231435627,
+      "line_halfwidth_khz": 0.349988530027298,
+      "sample_count": 172,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p07-2",
+      "page": 7,
+      "panel": 2,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 3,
+        "k": 2,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 3,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 24928.6994,
+      "file": "data/processed/profiles/C2015-p07-2.csv",
+      "tick_pdf_x_pt": [
+        166.866,
+        231.99699999999999,
+        297.158,
+        362.289,
+        427.45000000000005
+      ],
+      "tick_frequencies_mhz": [
+        24928.6,
+        24928.649999999998,
+        24928.699999999997,
+        24928.75,
+        24928.8
+      ],
+      "linear_calibration": [
+        0.0007675068259110346,
+        24928.471933811663
+      ],
+      "max_tick_residual_khz": 0.006907885108375922,
+      "line_halfwidth_khz": 0.3499888689166262,
+      "sample_count": 171,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p08-1",
+      "page": 8,
+      "panel": 1,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 4,
+        "k": 2,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 4,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 24933.4693,
+      "file": "data/processed/profiles/C2015-p08-1.csv",
+      "tick_pdf_x_pt": [
+        220.26300000000003,
+        288.597,
+        356.932,
+        425.297
+      ],
+      "tick_frequencies_mhz": [
+        24933.4,
+        24933.45,
+        24933.5,
+        24933.550000000003
+      ],
+      "linear_calibration": [
+        0.0007315963197383074,
+        24933.23886100979
+      ],
+      "max_tick_residual_khz": 0.008852610335452482,
+      "line_halfwidth_khz": 0.35002055363767737,
+      "sample_count": 172,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p08-2",
+      "page": 8,
+      "panel": 2,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 2,
+        "k": 2,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 2,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 24934.3801,
+      "file": "data/processed/profiles/C2015-p08-2.csv",
+      "tick_pdf_x_pt": [
+        215.50400000000002,
+        277.895,
+        340.28700000000003,
+        402.711
+      ],
+      "tick_frequencies_mhz": [
+        24934.3,
+        24934.35,
+        24934.399999999998,
+        24934.45
+      ],
+      "linear_calibration": [
+        0.0008012653450734697,
+        24934.127329482784
+      ],
+      "max_tick_residual_khz": 0.010336734703741968,
+      "line_halfwidth_khz": 0.3833525841048804,
+      "sample_count": 188,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p09-1",
+      "page": 9,
+      "panel": 1,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 5,
+        "k": 2,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 5,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 24959.0781,
+      "file": "data/processed/profiles/C2015-p09-1.csv",
+      "tick_pdf_x_pt": [
+        215.50400000000002,
+        277.895,
+        340.28700000000003,
+        402.711
+      ],
+      "tick_frequencies_mhz": [
+        24959.0,
+        24959.05,
+        24959.1,
+        24959.15
+      ],
+      "linear_calibration": [
+        0.0008012653450619889,
+        24958.827329482796
+      ],
+      "max_tick_residual_khz": 0.010336727427784353,
+      "line_halfwidth_khz": 0.3833525840993876,
+      "sample_count": 188,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p09-2",
+      "page": 9,
+      "panel": 2,
+      "lab": "Hannover",
+      "species": "E",
+      "upper": {
+        "j": 6,
+        "k": 2,
+        "pi_parity": 0
+      },
+      "lower": {
+        "j": 6,
+        "k": 1,
+        "pi_parity": 0
+      },
+      "reference_mhz": 25018.1215,
+      "file": "data/processed/profiles/C2015-p09-2.csv",
+      "tick_pdf_x_pt": [
+        167.90800000000002,
+        229.793,
+        291.709,
+        353.593,
+        415.51000000000005
+      ],
+      "tick_frequencies_mhz": [
+        25018.0,
+        25018.05,
+        25018.1,
+        25018.15,
+        25018.2
+      ],
+      "linear_calibration": [
+        0.0008077492164326489,
+        25017.864377453414
+      ],
+      "max_tick_residual_khz": 0.008077902748482302,
+      "line_halfwidth_khz": 0.38331294803742316,
+      "sample_count": 188,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    },
+    {
+      "id": "C2015-p10-1",
+      "page": 10,
+      "panel": 1,
+      "lab": "Heuvel-Dymanus",
+      "species": "A",
+      "upper": {
+        "j": 1,
+        "k": 0,
+        "pi_parity": -1
+      },
+      "lower": {
+        "j": 0,
+        "k": 0,
+        "pi_parity": 1
+      },
+      "reference_mhz": 48372.4555,
+      "file": "data/processed/profiles/C2015-p10-1.csv",
+      "tick_pdf_x_pt": [
+        261.25100000000003,
+        420.72900000000004
+      ],
+      "tick_frequencies_mhz": [
+        48372.45,
+        48372.5
+      ],
+      "linear_calibration": [
+        0.0003135228684085533,
+        48372.368091837074
+      ],
+      "max_tick_residual_khz": 2.9103830456733704e-08,
+      "line_halfwidth_khz": 0.1500000000241778,
+      "sample_count": 315,
+      "included_primary": true,
+      "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "fit": "L26",
+  "formula": "c_Hz=(A/W**2)*P((30/W)**2)/Q((30/W)**2)",
+  "component_absorption_FWHM_domain_kHz": [
+    30,
+    2000
+  ],
+  "models": {
+    "12.2GHz/Gaussian": {
+      "A_Hz_kHz2": 106358.144178,
+      "numerator": [
+        1.0,
+        -0.130468487143
+      ],
+      "denominator": [
+        1.0,
+        -0.0395236021883,
+        -0.012161673932
+      ],
+      "numerator_degree": 1,
+      "denominator_degree": 2,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 0.9483147238797001,
+      "minimum_numerator_x_0_to_1": 0.869531512857,
+      "validation": {
+        "max_abs_error_Hz": 3.931465059281436e-05,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 3.6319920060291396e-07,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 4.717450904461784e-06
+      }
+    },
+    "12.2GHz/Lorentz": {
+      "A_Hz_kHz2": 153442.367164,
+      "numerator": [
+        1.0,
+        0.306779686123,
+        0.00444737838363
+      ],
+      "denominator": [
+        1.0,
+        0.52576724782,
+        0.0519537312092
+      ],
+      "numerator_degree": 2,
+      "denominator_degree": 2,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 5.576736924695069e-06,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 3.9395250141012626e-08,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 7.063537598751015e-07
+      }
+    },
+    "12.2GHz/dispersion_1f": {
+      "A_Hz_kHz2": 383605.917909,
+      "numerator": [
+        1.0,
+        0.426497263476,
+        0.00922093392911
+      ],
+      "denominator": [
+        1.0,
+        0.762802577229,
+        0.103058221265
+      ],
+      "numerator_degree": 2,
+      "denominator_degree": 2,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 5.4727429130707606e-05,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 1.6701729134692894e-07,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 6.987556785970825e-06
+      }
+    },
+    "12.2GHz/absorption_2f": {
+      "A_Hz_kHz2": 716064.380096,
+      "numerator": [
+        1.0,
+        0.496953572878,
+        0.0123527188269
+      ],
+      "denominator": [
+        1.0,
+        0.93207183665,
+        0.137154182766
+      ],
+      "numerator_degree": 2,
+      "denominator_degree": 2,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 7.538181648669706e-05,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 1.300058277450938e-07,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 9.752615924629197e-06
+      }
+    },
+    "96.741GHz/Gaussian": {
+      "A_Hz_kHz2": -945377.28828,
+      "numerator": [
+        1.0,
+        1.41658386617,
+        0.489796862871
+      ],
+      "denominator": [
+        1.0,
+        1.61895311926,
+        0.909547068868,
+        0.127127827498
+      ],
+      "numerator_degree": 2,
+      "denominator_degree": 3,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 0.0004525430813373532,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 5.423637870217313e-07,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 5.908010725679027e-05
+      }
+    },
+    "96.741GHz/Lorentz": {
+      "A_Hz_kHz2": -1363891.12557,
+      "numerator": [
+        1.0,
+        3.82676072633,
+        1.90130002049
+      ],
+      "denominator": [
+        1.0,
+        4.37457771224,
+        4.42598003264,
+        0.975941444721
+      ],
+      "numerator_degree": 2,
+      "denominator_degree": 3,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 0.00013042951013630955,
+        "width_at_max_abs_error_kHz": 35.50636680131511,
+        "max_relative_error": 1.9746347084486024e-07,
+        "width_at_max_relative_error_kHz": 44.41791499903883,
+        "rms_error_Hz": 3.311987620465206e-05
+      }
+    },
+    "96.741GHz/dispersion_1f": {
+      "A_Hz_kHz2": -3409727.81393,
+      "numerator": [
+        1.0,
+        5.5874940882,
+        3.07310310158,
+        -0.318583253562
+      ],
+      "denominator": [
+        1.0,
+        6.25105140256,
+        8.51673364942,
+        2.16678278896,
+        0.129598392783
+      ],
+      "numerator_degree": 3,
+      "denominator_degree": 4,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 0.0005739398563946452,
+        "width_at_max_abs_error_kHz": 30.017,
+        "max_relative_error": 2.9308990815293145e-07,
+        "width_at_max_relative_error_kHz": 30.017,
+        "rms_error_Hz": 0.00010001156290825546
+      }
+    },
+    "96.741GHz/absorption_2f": {
+      "A_Hz_kHz2": -6364825.25266,
+      "numerator": [
+        1.0,
+        6.06640310949,
+        -3.8574161354,
+        10.2299092151,
+        -6.96607877629,
+        1.00614213385
+      ],
+      "denominator": [
+        1.0,
+        6.61075270927,
+        4.86723019734,
+        4.09445251368,
+        10.5406091914,
+        -7.44681338488
+      ],
+      "numerator_degree": 5,
+      "denominator_degree": 5,
+      "coefficient_significant_digits": 12,
+      "minimum_denominator_x_0_to_1": 1.0,
+      "minimum_numerator_x_0_to_1": 1.0,
+      "validation": {
+        "max_abs_error_Hz": 0.0004037775152028189,
+        "width_at_max_abs_error_kHz": 30.869086441601773,
+        "max_relative_error": 1.5133867574327452e-07,
+        "width_at_max_relative_error_kHz": 30.869086441601773,
+        "rms_error_Hz": 8.66012781686662e-05
+      }
+    }
+  },
+  "uncertainty_note": "Approximation errors only; conditional on L26 and response assumptions"
+}

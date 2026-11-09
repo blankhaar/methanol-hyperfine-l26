@@ -1,0 +1,2037 @@
+{
+  "direct_00": {
+    "id": "Xu-F2-34",
+    "file": "data/processed/excited-profiles/Xu-F2-34.csv",
+    "origin_khz": 365046967.99427575,
+    "samples": 300,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "Q(3)",
+    "xu_id": "Xu2019-34",
+    "ju": 3,
+    "ku": 3,
+    "jl": 3,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 19,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41500854492188,
+          365046.6
+        ],
+        [
+          246.37100219726562,
+          365047.39999999997
+        ]
+      ],
+      "stroke_width_khz": 2.3101787830598774
+    },
+    "frequency_digitization_khz": 1.1550893915299387,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=3, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=3, k=2, parity='')",
+    "signal_sigma": 0.06678048554538084,
+    "empirical_edge_noise": 0.06678048554538084,
+    "weight": 6.113287244466603,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_01": {
+    "id": "Xu-F2-35",
+    "file": "data/processed/excited-profiles/Xu-F2-35.csv",
+    "origin_khz": 365030987.89525354,
+    "samples": 298,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "Q(4)",
+    "xu_id": "Xu2019-35",
+    "ju": 4,
+    "ku": 3,
+    "jl": 4,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 37,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41500854492188,
+          365030.6
+        ],
+        [
+          246.37100219726562,
+          365031.39999999997
+        ]
+      ],
+      "stroke_width_khz": 2.3101787830598774
+    },
+    "frequency_digitization_khz": 1.1550893915299387,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=4, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=4, k=2, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0268401573969261,
+    "weight": 10.240399006488007,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_02": {
+    "id": "Xu-F2-36",
+    "file": "data/processed/excited-profiles/Xu-F2-36.csv",
+    "origin_khz": 364986803.8879578,
+    "samples": 297,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "Q(5)",
+    "xu_id": "Xu2019-36",
+    "ju": 5,
+    "ku": 3,
+    "jl": 5,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 55,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41500854492188,
+          364986.4
+        ],
+        [
+          246.37100219726562,
+          364987.2
+        ]
+      ],
+      "stroke_width_khz": 2.3101787830598774
+    },
+    "frequency_digitization_khz": 1.1550893915299387,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=5, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=5, k=2, parity='')",
+    "signal_sigma": 0.055709611054154014,
+    "empirical_edge_noise": 0.055709611054154014,
+    "weight": 7.365066137910408,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_03": {
+    "id": "Xu-F2-37",
+    "file": "data/processed/excited-profiles/Xu-F2-37.csv",
+    "origin_khz": 364898303.8879578,
+    "samples": 296,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "Q(6)",
+    "xu_id": "Xu2019-37",
+    "ju": 6,
+    "ku": 3,
+    "jl": 6,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 73,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41500854492188,
+          364897.9
+        ],
+        [
+          246.37100219726562,
+          364898.7
+        ]
+      ],
+      "stroke_width_khz": 2.3101787830598774
+    },
+    "frequency_digitization_khz": 1.1550893915299387,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=6, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=6, k=2, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.020682363804140083,
+    "weight": 10.27493670658483,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_04": {
+    "id": "Xu-F2-38",
+    "file": "data/processed/excited-profiles/Xu-F2-38.csv",
+    "origin_khz": 364746203.8408314,
+    "samples": 300,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "Q(7)",
+    "xu_id": "Xu2019-38",
+    "ju": 7,
+    "ku": 3,
+    "jl": 7,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 91,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41600036621094,
+          364745.8
+        ],
+        [
+          247.08599853515625,
+          364746.6
+        ]
+      ],
+      "stroke_width_khz": 2.3008948403443865
+    },
+    "frequency_digitization_khz": 1.1504474201721933,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=7, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=7, k=2, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.03623474377340383,
+    "weight": 10.206207261596575,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_05": {
+    "id": "Xu-F2-48",
+    "file": "data/processed/excited-profiles/Xu-F2-48.csv",
+    "origin_khz": 509780199.8887572,
+    "samples": 739,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 2,
+    "panel": "R(2)",
+    "xu_id": "Xu2019-48",
+    "ju": 3,
+    "ku": 3,
+    "jl": 2,
+    "kl": 2,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "PDF vector experimental path",
+    "path_index": 108,
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          69.41500854492188,
+          509779.8
+        ],
+        [
+          245.67401123046875,
+          509780.6
+        ]
+      ],
+      "stroke_width_khz": 2.3193140539904133
+    },
+    "frequency_digitization_khz": 1.1596570269952067,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      35.0
+    ],
+    "u": "State(species='E', vt=1, j=3, k=3, parity='')",
+    "l": "State(species='E', vt=1, j=2, k=2, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.029018986034812625,
+    "weight": 6.502835854783859,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_06": {
+    "id": "Xu-F3-01",
+    "file": "data/processed/excited-profiles/Xu-F3-01.csv",
+    "origin_khz": 232422970.13029182,
+    "samples": 380,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(7)",
+    "xu_id": "Xu2019-01",
+    "ju": 7,
+    "ku": 6,
+    "jl": 7,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          225.0,
+          232422.9
+        ],
+        [
+          487.5,
+          232423.0
+        ],
+        [
+          749.5,
+          232423.1
+        ]
+      ],
+      "max_tick_residual_khz": 0.06355252861976624,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7626308462222985,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=7, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=7, k=7, parity='')",
+    "signal_sigma": 0.07514454787274752,
+    "empirical_edge_noise": 0.07514454787274752,
+    "weight": 4.82720483819105,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_07": {
+    "id": "Xu-F3-02",
+    "file": "data/processed/excited-profiles/Xu-F3-02.csv",
+    "origin_khz": 232645260.2920853,
+    "samples": 379,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(8)",
+    "xu_id": "Xu2019-02",
+    "ju": 8,
+    "ku": 6,
+    "jl": 8,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          251.0,
+          232645.2
+        ],
+        [
+          512.5,
+          232645.30000000002
+        ],
+        [
+          776.5,
+          232645.40000000002
+        ]
+      ],
+      "max_tick_residual_khz": 0.31715574860572815,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7611740863064216,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=8, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=8, k=7, parity='')",
+    "signal_sigma": 0.07561257125368842,
+    "empirical_edge_noise": 0.07561257125368842,
+    "weight": 4.803650373526428,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_08": {
+    "id": "Xu-F3-03",
+    "file": "data/processed/excited-profiles/Xu-F3-03.csv",
+    "origin_khz": 232847239.68249172,
+    "samples": 350,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(9)",
+    "xu_id": "Xu2019-03",
+    "ju": 9,
+    "ku": 6,
+    "jl": 9,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          42.5,
+          232847.1
+        ],
+        [
+          304.5,
+          232847.2
+        ],
+        [
+          567.5,
+          232847.30000000002
+        ]
+      ],
+      "max_tick_residual_khz": 0.12698397040367126,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7619038406981333,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=9, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=9, k=7, parity='')",
+    "signal_sigma": 0.0462510918757657,
+    "empirical_edge_noise": 0.0462510918757657,
+    "weight": 8.172011895945536,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_09": {
+    "id": "Xu-F3-04",
+    "file": "data/processed/excited-profiles/Xu-F3-04.csv",
+    "origin_khz": 233011999.80970556,
+    "samples": 376,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(10)",
+    "xu_id": "Xu2019-04",
+    "ju": 10,
+    "ku": 6,
+    "jl": 10,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          147.0,
+          233011.9
+        ],
+        [
+          409.0,
+          233012.0
+        ],
+        [
+          672.5,
+          233012.1
+        ]
+      ],
+      "max_tick_residual_khz": 0.19029444456100464,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7611777611871288,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=10, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=10, k=7, parity='')",
+    "signal_sigma": 0.08386864660138846,
+    "empirical_edge_noise": 0.08386864660138846,
+    "weight": 4.348019117059406,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_10": {
+    "id": "Xu-F3-05",
+    "file": "data/processed/excited-profiles/Xu-F3-05.csv",
+    "origin_khz": 233121273.81634092,
+    "samples": 343,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(11)",
+    "xu_id": "Xu2019-05",
+    "ju": 11,
+    "ku": 6,
+    "jl": 11,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          251.5,
+          233121.2
+        ],
+        [
+          513.5,
+          233121.30000000002
+        ],
+        [
+          776.0,
+          233121.40000000002
+        ]
+      ],
+      "max_tick_residual_khz": 0.06355264782905579,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7626308461538991,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=11, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=11, k=7, parity='')",
+    "signal_sigma": 0.05496246257857982,
+    "empirical_edge_noise": 0.05496246257857982,
+    "weight": 6.946591478042753,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_11": {
+    "id": "Xu-F3-06",
+    "file": "data/processed/excited-profiles/Xu-F3-06.csv",
+    "origin_khz": 233155959.1463362,
+    "samples": 331,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 6,
+    "figure": 3,
+    "panel": "Q(12)",
+    "xu_id": "Xu2019-06",
+    "ju": 12,
+    "ku": 6,
+    "jl": 12,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Lille",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          15.5,
+          233155.8
+        ],
+        [
+          277.5,
+          233155.9
+        ],
+        [
+          540.5,
+          233156.0
+        ],
+        [
+          802.5,
+          233156.09999999998
+        ]
+      ],
+      "max_tick_residual_khz": 0.1143001914024353,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.7621946789646353,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      6.0,
+      18.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=12, k=6, parity='')",
+    "l": "State(species='E', vt=1, j=12, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.03282530199662954,
+    "weight": 9.716525929205897,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_12": {
+    "id": "Xu-F4-10",
+    "file": "data/processed/excited-profiles/Xu-F4-10.csv",
+    "origin_khz": 292864239.7452229,
+    "samples": 298,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(8)",
+    "xu_id": "Xu2019-10",
+    "ju": 8,
+    "ku": 8,
+    "jl": 8,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          252.0,
+          292864.2
+        ],
+        [
+          644.5,
+          292864.3
+        ]
+      ],
+      "max_tick_residual_khz": 0.0,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.5095541400603788,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=8, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=8, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.02509881228862914,
+    "weight": 10.240399006488007,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_13": {
+    "id": "Xu-F4-11",
+    "file": "data/processed/excited-profiles/Xu-F4-11.csv",
+    "origin_khz": 293051288.6479591,
+    "samples": 310,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(9)",
+    "xu_id": "Xu2019-11",
+    "ju": 9,
+    "ku": 8,
+    "jl": 9,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          95.5,
+          293051.2
+        ],
+        [
+          487.5,
+          293051.3
+        ]
+      ],
+      "max_tick_residual_khz": 5.960464477539063e-08,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.5102040814220544,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=9, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=9, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.029953088071924445,
+    "weight": 10.040241611281235,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_14": {
+    "id": "Xu-F4-12",
+    "file": "data/processed/excited-profiles/Xu-F4-12.csv",
+    "origin_khz": 293330719.7956578,
+    "samples": 340,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(10)",
+    "xu_id": "Xu2019-12",
+    "ju": 10,
+    "ku": 8,
+    "jl": 10,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          330.5,
+          293330.7
+        ],
+        [
+          722.0,
+          293330.8
+        ]
+      ],
+      "max_tick_residual_khz": 5.960464477539063e-08,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.51085568338139,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=10, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=10, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.029308935640270175,
+    "weight": 9.58706236059213,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_15": {
+    "id": "Xu-F4-13",
+    "file": "data/processed/excited-profiles/Xu-F4-13.csv",
+    "origin_khz": 293724549.80842924,
+    "samples": 353,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(11)",
+    "xu_id": "Xu2019-13",
+    "ju": 11,
+    "ku": 8,
+    "jl": 11,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          213.0,
+          293724.5
+        ],
+        [
+          604.5,
+          293724.6
+        ]
+      ],
+      "max_tick_residual_khz": 1.1920928955078125e-07,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.5108556833462596,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=11, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=11, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.03270107780329367,
+    "weight": 9.408874118687269,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_16": {
+    "id": "Xu-F4-14",
+    "file": "data/processed/excited-profiles/Xu-F4-14.csv",
+    "origin_khz": 294255979.9232737,
+    "samples": 300,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(12)",
+    "xu_id": "Xu2019-14",
+    "ju": 12,
+    "ku": 8,
+    "jl": 12,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          95.5,
+          294255.9
+        ],
+        [
+          486.5,
+          294256.0
+        ]
+      ],
+      "max_tick_residual_khz": 0.0,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.5115089513555089,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=12, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=12, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.021237456551916965,
+    "weight": 10.206207261596575,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "direct_17": {
+    "id": "Xu-F4-15",
+    "file": "data/processed/excited-profiles/Xu-F4-15.csv",
+    "origin_khz": 294948719.79565775,
+    "samples": 343,
+    "normalization": "subtract median; divide by full experimental signal range",
+    "source": "main.pdf",
+    "pdf_page": 11,
+    "figure": 4,
+    "panel": "Q(13)",
+    "xu_id": "Xu2019-15",
+    "ju": 13,
+    "ku": 8,
+    "jl": 13,
+    "kl": 7,
+    "vt": 1,
+    "species": "E",
+    "lab": "Nizhny Novgorod",
+    "method": "embedded raster, gray experimental trace only",
+    "calibration": {
+      "axis": "linear MHz converted to kHz",
+      "ticks": [
+        [
+          330.5,
+          294948.7
+        ],
+        [
+          722.0,
+          294948.8
+        ]
+      ],
+      "max_tick_residual_khz": 5.960464477539063e-08,
+      "gray_range": [
+        90,
+        200
+      ],
+      "black_exclusion_threshold": 85,
+      "black_dilation_pixels": 3
+    },
+    "frequency_digitization_khz": 0.5108556836065824,
+    "modulation_khz": 12.0,
+    "modulation_bounds_khz": [
+      10.0,
+      40.0
+    ],
+    "gamma_bounds_khz": [
+      2.0,
+      30.0
+    ],
+    "caution": "Black fitted curve and text masked. Occluded experimental segments are missing. Conditional raster centerline, not raw measurements.",
+    "u": "State(species='E', vt=1, j=13, k=8, parity='')",
+    "l": "State(species='E', vt=1, j=13, k=7, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.02112076723020315,
+    "weight": 9.545044354015157,
+    "thermal_background": true,
+    "temperature_K": 293.15
+  },
+  "low_00": {
+    "id": "C2015-p01-1",
+    "page": 1,
+    "panel": 1,
+    "lab": "Lille",
+    "species": "A",
+    "upper": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": 1
+    },
+    "reference_mhz": 2502.7783,
+    "file": "data/processed/profiles/C2015-p01-1.csv",
+    "tick_pdf_x_pt": [
+      181.72400000000002,
+      264.598,
+      347.50500000000005,
+      430.411
+    ],
+    "tick_frequencies_mhz": [
+      2502.7,
+      2502.75,
+      2502.7999999999997,
+      2502.85
+    ],
+    "linear_calibration": [
+      0.0006031595856940301,
+      2502.5903972787805
+    ],
+    "max_tick_residual_khz": 0.007901163826318225,
+    "line_halfwidth_khz": 0.28334627857148453,
+    "sample_count": 263,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=2, k=1, parity='-')",
+    "l": "State(species='A', vt=0, j=2, k=1, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0032979786193372777,
+    "artifact_mask": [
+      1.47,
+      0.8
+    ],
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 8.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      8.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p01-1",
+      "D_full_anchor_khz": 8.892381772056979,
+      "published_component_uncertainty_khz": 1.0,
+      "pair_D_range_khz": 0.0,
+      "source_stroke_halfwidth_khz": 0.28334627857148453,
+      "nominal_D_half_range_khz": 2.0
+    },
+    "artifact_evidence": "Isolated narrow Lille spike, provisionally treated as an instrumental artifact. Overlapping molecular groups remain in the joint model.",
+    "artifact_intervals_khz": [
+      [
+        0.6699999999999999,
+        2.27
+      ]
+    ]
+  },
+  "low_01": {
+    "id": "C2015-p01-2",
+    "page": 1,
+    "panel": 2,
+    "lab": "Heuvel-Dymanus",
+    "species": "A",
+    "upper": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": 1
+    },
+    "reference_mhz": 2502.7783,
+    "file": "data/processed/profiles/C2015-p01-2.csv",
+    "tick_pdf_x_pt": [
+      181.72400000000002,
+      264.598,
+      347.50500000000005,
+      430.411
+    ],
+    "tick_frequencies_mhz": [
+      2502.7,
+      2502.75,
+      2502.7999999999997,
+      2502.85
+    ],
+    "linear_calibration": [
+      0.0006031595856940301,
+      2502.5903972787805
+    ],
+    "max_tick_residual_khz": 0.007901163826318225,
+    "line_halfwidth_khz": 0.28334627857148453,
+    "sample_count": 234,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=2, k=1, parity='-')",
+    "l": "State(species='A', vt=0, j=2, k=1, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0006511932305709383,
+    "artifact_mask": null,
+    "doppler_replicas": 1,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 0.0,
+    "initial_nuisance": [
+      0.0,
+      0.6931471805599453,
+      -0.35667494393873245,
+      0.0
+    ],
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_02": {
+    "id": "C2015-p02-1",
+    "page": 2,
+    "panel": 1,
+    "lab": "Lille",
+    "species": "A",
+    "upper": {
+      "j": 3,
+      "k": 1,
+      "pi_parity": 1
+    },
+    "lower": {
+      "j": 3,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "reference_mhz": 5005.3209,
+    "file": "data/processed/profiles/C2015-p02-1.csv",
+    "tick_pdf_x_pt": [
+      206.59000000000003,
+      411.624
+    ],
+    "tick_frequencies_mhz": [
+      5005.3,
+      5005.35
+    ],
+    "linear_calibration": [
+      0.00024386199362214518,
+      5005.249620550737
+    ],
+    "max_tick_residual_khz": 9.094947017729282e-10,
+    "line_halfwidth_khz": 0.1166718690566174,
+    "sample_count": 306,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=3, k=1, parity='-')",
+    "l": "State(species='A', vt=0, j=3, k=1, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.011859954304749962,
+    "artifact_mask": [
+      -6.13,
+      0.8
+    ],
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 30.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      30.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p02-1",
+      "D_full_anchor_khz": 28.37712281871063,
+      "published_component_uncertainty_khz": 1.0,
+      "pair_D_range_khz": 1.0205624439549865,
+      "source_stroke_halfwidth_khz": 0.1166718690566174,
+      "nominal_D_half_range_khz": 2.0
+    },
+    "artifact_evidence": "Isolated narrow intergroup Lille spike; expand earlier 0.8-kHz halfwidth to include adjacent excursions. Instrument origin inferred, not established by raw data.",
+    "artifact_intervals_khz": [
+      [
+        -7.33,
+        -4.93
+      ]
+    ]
+  },
+  "low_03": {
+    "id": "C2015-p02-2",
+    "page": 2,
+    "panel": 2,
+    "lab": "Heuvel-Dymanus",
+    "species": "A",
+    "upper": {
+      "j": 3,
+      "k": 1,
+      "pi_parity": 1
+    },
+    "lower": {
+      "j": 3,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "reference_mhz": 5005.3209,
+    "file": "data/processed/profiles/C2015-p02-2.csv",
+    "tick_pdf_x_pt": [
+      206.59000000000003,
+      411.624
+    ],
+    "tick_frequencies_mhz": [
+      5005.3,
+      5005.35
+    ],
+    "linear_calibration": [
+      0.00024386199362214518,
+      5005.249620550737
+    ],
+    "max_tick_residual_khz": 9.094947017729282e-10,
+    "line_halfwidth_khz": 0.1166718690566174,
+    "sample_count": 113,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=3, k=1, parity='-')",
+    "l": "State(species='A', vt=0, j=3, k=1, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0,
+    "artifact_mask": null,
+    "doppler_replicas": 1,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 0.0,
+    "initial_nuisance": [
+      0.0,
+      0.6931471805599453,
+      -0.35667494393873245,
+      0.0
+    ],
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_04": {
+    "id": "C2015-p03-1",
+    "page": 3,
+    "panel": 1,
+    "lab": "Hannover",
+    "species": "A",
+    "upper": {
+      "j": 5,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 6,
+      "k": 0,
+      "pi_parity": 1
+    },
+    "reference_mhz": 6668.5188,
+    "file": "data/processed/profiles/C2015-p03-1.csv",
+    "tick_pdf_x_pt": [
+      243.87199999999999,
+      374.343
+    ],
+    "tick_frequencies_mhz": [
+      6668.5,
+      6668.55
+    ],
+    "linear_calibration": [
+      0.0003832269239927788,
+      6668.406541683593
+    ],
+    "max_tick_residual_khz": 9.094947017729282e-10,
+    "line_halfwidth_khz": 0.18334879015356112,
+    "sample_count": 90,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=5, k=1, parity='+')",
+    "l": "State(species='A', vt=0, j=6, k=0, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0006600322395694483,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 30.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      30.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p03-1",
+      "D_full_anchor_khz": 29.566532026819914,
+      "published_component_uncertainty_khz": 1.0,
+      "pair_D_range_khz": 0.36751462084794184,
+      "source_stroke_halfwidth_khz": 0.18334879015356112,
+      "nominal_D_half_range_khz": 2.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_05": {
+    "id": "C2015-p03-2",
+    "page": 3,
+    "panel": 2,
+    "lab": "Lille",
+    "species": "A",
+    "upper": {
+      "j": 5,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 6,
+      "k": 0,
+      "pi_parity": 1
+    },
+    "reference_mhz": 6668.5188,
+    "file": "data/processed/profiles/C2015-p03-2.csv",
+    "tick_pdf_x_pt": [
+      243.87199999999999,
+      374.343
+    ],
+    "tick_frequencies_mhz": [
+      6668.5,
+      6668.55
+    ],
+    "linear_calibration": [
+      0.0003832269239927788,
+      6668.406541683593
+    ],
+    "max_tick_residual_khz": 9.094947017729282e-10,
+    "line_halfwidth_khz": 0.18334879015356112,
+    "sample_count": 480,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=5, k=1, parity='+')",
+    "l": "State(species='A', vt=0, j=6, k=0, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0026401289582754484,
+    "artifact_mask": [
+      3.43,
+      0.65
+    ],
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 35.4,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      35.4
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p03-2",
+      "D_full_anchor_khz": 35.90223114724722,
+      "published_component_uncertainty_khz": 1.0,
+      "pair_D_range_khz": 0.6001333631502348,
+      "source_stroke_halfwidth_khz": 0.18334879015356112,
+      "nominal_D_half_range_khz": 2.0
+    },
+    "artifact_evidence": "Lankhaar2016 Fig.1 explicitly calls this central 6.7-GHz peak an experimental artifact; include the adjacent narrow ringing visible in source samples.",
+    "artifact_intervals_khz": [
+      [
+        1.9300000000000002,
+        4.93
+      ]
+    ]
+  },
+  "low_06": {
+    "id": "C2015-p05-2",
+    "page": 5,
+    "panel": 2,
+    "lab": "Lille",
+    "species": "E",
+    "upper": {
+      "j": 2,
+      "k": 0,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 3,
+      "k": -1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 12178.6002,
+    "file": "data/processed/profiles/C2015-p05-2.csv",
+    "tick_pdf_x_pt": [
+      187.64600000000002,
+      298.05400000000003,
+      408.461
+    ],
+    "tick_frequencies_mhz": [
+      12178.55,
+      12178.599999999999,
+      12178.65
+    ],
+    "linear_calibration": [
+      0.00045286778526452644,
+      12178.465021096086
+    ],
+    "max_tick_residual_khz": 0.00015095611161086708,
+    "line_halfwidth_khz": 0.21666734597524845,
+    "sample_count": 555,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=2, k=0, parity='')",
+    "l": "State(species='E', vt=0, j=3, k=-1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.001320064479136551,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 64.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      64.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p05-2",
+      "D_full_anchor_khz": 66.31252406077692,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 1.6928197801462375,
+      "source_stroke_halfwidth_khz": 0.21666734597524845,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "Newly flagged narrow isolated Lille 12.1786-GHz intergroup peak (about 0.44-kHz FWHM versus 9-kHz main features), absent as a corresponding replica; instrumental-artifact hypothesis.",
+    "artifact_intervals_khz": [
+      [
+        -10.994,
+        -8.994
+      ]
+    ]
+  },
+  "low_07": {
+    "id": "C2015-p06-1",
+    "page": 6,
+    "panel": 1,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 2,
+      "k": 0,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 3,
+      "k": -1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 12178.6002,
+    "file": "data/processed/profiles/C2015-p06-1.csv",
+    "tick_pdf_x_pt": [
+      187.64600000000002,
+      298.05400000000003,
+      408.461
+    ],
+    "tick_frequencies_mhz": [
+      12178.55,
+      12178.599999999999,
+      12178.65
+    ],
+    "linear_calibration": [
+      0.00045286778526452644,
+      12178.465021096086
+    ],
+    "max_tick_residual_khz": 0.00015095611161086708,
+    "line_halfwidth_khz": 0.21666734597524845,
+    "sample_count": 107,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=2, k=0, parity='')",
+    "l": "State(species='E', vt=0, j=3, k=-1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0033001611978448952,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 47.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      47.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p06-1",
+      "D_full_anchor_khz": 46.94042524351971,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 0.33285782410530373,
+      "source_stroke_halfwidth_khz": 0.21666734597524845,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_08": {
+    "id": "C2015-p06-2",
+    "page": 6,
+    "panel": 2,
+    "lab": "Heuvel-Dymanus",
+    "species": "A",
+    "upper": {
+      "j": 6,
+      "k": 1,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 6,
+      "k": 1,
+      "pi_parity": 1
+    },
+    "reference_mhz": 17513.3413,
+    "file": "data/processed/profiles/C2015-p06-2.csv",
+    "tick_pdf_x_pt": [
+      166.74400000000003,
+      325.571
+    ],
+    "tick_frequencies_mhz": [
+      17513.3,
+      17513.35
+    ],
+    "linear_calibration": [
+      0.00031480793569181836,
+      17513.247507665565
+    ],
+    "max_tick_residual_khz": 7.275957614183426e-09,
+    "line_halfwidth_khz": 0.1500000000063733,
+    "sample_count": 208,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=6, k=1, parity='-')",
+    "l": "State(species='A', vt=0, j=6, k=1, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0,
+    "artifact_mask": null,
+    "doppler_replicas": 1,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 0.0,
+    "initial_nuisance": [
+      0.0,
+      0.6931471805599453,
+      -0.35667494393873245,
+      0.0
+    ],
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_09": {
+    "id": "C2015-p07-1",
+    "page": 7,
+    "panel": 1,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 3,
+      "k": 0,
+      "pi_parity": 0
+    },
+    "reference_mhz": 19967.3914,
+    "file": "data/processed/profiles/C2015-p07-1.csv",
+    "tick_pdf_x_pt": [
+      165.74400000000003,
+      231.13000000000002,
+      296.54699999999997,
+      361.933,
+      427.35
+    ],
+    "tick_frequencies_mhz": [
+      19967.3,
+      19967.35,
+      19967.399999999998,
+      19967.45,
+      19967.5
+    ],
+    "linear_calibration": [
+      0.0007645084541619522,
+      19967.173292051397
+    ],
+    "max_tick_residual_khz": 0.007110262231435627,
+    "line_halfwidth_khz": 0.349988530027298,
+    "sample_count": 172,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=2, k=1, parity='')",
+    "l": "State(species='E', vt=0, j=3, k=0, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.019745363399799185,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 81.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      81.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p07-1",
+      "D_full_anchor_khz": 79.5050566921418,
+      "published_component_uncertainty_khz": 4.0,
+      "pair_D_range_khz": 0.0,
+      "source_stroke_halfwidth_khz": 0.349988530027298,
+      "nominal_D_half_range_khz": 8.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_10": {
+    "id": "C2015-p07-2",
+    "page": 7,
+    "panel": 2,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 3,
+      "k": 2,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 3,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 24928.6994,
+    "file": "data/processed/profiles/C2015-p07-2.csv",
+    "tick_pdf_x_pt": [
+      166.866,
+      231.99699999999999,
+      297.158,
+      362.289,
+      427.45000000000005
+    ],
+    "tick_frequencies_mhz": [
+      24928.6,
+      24928.649999999998,
+      24928.699999999997,
+      24928.75,
+      24928.8
+    ],
+    "linear_calibration": [
+      0.0007675068259110346,
+      24928.471933811663
+    ],
+    "max_tick_residual_khz": 0.006907885108375922,
+    "line_halfwidth_khz": 0.3499888689166262,
+    "sample_count": 171,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=3, k=2, parity='')",
+    "l": "State(species='E', vt=0, j=3, k=1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.006578611974101916,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 110.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      110.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p07-2",
+      "D_full_anchor_khz": 112.84192357561551,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 1.8926718330476433,
+      "source_stroke_halfwidth_khz": 0.3499888689166262,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_11": {
+    "id": "C2015-p08-1",
+    "page": 8,
+    "panel": 1,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 4,
+      "k": 2,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 4,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 24933.4693,
+    "file": "data/processed/profiles/C2015-p08-1.csv",
+    "tick_pdf_x_pt": [
+      220.26300000000003,
+      288.597,
+      356.932,
+      425.297
+    ],
+    "tick_frequencies_mhz": [
+      24933.4,
+      24933.45,
+      24933.5,
+      24933.550000000003
+    ],
+    "linear_calibration": [
+      0.0007315963197383074,
+      24933.23886100979
+    ],
+    "max_tick_residual_khz": 0.008852610335452482,
+    "line_halfwidth_khz": 0.35002055363767737,
+    "sample_count": 172,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=4, k=2, parity='')",
+    "l": "State(species='E', vt=0, j=4, k=1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.014500083263025414,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 110.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      110.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p08-1",
+      "D_full_anchor_khz": 110.91183106327662,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 0.397256801079493,
+      "source_stroke_halfwidth_khz": 0.35002055363767737,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_12": {
+    "id": "C2015-p08-2",
+    "page": 8,
+    "panel": 2,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 2,
+      "k": 2,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 2,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 24934.3801,
+    "file": "data/processed/profiles/C2015-p08-2.csv",
+    "tick_pdf_x_pt": [
+      215.50400000000002,
+      277.895,
+      340.28700000000003,
+      402.711
+    ],
+    "tick_frequencies_mhz": [
+      24934.3,
+      24934.35,
+      24934.399999999998,
+      24934.45
+    ],
+    "linear_calibration": [
+      0.0008012653450734697,
+      24934.127329482784
+    ],
+    "max_tick_residual_khz": 0.010336734703741968,
+    "line_halfwidth_khz": 0.3833525841048804,
+    "sample_count": 188,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=2, k=2, parity='')",
+    "l": "State(species='E', vt=0, j=2, k=1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.007920386874824006,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 110.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      110.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p08-2",
+      "D_full_anchor_khz": 110.91515539374086,
+      "published_component_uncertainty_khz": 4.0,
+      "pair_D_range_khz": 0.0,
+      "source_stroke_halfwidth_khz": 0.3833525841048804,
+      "nominal_D_half_range_khz": 8.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_13": {
+    "id": "C2015-p09-1",
+    "page": 9,
+    "panel": 1,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 5,
+      "k": 2,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 5,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 24959.0781,
+    "file": "data/processed/profiles/C2015-p09-1.csv",
+    "tick_pdf_x_pt": [
+      215.50400000000002,
+      277.895,
+      340.28700000000003,
+      402.711
+    ],
+    "tick_frequencies_mhz": [
+      24959.0,
+      24959.05,
+      24959.1,
+      24959.15
+    ],
+    "linear_calibration": [
+      0.0008012653450619889,
+      24958.827329482796
+    ],
+    "max_tick_residual_khz": 0.010336727427784353,
+    "line_halfwidth_khz": 0.3833525840993876,
+    "sample_count": 188,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=5, k=2, parity='')",
+    "l": "State(species='E', vt=0, j=5, k=1, parity='')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.030959637237266115,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 110.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      110.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p09-1",
+      "D_full_anchor_khz": 108.12474882732204,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 0.6658515012532007,
+      "source_stroke_halfwidth_khz": 0.3833525840993876,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_14": {
+    "id": "C2015-p09-2",
+    "page": 9,
+    "panel": 2,
+    "lab": "Hannover",
+    "species": "E",
+    "upper": {
+      "j": 6,
+      "k": 2,
+      "pi_parity": 0
+    },
+    "lower": {
+      "j": 6,
+      "k": 1,
+      "pi_parity": 0
+    },
+    "reference_mhz": 25018.1215,
+    "file": "data/processed/profiles/C2015-p09-2.csv",
+    "tick_pdf_x_pt": [
+      167.90800000000002,
+      229.793,
+      291.709,
+      353.593,
+      415.51000000000005
+    ],
+    "tick_frequencies_mhz": [
+      25018.0,
+      25018.05,
+      25018.1,
+      25018.15,
+      25018.2
+    ],
+    "linear_calibration": [
+      0.0008077492164326489,
+      25017.864377453414
+    ],
+    "max_tick_residual_khz": 0.008077902748482302,
+    "line_halfwidth_khz": 0.38331294803742316,
+    "sample_count": 188,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='E', vt=0, j=6, k=2, parity='')",
+    "l": "State(species='E', vt=0, j=6, k=1, parity='')",
+    "signal_sigma": 0.07577690428637376,
+    "empirical_edge_noise": 0.07577690428637376,
+    "artifact_mask": null,
+    "doppler_replicas": 2,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 110.0,
+    "initial_nuisance": [
+      0.0,
+      1.0986122886681098,
+      -0.35667494393873245,
+      110.0
+    ],
+    "doppler_anchor": {
+      "profile": "C2015-p09-2",
+      "D_full_anchor_khz": 108.497682500456,
+      "published_component_uncertainty_khz": 2.0,
+      "pair_D_range_khz": 1.279474759940058,
+      "source_stroke_halfwidth_khz": 0.38331294803742316,
+      "nominal_D_half_range_khz": 4.0
+    },
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  },
+  "low_15": {
+    "id": "C2015-p10-1",
+    "page": 10,
+    "panel": 1,
+    "lab": "Heuvel-Dymanus",
+    "species": "A",
+    "upper": {
+      "j": 1,
+      "k": 0,
+      "pi_parity": -1
+    },
+    "lower": {
+      "j": 0,
+      "k": 0,
+      "pi_parity": 1
+    },
+    "reference_mhz": 48372.4555,
+    "file": "data/processed/profiles/C2015-p10-1.csv",
+    "tick_pdf_x_pt": [
+      261.25100000000003,
+      420.72900000000004
+    ],
+    "tick_frequencies_mhz": [
+      48372.45,
+      48372.5
+    ],
+    "linear_calibration": [
+      0.0003135228684085533,
+      48372.368091837074
+    ],
+    "max_tick_residual_khz": 2.9103830456733704e-08,
+    "line_halfwidth_khz": 0.1500000000241778,
+    "sample_count": 315,
+    "included_primary": true,
+    "note": "Published observed blue polyline, not instrument raw data. Amplitude normalized; two Doppler replicas share hyperfine parameters. Central instrument artefacts require masks.",
+    "u": "State(species='A', vt=0, j=1, k=0, parity='+')",
+    "l": "State(species='A', vt=0, j=0, k=0, parity='+')",
+    "signal_sigma": 0.04,
+    "empirical_edge_noise": 0.0006600322395671034,
+    "artifact_mask": null,
+    "doppler_replicas": 1,
+    "doppler_convention": "full replica-to-replica separation in kHz; shifts are +/- separation/2",
+    "doppler_initial": 0.0,
+    "initial_nuisance": [
+      0.0,
+      0.6931471805599453,
+      -0.35667494393873245,
+      0.0
+    ],
+    "artifact_evidence": "No artifact window declared",
+    "artifact_intervals_khz": []
+  }
+}

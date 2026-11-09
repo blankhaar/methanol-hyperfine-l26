@@ -1,0 +1,560 @@
+\section{Hyperfine-resolved Zeeman coefficients}\label{sec:sm-zeeman}\label{sec:supp-zeeman}
+\subsection{Transition set and magnetic inputs}
+Tables~\ref{tab:sm-zeeman-6p18}--\ref{tab:sm-zeeman-107} give
+coefficients for 27 methanol maser transitions, including those studied
+by Lankhaar et al.\cite{Lankhaar2018Zeeman} and
+Dall'Olio et al.\cite{DallOlio2020}
+The set includes both $A$ and $E$ symmetry and three $v_t=1$ transitions.
+Each table lists the eight
+components with the largest Einstein $A$ coefficients.
+The electronic catalogue in \path{supplement/zeeman/} contains all 750 nonzero hyperfine components. The calculation code and versioned inputs are publicly available in the repository \href{https://github.com/blankhaar/methanol-hyperfine-l26}{methanol-hyperfine-l26}.
+
+The magnetic inputs are $G_{aa}^{(0)}=0.305$, $G_{bb}^{(0)}=-0.060$, and $G_{cc}^{(0)}=-0.038$ from Takagi et al., with their effective axial input $-f b'_a=g_x=0.425$, $f=5.23461381$, $b'_b=b'_c=0$, and $g_p=5.5856946893$.\cite{Takagi2021} Unconstrained off-diagonal and $n=3,6$ rotational terms retain the calculated values of Lankhaar et al.\cite{Lankhaar2018Zeeman} This prescription uses the adopted principal-axis/RAM alignment approximation and Takagi's assumed absolute sign; it does not propagate a calibrated magnetic uncertainty.
+
+The dimensionless level factors obey $\Delta E/h=-(\mu_N/h)g_FM_FB$, with $g_1=g_u$ and $g_2=g_l$. The transition coefficient $z$ is the full signed $q=+1$ minus $q=-1$ strength-weighted centroid separation per unit field, where $q=M_u-M_l$. An observational RCP/LCP sign requires a specified polarization convention.
+
+Within each rotational level, subscripts $a,b,c,d$ distinguish
+hyperfine eigenstates of the same $F$ in increasing energy order.
+The offsets $\Delta\nu$ are measured from the complete
+statistical-strength centroid.
+Nominal frequencies entering the $\nu^3$ factor in $A$ follow
+M\"uller et al.,\cite{Mueller2004} Breen et al.,\cite{Breen2019ZeemanSM}
+and MacLeod et al.\cite{MacLeod2019ZeemanSM}
+The 38.293-GHz line is assigned $A^-$ and the 38.453-GHz line $A^+$,
+consistent with the level energies and Breen et al.; the two labels
+in M\"uller et al. are reversed.
+% Per-transition nominal frequencies follow the literature sources listed above.
+These literature values supply the nominal frequency in the Einstein-$A$ calculation; the electronic transition summary retains their individual provenance. The hyperfine offsets are not absolute corrections to catalogue rest frequencies.
+Dipole matrix elements use the torsion--rotation wavefunctions and
+$\mu_a=0.899$~D, $\mu_b=-1.44$~D, and $\mu_c=0$.
+We define the dimensionless reduced hyperfine strength by
+\begin{equation}
+s_{ul}=\frac{|\langle uF_u\Vert\mu^{(1)}\Vert lF_l\rangle|^2}{|d_{\rm tr}|^2},
+\end{equation}
+where $d_{\rm tr}$ is the reduced torsion--rotation dipole matrix element before coupling to nuclear spin. The hyperfine eigenstates include the spin mixing in the L26 Hamiltonian. Our Wigner--Eckart convention is
+\begin{equation}
+\begin{aligned}
+\langle uF_uM_u|\mu^{(1)}_q|lF_lM_l\rangle
+={}&(-1)^{F_u-M_u}
+\begin{pmatrix}F_u&1&F_l\\-M_u&q&M_l\end{pmatrix}\\
+&\times\langle uF_u\Vert\mu^{(1)}\Vert lF_l\rangle .
+\end{aligned}
+\end{equation}
+The Einstein coefficient is then
+\begin{equation}
+A_{ul}=A_{\rm rot}\frac{2J_u+1}{2F_u+1}s_{ul},
+\qquad \sum_l A_{ul}=A_{\rm rot}.
+\end{equation}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$17_{-2} E\rightarrow 18_{-3} E$, $v_t=1$; $\nu_0=6181.1280$ MHz. Eight strongest L26 components, containing 99.731\% of the statistical line strength.}
+\label{tab:sm-zeeman-6p18}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$18_{a}$ & $19_{a}$ & +8.086 & -0.2707 & +0.26468 & +0.25597 & -9.03280\\
+$18_{b}$ & $19_{b}$ & +8.363 & -0.2707 & +0.26468 & +0.25597 & -9.03280\\
+$17_{a}$ & $18_{a}$ & +6.930 & -0.0339 & -0.03793 & -0.03160 & -9.03317\\
+$17_{b}$ & $18_{b}$ & +7.221 & -0.0330 & -0.03786 & -0.03160 & -9.03333\\
+$17_{c}$ & $18_{c}$ & -7.708 & -0.0566 & -0.04037 & -0.03221 & -9.03322\\
+$17_{d}$ & $18_{d}$ & -7.423 & -0.0558 & -0.04030 & -0.03221 & -9.03306\\
+$16_{a}$ & $17_{a}$ & -8.655 & +0.2076 & -0.37973 & -0.35267 & -9.03153\\
+$16_{b}$ & $17_{b}$ & -8.351 & +0.2076 & -0.37973 & -0.35267 & -9.03153\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$5_{1} A^{+}\rightarrow 6_{0} A^{+}$, $v_t=0$; $\nu_0=6668.5192$ MHz. Eight strongest L26 components, containing 95.418\% of the statistical line strength.}
+\label{tab:sm-zeeman-6p7}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$7$ & $8$ & -3.223 & -0.9205 & +1.57514 & +1.35929 & -8.81595\\
+$6_{a}$ & $7_{a}$ & +3.207 & -0.5680 & +0.96426 & +0.81634 & -8.81786\\
+$6_{b}$ & $7_{b}$ & -3.404 & -0.3571 & +1.11654 & +0.89596 & -8.82819\\
+$5_{a}$ & $6_{a}$ & -2.274 & +0.0421 & +0.35451 & +0.24534 & -8.82638\\
+$5_{b}$ & $6_{b}$ & +2.529 & +0.2542 & +0.33596 & +0.19234 & -8.82328\\
+$4_{a}$ & $5_{a}$ & +0.245 & +0.9616 & -1.00075 & -0.87743 & -8.80651\\
+$4_{b}$ & $5_{b}$ & +3.070 & +1.0508 & -0.74184 & -0.72431 & -8.81954\\
+$3$ & $4$ & +5.275 & +2.2933 & -2.83647 & -2.30359 & -8.79776\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$12_{4} A^{-}\rightarrow 13_{3} A^{-}$, $v_t=0$; $\nu_0=7682.2320$ MHz. Eight strongest L26 components, containing 98.855\% of the statistical line strength.}
+\label{tab:sm-zeeman-7p68}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$14$ & $15$ & -11.153 & -0.3183 & +0.78811 & +0.71569 & -9.15591\\
+$13_{a}$ & $14_{b}$ & -8.025 & -0.0998 & +0.45633 & +0.40422 & -9.15950\\
+$13_{b}$ & $14_{a}$ & +0.193 & -0.0090 & +0.44329 & +0.38497 & -9.15812\\
+$12_{a}$ & $13_{a}$ & -2.321 & +0.2125 & +0.05839 & +0.03014 & -9.15805\\
+$12_{b}$ & $13_{b}$ & +2.346 & +0.2879 & +0.06214 & +0.02629 & -9.15803\\
+$11_{a}$ & $12_{a}$ & +5.176 & +0.5900 & -0.45741 & -0.44658 & -9.15321\\
+$11_{b}$ & $12_{b}$ & +7.011 & +0.6238 & -0.41363 & -0.41295 & -9.15597\\
+$10$ & $11$ & +13.691 & +1.0285 & -1.02916 & -0.97008 & -9.15145\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$12_{4} A^{+}\rightarrow 13_{3} A^{+}$, $v_t=0$; $\nu_0=7830.8640$ MHz. Eight strongest L26 components, containing 98.860\% of the statistical line strength.}
+\label{tab:sm-zeeman-7p83}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$14$ & $15$ & -11.098 & -0.3190 & +0.78810 & +0.71575 & -9.13106\\
+$13_{a}$ & $14_{b}$ & -7.980 & -0.0999 & +0.45633 & +0.40422 & -9.13459\\
+$13_{b}$ & $14_{a}$ & +0.162 & -0.0103 & +0.44329 & +0.38509 & -9.13322\\
+$12_{a}$ & $13_{a}$ & -2.285 & +0.2120 & +0.05839 & +0.03019 & -9.13320\\
+$12_{b}$ & $13_{b}$ & +2.305 & +0.2870 & +0.06214 & +0.02637 & -9.13317\\
+$11_{a}$ & $12_{a}$ & +5.204 & +0.5894 & -0.45741 & -0.44652 & -9.12837\\
+$11_{b}$ & $12_{b}$ & +6.959 & +0.6230 & -0.41364 & -0.41287 & -9.13113\\
+$10$ & $11$ & +13.630 & +1.0278 & -1.02916 & -0.97000 & -9.12660\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$9_{-1} E\rightarrow 8_{-2} E$, $v_t=0$; $\nu_0=9936.2020$ MHz. Eight strongest L26 components, containing 98.282\% of the statistical line strength.}
+\label{tab:sm-zeeman-9p91}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$10_{a}$ & $9_{b}$ & -4.343 & -0.2504 & +0.51772 & +0.59627 & -8.77771\\
+$10_{b}$ & $9_{a}$ & +11.370 & -0.2504 & +0.51772 & +0.59627 & -8.77771\\
+$9_{a}$ & $8_{b}$ & -8.008 & +0.1677 & -0.01233 & +0.01209 & -8.78070\\
+$9_{b}$ & $8_{d}$ & -10.027 & +0.0803 & -0.00163 & +0.01114 & -8.80039\\
+$9_{c}$ & $8_{a}$ & +9.521 & +0.2759 & -0.02659 & +0.01201 & -8.79930\\
+$9_{d}$ & $8_{c}$ & +6.536 & +0.1885 & -0.01589 & +0.01105 & -8.78051\\
+$8_{a}$ & $7_{b}$ & -12.925 & +0.7137 & -0.67107 & -0.72905 & -8.78376\\
+$8_{b}$ & $7_{a}$ & +5.447 & +0.7137 & -0.67107 & -0.72905 & -8.78376\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$2_{0} E\rightarrow 3_{-1} E$, $v_t=0$; $\nu_0=12178.5970$ MHz. Eight strongest L26 components, containing 91.729\% of the statistical line strength.}
+\label{tab:sm-zeeman-12p2}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$3_{a}$ & $4_{a}$ & +5.524 & -1.0769 & +1.82875 & +1.37981 & -8.11549\\
+$3_{b}$ & $4_{b}$ & +1.844 & -1.0769 & +1.82875 & +1.37981 & -8.11549\\
+$2_{a}$ & $3_{a}$ & +0.844 & +0.4213 & +0.71559 & +0.21961 & -8.15939\\
+$2_{b}$ & $3_{c}$ & -3.081 & -0.1415 & +0.40272 & +0.24778 & -8.10927\\
+$2_{c}$ & $3_{d}$ & -3.472 & -0.4309 & +0.12419 & +0.20341 & -8.14050\\
+$2_{d}$ & $3_{b}$ & +2.846 & +0.1320 & +0.43706 & +0.17525 & -8.10620\\
+$1_{a}$ & $2_{b}$ & -8.361 & +2.1395 & -2.86744 & -1.89143 & -8.07851\\
+$1_{b}$ & $2_{a}$ & +1.952 & +2.1395 & -2.86744 & -1.89143 & -8.07851\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$17_{6} E\rightarrow 18_{5} E$, $v_t=0$; $\nu_0=20346.8460$ MHz. Eight strongest L26 components, containing 99.829\% of the statistical line strength.}
+\label{tab:sm-zeeman-20p3}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$18_{a}$ & $19_{b}$ & -7.290 & +0.0321 & +0.30318 & +0.27076 & -7.92053\\
+$18_{b}$ & $19_{a}$ & -7.290 & +0.0321 & +0.30318 & +0.27076 & -7.92053\\
+$17_{a}$ & $18_{b}$ & -0.565 & +0.2525 & +0.00128 & -0.01629 & -7.92006\\
+$17_{b}$ & $18_{a}$ & -0.565 & +0.2525 & +0.00128 & -0.01629 & -7.92006\\
+$17_{c}$ & $18_{d}$ & +1.478 & +0.2611 & +0.00189 & -0.01634 & -7.92008\\
+$17_{d}$ & $18_{c}$ & +1.478 & +0.2611 & +0.00189 & -0.01634 & -7.92008\\
+$16_{a}$ & $17_{b}$ & +7.460 & +0.5079 & -0.33657 & -0.33619 & -7.91926\\
+$16_{b}$ & $17_{a}$ & +7.460 & +0.5079 & -0.33657 & -0.33619 & -7.91926\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$10_{1} A^{+}\rightarrow 11_{2} A^{+}$, $v_t=1$; $\nu_0=20970.6510$ MHz. Eight strongest L26 components, containing 90.302\% of the statistical line strength.}
+\label{tab:sm-zeeman-20p9}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$12$ & $13$ & +9.006 & -0.7118 & +0.88897 & +0.82867 & -7.47829\\
+$11_{a}$ & $12_{b}$ & -8.500 & -0.1920 & +0.48795 & +0.43226 & -7.62518\\
+$11_{b}$ & $12_{a}$ & +9.375 & -0.6253 & +0.52143 & +0.50431 & -7.63169\\
+$10_{a}$ & $11_{a}$ & +7.594 & +0.0655 & +0.07054 & +0.05163 & -7.49036\\
+$10_{b}$ & $11_{b}$ & -7.342 & -0.1665 & +0.03365 & +0.04624 & -7.48879\\
+$9_{a}$ & $10_{a}$ & +5.867 & +0.4076 & -0.57603 & -0.51992 & -7.47512\\
+$9_{b}$ & $10_{b}$ & -8.428 & +0.3488 & -0.52669 & -0.47253 & -7.47854\\
+$8$ & $9$ & -10.204 & +0.9022 & -1.30284 & -1.16063 & -7.47221\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$3_{2} E\rightarrow 3_{1} E$, $v_t=0$; $\nu_0=24928.7070$ MHz. Eight strongest L26 components, containing 81.362\% of the statistical line strength.}
+\label{tab:sm-zeeman-24p929}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$4_{a}$ & $4_{a}$ & -7.649 & -2.1491 & +1.44132 & +1.37812 & -7.16890\\
+$4_{b}$ & $4_{b}$ & -8.191 & -2.1491 & +1.44132 & +1.37812 & -7.16890\\
+$3_{a}$ & $3_{c}$ & -0.398 & -0.0921 & +0.07454 & +0.04630 & -7.16721\\
+$3_{b}$ & $3_{b}$ & +0.294 & -0.1269 & +0.07420 & +0.09228 & -7.36582\\
+$3_{c}$ & $3_{a}$ & +5.859 & -0.6693 & +0.50566 & +0.37240 & -7.23202\\
+$3_{d}$ & $3_{d}$ & +3.169 & -0.6345 & +0.50600 & +0.32642 & -7.45886\\
+$2_{a}$ & $2_{a}$ & +8.921 & +2.8025 & -1.78209 & -1.89443 & -7.19202\\
+$2_{b}$ & $2_{b}$ & +7.099 & +2.8025 & -1.78209 & -1.89443 & -7.19202\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$4_{2} E\rightarrow 4_{1} E$, $v_t=0$; $\nu_0=24933.4680$ MHz. Eight strongest L26 components, containing 80.663\% of the statistical line strength.}
+\label{tab:sm-zeeman-24p933}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$5_{a}$ & $5_{a}$ & -5.934 & -1.6917 & +1.12959 & +1.08977 & -7.12157\\
+$5_{b}$ & $5_{b}$ & -6.494 & -1.6917 & +1.12959 & +1.08977 & -7.12157\\
+$4_{a}$ & $4_{a}$ & +2.527 & -0.1586 & +0.04001 & +0.16803 & -7.36021\\
+$4_{b}$ & $4_{b}$ & +1.524 & -0.0999 & +0.03915 & +0.09187 & -7.19966\\
+$4_{c}$ & $4_{c}$ & +1.128 & -0.2395 & +0.26962 & +0.04454 & -7.37517\\
+$4_{d}$ & $4_{d}$ & +0.131 & -0.2982 & +0.27048 & +0.12070 & -7.22502\\
+$3_{a}$ & $3_{a}$ & +7.196 & +2.1466 & -1.37697 & -1.43919 & -7.13187\\
+$3_{b}$ & $3_{b}$ & +5.505 & +2.1466 & -1.37697 & -1.43919 & -7.13187\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$2_{2} E\rightarrow 2_{1} E$, $v_t=0$; $\nu_0=24934.3820$ MHz. Eight strongest L26 components, containing 79.796\% of the statistical line strength.}
+\label{tab:sm-zeeman-24p934}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$3_{a}$ & $3_{a}$ & -10.600 & -2.9252 & +1.97555 & +1.86197 & -7.29118\\
+$3_{b}$ & $3_{b}$ & -11.090 & -2.9252 & +1.97555 & +1.86197 & -7.29118\\
+$2_{a}$ & $2_{a}$ & +0.025 & -0.5120 & +0.23214 & +0.43954 & -7.38017\\
+$2_{b}$ & $2_{b}$ & -0.554 & -0.2428 & +0.23195 & +0.08658 & -7.25254\\
+$2_{c}$ & $2_{c}$ & +9.949 & -1.1457 & +1.01136 & +0.49162 & -7.47380\\
+$2_{d}$ & $2_{d}$ & +8.530 & -1.4148 & +1.01155 & +0.84457 & -7.38557\\
+$1_{a}$ & $1_{a}$ & +11.439 & +4.0627 & -2.53712 & -2.79268 & -7.36497\\
+$1_{b}$ & $1_{b}$ & +9.253 & +4.0627 & -2.53712 & -2.79268 & -7.36497\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$5_{2} E\rightarrow 5_{1} E$, $v_t=0$; $\nu_0=24959.0789$ MHz. Eight strongest L26 components, containing 94.587\% of the statistical line strength.}
+\label{tab:sm-zeeman-24p959}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$6_{a}$ & $6_{a}$ & -4.808 & -1.3902 & +0.92543 & +0.89834 & -7.09483\\
+$6_{b}$ & $6_{b}$ & -5.370 & -1.3902 & +0.92543 & +0.89834 & -7.09483\\
+$5_{a}$ & $5_{a}$ & +2.292 & -0.1170 & +0.06687 & +0.08667 & -7.13299\\
+$5_{b}$ & $5_{b}$ & +1.357 & -0.0889 & +0.06469 & +0.05197 & -7.09998\\
+$5_{c}$ & $5_{c}$ & +0.460 & -0.0982 & +0.10629 & +0.02257 & -7.13091\\
+$5_{d}$ & $5_{d}$ & -0.610 & -0.1263 & +0.10847 & +0.05727 & -7.10390\\
+$4_{a}$ & $4_{a}$ & +6.031 & +1.7450 & -1.12509 & -1.16409 & -7.10032\\
+$4_{b}$ & $4_{b}$ & +4.392 & +1.7450 & -1.12509 & -1.16409 & -7.10032\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$6_{2} E\rightarrow 6_{1} E$, $v_t=0$; $\nu_0=25018.1225$ MHz. Eight strongest L26 components, containing 97.042\% of the statistical line strength.}
+\label{tab:sm-zeeman-25p018}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$7_{a}$ & $7_{a}$ & -4.003 & -1.1765 & +0.78137 & +0.76201 & -7.07491\\
+$7_{b}$ & $7_{b}$ & -4.559 & -1.1765 & +0.78137 & +0.76201 & -7.07491\\
+$6_{a}$ & $6_{a}$ & +1.898 & -0.0686 & +0.04585 & +0.04415 & -7.08837\\
+$6_{b}$ & $6_{b}$ & +1.025 & -0.0526 & +0.04432 & +0.02466 & -7.07626\\
+$6_{c}$ & $6_{c}$ & +0.340 & -0.0418 & +0.04890 & +0.00596 & -7.08556\\
+$6_{d}$ & $6_{d}$ & -0.801 & -0.0578 & +0.05043 & +0.02545 & -7.07680\\
+$5_{a}$ & $5_{a}$ & +5.195 & +1.4738 & -0.95352 & -0.97988 & -7.07819\\
+$5_{b}$ & $5_{b}$ & +3.572 & +1.4738 & -0.95352 & -0.97988 & -7.07819\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$7_{2} E\rightarrow 7_{1} E$, $v_t=0$; $\nu_0=25124.8719$ MHz. Eight strongest L26 components, containing 97.955\% of the statistical line strength.}
+\label{tab:sm-zeeman-25p125}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$8_{a}$ & $8_{a}$ & -3.391 & -1.0170 & +0.67429 & +0.65996 & -7.05653\\
+$8_{b}$ & $8_{b}$ & -3.935 & -1.0170 & +0.67429 & +0.65996 & -7.05653\\
+$7_{a}$ & $7_{a}$ & +1.609 & -0.0333 & +0.02472 & +0.01895 & -7.06342\\
+$7_{b}$ & $7_{b}$ & +0.789 & -0.0231 & +0.02361 & +0.00665 & -7.05758\\
+$7_{c}$ & $7_{c}$ & +0.311 & -0.0114 & +0.02083 & -0.00584 & -7.06116\\
+$7_{d}$ & $7_{d}$ & -0.900 & -0.0216 & +0.02194 & +0.00645 & -7.05743\\
+$6_{a}$ & $6_{a}$ & +4.563 & +1.2784 & -0.82921 & -0.84791 & -7.05865\\
+$6_{b}$ & $6_{b}$ & +2.930 & +1.2784 & -0.82921 & -0.84791 & -7.05865\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$8_{2} E\rightarrow 8_{1} E$, $v_t=0$; $\nu_0=25294.4165$ MHz. Eight strongest L26 components, containing 98.457\% of the statistical line strength.}
+\label{tab:sm-zeeman-25p294}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$9_{a}$ & $9_{a}$ & -2.901 & -0.8936 & +0.59156 & +0.58072 & -7.03710\\
+$9_{b}$ & $9_{b}$ & -3.430 & -0.8936 & +0.59156 & +0.58072 & -7.03710\\
+$8_{a}$ & $8_{a}$ & +1.409 & -0.0088 & +0.00876 & +0.00275 & -7.04132\\
+$8_{b}$ & $8_{b}$ & +0.636 & -0.0018 & +0.00792 & -0.00562 & -7.03804\\
+$8_{c}$ & $8_{c}$ & +0.306 & +0.0080 & +0.00386 & -0.01435 & -7.03960\\
+$8_{d}$ & $8_{d}$ & -0.979 & +0.0010 & +0.00469 & -0.00598 & -7.03777\\
+$7_{a}$ & $7_{a}$ & +4.064 & +1.1310 & -0.73501 & -0.74873 & -7.03854\\
+$7_{b}$ & $7_{b}$ & +2.400 & +1.1310 & -0.73501 & -0.74873 & -7.03854\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$9_{2} E\rightarrow 9_{1} E$, $v_t=0$; $\nu_0=25541.3979$ MHz. Eight strongest L26 components, containing 98.781\% of the statistical line strength.}
+\label{tab:sm-zeeman-25p541}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$10_{a}$ & $10_{a}$ & -2.495 & -0.7951 & +0.52572 & +0.51740 & -7.01521\\
+$10_{b}$ & $10_{b}$ & -3.001 & -0.7951 & +0.52572 & +0.51740 & -7.01521\\
+$9_{a}$ & $9_{a}$ & +1.269 & +0.0086 & -0.00301 & -0.00829 & -7.01808\\
+$9_{b}$ & $9_{b}$ & +0.544 & +0.0137 & -0.00364 & -0.01431 & -7.01606\\
+$9_{c}$ & $9_{c}$ & +0.312 & +0.0215 & -0.00751 & -0.02064 & -7.01676\\
+$9_{d}$ & $9_{d}$ & -1.061 & +0.0164 & -0.00688 & -0.01461 & -7.01578\\
+$8_{a}$ & $8_{a}$ & +3.660 & +1.0158 & -0.66118 & -0.67146 & -7.01624\\
+$8_{b}$ & $8_{b}$ & +1.940 & +1.0158 & -0.66118 & -0.67146 & -7.01624\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$4_{-1} E\rightarrow 3_{0} E$, $v_t=0$; $\nu_0=36169.2650$ MHz. Eight strongest L26 components, containing 95.660\% of the statistical line strength.}
+\label{tab:sm-zeeman-36}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$5_{a}$ & $4_{a}$ & -5.759 & -0.8440 & +1.09068 & +1.35921 & -6.81215\\
+$5_{b}$ & $4_{b}$ & -0.660 & -0.8440 & +1.09068 & +1.35921 & -6.81215\\
+$4_{a}$ & $3_{a}$ & -2.276 & +0.2386 & +0.11741 & +0.30004 & -6.85135\\
+$4_{b}$ & $3_{d}$ & -3.707 & -0.0210 & +0.12019 & +0.19111 & -6.82734\\
+$4_{c}$ & $3_{b}$ & +3.391 & +0.0493 & +0.09461 & +0.17926 & -6.82571\\
+$4_{d}$ & $3_{c}$ & +4.306 & -0.2103 & +0.09739 & +0.07033 & -6.84311\\
+$3_{a}$ & $2_{b}$ & -2.522 & +1.4444 & -1.43776 & -1.92806 & -6.84913\\
+$3_{b}$ & $2_{a}$ & +8.607 & +1.4444 & -1.43776 & -1.92806 & -6.84913\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$7_{-2} E\rightarrow 8_{-1} E$, $v_t=0$; $\nu_0=37703.7000$ MHz. Eight strongest L26 components, containing 98.310\% of the statistical line strength.}
+\label{tab:sm-zeeman-37p7}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$8_{a}$ & $9_{b}$ & -11.216 & -0.2816 & +0.68005 & +0.58099 & -7.00603\\
+$8_{b}$ & $9_{a}$ & +2.417 & -0.2816 & +0.68005 & +0.58099 & -7.00603\\
+$7_{a}$ & $8_{c}$ & -8.765 & +0.2928 & +0.02884 & -0.02025 & -7.01828\\
+$7_{b}$ & $8_{a}$ & +6.631 & +0.1745 & +0.02872 & -0.00311 & -7.00405\\
+$7_{c}$ & $8_{d}$ & -4.869 & +0.2136 & +0.02988 & -0.00790 & -7.00388\\
+$7_{d}$ & $8_{b}$ & +9.613 & +0.0953 & +0.02976 & +0.00925 & -7.01965\\
+$6_{a}$ & $7_{b}$ & -3.407 & +0.8057 & -0.82168 & -0.74839 & -6.99998\\
+$6_{b}$ & $7_{a}$ & +12.861 & +0.8057 & -0.82168 & -0.74839 & -6.99998\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$6_{2} A^{-}\rightarrow 5_{3} A^{-}$, $v_t=0$; $\nu_0=38293.2920$ MHz. Eight strongest L26 components, containing 78.819\% of the statistical line strength.}
+\label{tab:sm-zeeman-38p293}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$8$ & $7$ & +14.928 & -0.7890 & +1.38431 & +1.63195 & -7.32178\\
+$7_{a}$ & $6_{a}$ & +8.570 & -0.5394 & +0.82158 & +0.97751 & -7.36720\\
+$7_{b}$ & $6_{b}$ & +7.797 & -0.1382 & +0.94671 & +1.23206 & -7.38586\\
+$6_{a}$ & $5_{a}$ & -2.621 & -0.4128 & +0.24523 & +0.23500 & -7.60946\\
+$6_{b}$ & $5_{b}$ & +1.888 & +0.9359 & +0.25598 & +0.60394 & -7.63396\\
+$5_{a}$ & $4_{a}$ & -25.557 & +0.7115 & -0.85544 & -1.04982 & -7.41552\\
+$5_{b}$ & $4_{b}$ & -7.973 & +1.5129 & -0.67069 & -0.50985 & -7.44184\\
+$4$ & $3$ & -24.434 & +2.3881 & -2.25689 & -2.71717 & -7.35838\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$6_{2} A^{+}\rightarrow 5_{3} A^{+}$, $v_t=0$; $\nu_0=38452.6520$ MHz. Eight strongest L26 components, containing 78.773\% of the statistical line strength.}
+\label{tab:sm-zeeman-38p453}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$8$ & $7$ & +15.001 & -0.7881 & +1.38417 & +1.63195 & -7.31607\\
+$7_{a}$ & $6_{a}$ & +8.521 & -0.5400 & +0.82169 & +0.97751 & -7.36199\\
+$7_{b}$ & $6_{b}$ & +7.857 & -0.1356 & +0.94628 & +1.23206 & -7.38065\\
+$6_{a}$ & $5_{a}$ & -2.568 & -0.4126 & +0.24519 & +0.23500 & -7.60414\\
+$6_{b}$ & $5_{b}$ & +1.821 & +0.9376 & +0.25566 & +0.60394 & -7.62864\\
+$5_{a}$ & $4_{a}$ & -25.512 & +0.7120 & -0.85555 & -1.04981 & -7.40993\\
+$5_{b}$ & $4_{b}$ & -8.054 & +1.5144 & -0.67101 & -0.50985 & -7.43624\\
+$4$ & $3$ & -24.526 & +2.3891 & -2.25715 & -2.71716 & -7.35266\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$7_{0} A^{+}\rightarrow 6_{1} A^{+}$, $v_t=0$; $\nu_0=44069.4100$ MHz. Eight strongest L26 components, containing 96.741\% of the statistical line strength.}
+\label{tab:sm-zeeman-44}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$9$ & $8$ & +3.045 & -0.8063 & +1.20281 & +1.37130 & -6.38970\\
+$8_{a}$ & $7_{a}$ & -2.902 & -0.4503 & +0.70417 & +0.82096 & -6.39589\\
+$8_{b}$ & $7_{b}$ & +3.112 & -0.3300 & +0.76227 & +0.91821 & -6.40268\\
+$7_{a}$ & $6_{a}$ & +2.233 & +0.0726 & +0.17030 & +0.24294 & -6.41038\\
+$7_{b}$ & $6_{b}$ & -2.523 & +0.2171 & +0.13333 & +0.22523 & -6.40809\\
+$6_{a}$ & $5_{a}$ & +0.369 & +0.8317 & -0.77600 & -0.86819 & -6.40626\\
+$6_{b}$ & $5_{b}$ & -2.983 & +0.8886 & -0.66457 & -0.69726 & -6.41549\\
+$5$ & $4$ & -4.644 & +1.8616 & -1.92782 & -2.28117 & -6.41471\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$2_{0} E\rightarrow 3_{1} E$, $v_t=1$; $\nu_0=44955.8070$ MHz. Eight strongest L26 components, containing 89.546\% of the statistical line strength.}
+\label{tab:sm-zeeman-44p9}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$3_{a}$ & $4_{b}$ & +8.152 & -1.1565 & +1.82943 & +1.40110 & -6.46065\\
+$3_{b}$ & $4_{a}$ & +9.874 & -1.1565 & +1.82943 & +1.40110 & -6.46065\\
+$2_{a}$ & $3_{b}$ & +5.465 & +0.5153 & +0.75647 & +0.20922 & -6.55440\\
+$2_{b}$ & $3_{a}$ & +8.963 & -0.1782 & +0.34359 & +0.23023 & -6.44809\\
+$2_{c}$ & $3_{d}$ & -11.704 & -0.6879 & +0.08519 & +0.26821 & -6.53565\\
+$2_{d}$ & $3_{c}$ & -9.143 & +0.0056 & +0.49808 & +0.24720 & -6.45325\\
+$1_{a}$ & $2_{b}$ & -13.271 & +2.0542 & -2.86590 & -1.85358 & -6.42366\\
+$1_{b}$ & $2_{a}$ & -7.361 & +2.0542 & -2.86590 & -1.85358 & -6.42366\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$9_{3} E\rightarrow 10_{2} E$, $v_t=0$; $\nu_0=45843.5190$ MHz. Eight strongest L26 components, containing 99.369\% of the statistical line strength.}
+\label{tab:sm-zeeman-45p8}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$10_{a}$ & $11_{b}$ & -7.178 & -0.1369 & +0.54855 & +0.47209 & -6.80925\\
+$10_{b}$ & $11_{a}$ & -7.073 & -0.1369 & +0.54855 & +0.47209 & -6.80925\\
+$9_{a}$ & $10_{b}$ & -2.128 & +0.2320 & +0.01884 & -0.01226 & -6.80843\\
+$9_{b}$ & $10_{a}$ & -1.999 & +0.2280 & +0.01883 & -0.01179 & -6.80886\\
+$9_{c}$ & $10_{d}$ & +3.506 & +0.2716 & +0.02108 & -0.01515 & -6.80839\\
+$9_{d}$ & $10_{c}$ & +3.615 & +0.2756 & +0.02109 & -0.01562 & -6.80878\\
+$8_{a}$ & $9_{b}$ & +7.456 & +0.7269 & -0.63300 & -0.60177 & -6.80530\\
+$8_{b}$ & $9_{a}$ & +7.592 & +0.7269 & -0.63300 & -0.60177 & -6.80530\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$5_{-1} E\rightarrow 4_{0} E$, $v_t=0$; $\nu_0=84521.1690$ MHz. Eight strongest L26 components, containing 97.071\% of the statistical line strength.}
+\label{tab:sm-zeeman-85}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$6_{a}$ & $5_{a}$ & -6.154 & -0.6893 & +0.89887 & +1.07756 & -5.70556\\
+$6_{b}$ & $5_{b}$ & +0.384 & -0.6893 & +0.89887 & +1.07756 & -5.70556\\
+$5_{a}$ & $4_{a}$ & -3.403 & +0.1610 & +0.06226 & +0.14620 & -5.72798\\
+$5_{b}$ & $4_{d}$ & -4.503 & -0.0640 & +0.07670 & +0.09407 & -5.72038\\
+$5_{c}$ & $4_{b}$ & +3.928 & +0.1160 & +0.03379 & +0.08874 & -5.71816\\
+$5_{d}$ & $4_{c}$ & +5.114 & -0.1090 & +0.04823 & +0.03661 & -5.72376\\
+$4_{a}$ & $3_{b}$ & -3.329 & +1.0991 & -1.16333 & -1.45827 & -5.72755\\
+$4_{b}$ & $3_{a}$ & +8.938 & +1.0991 & -1.16333 & -1.45827 & -5.72755\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$8_{0} A^{+}\rightarrow 7_{1} A^{+}$, $v_t=0$; $\nu_0=95169.4630$ MHz. Eight strongest L26 components, containing 97.576\% of the statistical line strength.}
+\label{tab:sm-zeeman-95}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$10$ & $9$ & +2.969 & -0.7138 & +1.07765 & +1.21308 & -5.37041\\
+$9_{a}$ & $8_{a}$ & -2.749 & -0.3564 & +0.61799 & +0.71405 & -5.37457\\
+$9_{b}$ & $8_{b}$ & +2.962 & -0.3099 & +0.66074 & +0.77512 & -5.37906\\
+$8_{a}$ & $7_{a}$ & +2.246 & +0.0908 & +0.12051 & +0.17196 & -5.38602\\
+$8_{b}$ & $7_{b}$ & -2.557 & +0.1947 & +0.09383 & +0.15712 & -5.38432\\
+$7_{a}$ & $6_{a}$ & +0.802 & +0.7362 & -0.69554 & -0.76641 & -5.38275\\
+$7_{b}$ & $6_{b}$ & -2.969 & +0.7758 & -0.61069 & -0.64463 & -5.38968\\
+$6$ & $5$ & -4.283 & +1.5737 & -1.65938 & -1.91022 & -5.38860\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$11_{-1} E\rightarrow 10_{-2} E$, $v_t=0$; $\nu_0=104300.4140$ MHz. Eight strongest L26 components, containing 98.096\% of the statistical line strength.}
+\label{tab:sm-zeeman-104}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$12_{a}$ & $11_{b}$ & -8.111 & -0.2058 & +0.42306 & +0.47543 & -5.70779\\
+$12_{b}$ & $11_{a}$ & +12.130 & -0.2058 & +0.42306 & +0.47543 & -5.70779\\
+$11_{a}$ & $10_{b}$ & -10.999 & +0.1504 & -0.02388 & -0.00892 & -5.70968\\
+$11_{b}$ & $10_{d}$ & -11.240 & +0.0583 & -0.01537 & -0.01079 & -5.73680\\
+$11_{c}$ & $10_{a}$ & +11.167 & +0.2448 & -0.03451 & -0.00930 & -5.73600\\
+$11_{d}$ & $10_{c}$ & +9.879 & +0.1527 & -0.02600 & -0.01117 & -5.70951\\
+$10_{a}$ & $9_{b}$ & -13.592 & +0.5804 & -0.55827 & -0.59772 & -5.71175\\
+$10_{b}$ & $9_{a}$ & +9.410 & +0.5804 & -0.55827 & -0.59772 & -5.71175\\
+\hline\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small\renewcommand{\arraystretch}{1.1}\setlength{\tabcolsep}{5pt}
+\caption{$3_{1} A^{+}\rightarrow 4_{0} A^{+}$, $v_t=0$; $\nu_0=107013.8030$ MHz. Eight strongest L26 components, containing 86.979\% of the statistical line strength.}
+\label{tab:sm-zeeman-107}
+\begin{tabular}{ccrrrrr}
+\hline\hline
+$F_u$ & $F_l$ & $\Delta\nu$ (kHz) & $z$ (Hz/mG) & $g_1$ & $g_2$ & $\log_{10}(A/\mathrm{s}^{-1})$ \\
+\hline
+$5$ & $6$ & -4.177 & -1.2560 & +2.23081 & +1.82882 & -5.24902\\
+$4_{a}$ & $5_{a}$ & +4.759 & -1.0845 & +1.41840 & +1.18272 & -5.29081\\
+$4_{b}$ & $5_{b}$ & -4.746 & -0.2954 & +1.92492 & +1.34786 & -5.32542\\
+$3_{a}$ & $4_{a}$ & -2.518 & -0.1390 & +0.90093 & +0.57704 & -5.28055\\
+$3_{b}$ & $4_{b}$ & +2.610 & +0.4574 & +0.95132 & +0.45079 & -5.27544\\
+$2_{a}$ & $3_{a}$ & +3.210 & +1.4115 & -1.41356 & -1.16970 & -5.23564\\
+$2_{b}$ & $3_{b}$ & +3.722 & +1.7594 & -0.46184 & -0.80797 & -5.27126\\
+$1$ & $2$ & +8.630 & +4.4380 & -5.59727 & -3.80649 & -5.21243\\
+\hline\end{tabular}
+\end{table}

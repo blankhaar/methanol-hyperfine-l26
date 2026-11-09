@@ -1,0 +1,404 @@
+{
+  "scope": "Excluded source-document identities and exact bundled upstream software hashes for distribution-integrity checks",
+  "excluded_files": [
+    {
+      "path": "sources.json",
+      "sha256": "454df7bf62ae3ba2648a3050391877ca8e22162258d71c9eaed2ca7464a70868",
+      "bytes": 38565
+    },
+    {
+      "path": "README.md",
+      "sha256": "df17db0c0816695fd56a8e8f883c3d21eee33d68406ae24b4a6e663eb37473df",
+      "bytes": 1460
+    },
+    {
+      "path": "xu2008-globalfit-output.txt",
+      "sha256": "eb74fd90c88c529c6b7b53db06e0d44f6a2479aca1c343baa24e87e35be2ad4e",
+      "bytes": 3806597
+    },
+    {
+      "path": "xu2008-observed-lines-extract.dat",
+      "sha256": "987f3370b9b016ca6dbbdf674020435e856508accfcd47471bc0d2f93c3d1749",
+      "bytes": 3343158
+    },
+    {
+      "path": "coudert-15.pdf",
+      "sha256": "b1cd67275e71d37109d6b6ccfeccf2f69acf51e7acddde8990accd22c30c1756",
+      "bytes": 795210,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "coudert-15-supp.pdf",
+      "sha256": "3ee68a58312fcd68de77a86a5f30eb135e3cab8c163edfa54aa46c61c69421cc",
+      "bytes": 412427,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "belov-16-supp.pdf",
+      "sha256": "4f89e430c42fe7105ccfd0b686eca8cb7312dbe0c042f51d3dd679c5ddea44d7",
+      "bytes": 628407,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "xu-18-supp.pdf",
+      "sha256": "fc3a6f10f228a4a561bad84101722e92d4cf16ca874a78974ed6b592c5dc6c27",
+      "bytes": 910271,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "lankhaar-16-err.pdf",
+      "sha256": "9dbca058c758924c480d5b9c53985381314d0a9a7854ba4ad34c9d8801f78f7c",
+      "bytes": 438122,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "lankhaar2016.pdf",
+      "sha256": "7ff920657b178529ee5fc936848d04e4b46cb70157908b8f51da148d93775377",
+      "bytes": 564602,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "belov2016.pdf",
+      "sha256": "cccbf84ae1cedc1f9801c3eca965feead5f9f6f137a6c2aae6c2aa5c4133a606",
+      "bytes": 4409455,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "16Jul03hfsJCPSupMat.docx",
+      "sha256": "c616b2488d828e5a965e1878fde4f2b8ea2a6a7edc56bcfba922a4cd1fce84a2",
+      "bytes": 103879,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "1-s2.0-S0022285218303254-mmc1.docx",
+      "sha256": "1b9cebf59351e6ea9b6239d35ec0ebf6075cf71a9a7932ef5695d373c4dd6c67",
+      "bytes": 50416,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "main.pdf",
+      "sha256": "e129c000a6ba766efcd8f82fc0a9c3b9214504505efbcd819a1976bbc0b7a2be",
+      "bytes": 1122782,
+      "public_distribution_allowed": false
+    },
+    {
+      "path": "024307_1_online.pdf",
+      "sha256": "326a6834a3ceace051aee46100c96540d34919150389c2c2a38d496cbe4b414f",
+      "bytes": 4590375,
+      "public_distribution_allowed": false
+    }
+  ],
+  "bundled_belgi": {
+    "status": "bundled-under-upstream-terms",
+    "scope": "BELGI/GLOBALFIT source and Xu constants for native eigenfunction calculations; project driver licensed separately under EUPL-1.2",
+    "program_reference": "10.1006/jmsp.1994.1047",
+    "methanol_model_reference": "10.1016/j.jms.2008.03.017",
+    "files": [
+      {
+        "path": "src/methanol_hyperfine/data/belgi/fortran/belgi_wavefunctions.f",
+        "sha256": "595d976ca25b1327e77b671cc9b9df1883c1b068b8730df6f9bc9684554e1d2d",
+        "bytes": 2847
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/inputs/xu2008-final-constants.txt",
+        "sha256": "11353561e41ef266477e76898282d46b58f7fe92f228cd1f41061b9c95716f3d",
+        "bytes": 4880
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/SHA256SUMS",
+        "sha256": "6ed8a782fd0dd2cbbe7ef01ca285ae700f8a50e91a0ad2d944a8ca04321a0e8e",
+        "bytes": 4468
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/ad3j.f",
+        "sha256": "387046dc4d2335d13db1945138fb0185452f351ac7a2d6eaa02e9c9e6cf59c8f",
+        "bytes": 1696
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/aset.f",
+        "sha256": "72dff5a911681415ca67bf036abd5a3b921bed99965727183604bbbb6c907063",
+        "bytes": 2457
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/blockdata.f",
+        "sha256": "7e5898e5bd959690b8507932865be4762bef91bc10110e7fd6a3aba3201c357d",
+        "bytes": 238
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/cntrl.f",
+        "sha256": "38e7e2d9b3218aea1ab579188b3096b5c51c5229f2b741a206021b74c4a0f382",
+        "bytes": 6470
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_big2.f",
+        "sha256": "3d22b4328c0b322f4b68799c14230352aa0eaf8b388b20658e80ebb0806f0494",
+        "bytes": 277
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_c2c.f",
+        "sha256": "d01d5691bb07bc80d97139af52f973ea0223bca7c6c96e329e0d1a731072f8af",
+        "bytes": 70
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_chara.f",
+        "sha256": "c43f538344c6a8c59cc15a3bd98208b07fe24422f8491bbb7d69de688997ec85",
+        "bytes": 188
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_cntl.f",
+        "sha256": "4b501d2a43639a23ba6b61c2100179e7fc44d901051c7822a82c42e3f6a4d22f",
+        "bytes": 435
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_consts.f",
+        "sha256": "25db63cb3ff76d2e22d7214f5fb9597dee3bee04f7dd9622b877fb292c6f4cd9",
+        "bytes": 208
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_cst.f",
+        "sha256": "7581dbcaf738fbb8d7337b05d6776f93a3908a6e7091047fe07de3abb23bb49a",
+        "bytes": 71
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_cstdim.f",
+        "sha256": "87d90b3cd14d84cb3d92e6720ecee40cf90eba404ab8597e3927f46a56078257",
+        "bytes": 100
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_cste.f",
+        "sha256": "6b842fcb6b2337e325ca97651b28f4f2ff654ebc41964426fc84b7ebf601eda8",
+        "bytes": 7288
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_dat.f",
+        "sha256": "00b0da4018daea211fdc78ba8cefea74d5fcb9394f3b731c435085ccb3cdc200",
+        "bytes": 277
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_dim.f",
+        "sha256": "8fd4a26b537d591891367ac48eeda13ec2c34b2aebf06d0fc77626ed9e388833",
+        "bytes": 444
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_eigen.f",
+        "sha256": "242b999f924ecbb105007e79a9f06f1a507c4e688faf2933c32844351fca2a99",
+        "bytes": 453
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_eigen1.f",
+        "sha256": "c33b0e52c2ebaa42f2f88f91ddd02d72ddffd5a7ea258ec95c776eb9f3b12f8b",
+        "bytes": 86
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_expdat.f",
+        "sha256": "ee58e62888c42a0894d5e514a9601c9b43f9247ef908755bcc0815c3b590a40d",
+        "bytes": 2348
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_facts.f",
+        "sha256": "865b6c7af9985134c5fbe1405c1b577f108ca0fe2f88ba8ff6d7182aa652a3c7",
+        "bytes": 29
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_int.f",
+        "sha256": "6fc76ee4a47e788195cf38dd88ac0d3e138ae087defad2ab738f0542f501f76e",
+        "bytes": 94
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_par.f",
+        "sha256": "093a41b0dfbc083d2d56e17f2bde6a14f5c8b8cefdb9660627dabd9b77da5efc",
+        "bytes": 145
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_quant.f",
+        "sha256": "096e371101f3b3cbfabbfd3794837266516e1af8b4564c1af9edeff1c0f5abf5",
+        "bytes": 179
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_rotor.f",
+        "sha256": "72bbed9e068d202a7997cc34dfcd23b0380320de2f4102d63467ed1f23c36d85",
+        "bytes": 130
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_rottor.f",
+        "sha256": "e90ca87f007315e31cb8beb149bc3f2727381142519e4246aae51f7adb7bdd86",
+        "bytes": 81
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_symb.f",
+        "sha256": "0465595d564668bce658aa12182a3715cdc07812c584fffa663a03425c3430ba",
+        "bytes": 47
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_tor.f",
+        "sha256": "64ddb777947ec7745598e6c76442b8a28dedf14ff523b117eb81c20c6420bfe4",
+        "bytes": 83
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_tor59.f",
+        "sha256": "9219e589cf881eb3220824950a331c958586045e458db2552aa750a31aff917c",
+        "bytes": 76
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_vrtd.f",
+        "sha256": "9dc2917537c914fc04b5d9fa7fa5e6bc52c7782d9bf43447f2be61740a7446ff",
+        "bytes": 3256
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/common_vset.f",
+        "sha256": "e452b794cf3219d5148788e6ddb58f656be85fc8ea1b8cb09e3ece96b85c8b9f",
+        "bytes": 2735
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/data.f",
+        "sha256": "6436a4ad930bef0707b4019894fbd5d0a8b3ec2b953ee750d2fca572830ab486",
+        "bytes": 26458
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/data1.f",
+        "sha256": "d5c4aa93b5e6aa7c8fb62d4224f2b5a248855181083e1f6798b7b1fe195e7163",
+        "bytes": 17157
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/data11.f",
+        "sha256": "5700b254e0282a805c95add7d4e78f8557f2034d355efdd26a8223741e3faed7",
+        "bytes": 14721
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/encal.f",
+        "sha256": "51ddd613b275da61d3669b7269744372b237819251ba88729d889e119932b02e",
+        "bytes": 4322
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/encal2.f",
+        "sha256": "0e6854b24cd748104617c0fc7068936e15c68f11f698c071e076af6a55938efd",
+        "bytes": 3026
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/expectation.f",
+        "sha256": "11eff872ea1fbb90b1bed0a1b7864fc3d1096492858bb6e8baae62ae9674f110",
+        "bytes": 2235
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/factt.f",
+        "sha256": "4d0a295daa582a53db217ce4ec47960a6f1cf652478a3f13f887c6085e8fef98",
+        "bytes": 756
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/globalfit.f",
+        "sha256": "8540eaf21f856a1c2e9957e9b080c1d59fb3c0da1254089bf5ef217f29900cca",
+        "bytes": 67789
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/h.f",
+        "sha256": "60ba202d1d4fa49bb60fc5cdc5bcf5a588e7713b4a18aa2c564dfaedab4559a6",
+        "bytes": 60581
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/hrtset.f",
+        "sha256": "2fcba3c102d9898914459b47388c0f36cb959007da390f14c60fb5836036ae3f",
+        "bytes": 5134
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/htorse.f",
+        "sha256": "8a24301c4bb2102c8d46d9900a0ab37b28b5d0c277f25432786b065b80b95479",
+        "bytes": 5948
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/inten.f",
+        "sha256": "4719669139153f9ae7ee7e71293391e4d0a9ae502d316ba50104cddfb27248ed",
+        "bytes": 20132
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/iposa.f",
+        "sha256": "d5eafb8cfbfab7bffc940fbe430e7283cb4e9e7a8635de69686d74b9a4cfeb39",
+        "bytes": 4614
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/ipose.f",
+        "sha256": "ad0ddec2455d19faedea79fea7f332195e2d3c80e6ca2e69539a5c3a7c1ed84e",
+        "bytes": 5307
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/irep.f",
+        "sha256": "5f2a5b4a1390796200a26caada11c31f5c0b42f2da1c37878aa6c809c010bfa4",
+        "bytes": 1198
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/lineca.f",
+        "sha256": "243b990d12f828a560476516c782fec37b2fbaccb9b5abe6094a2ed6c1c5de7f",
+        "bytes": 100007
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/matout.f",
+        "sha256": "e36ad9cb56640b6c8439df77b955c668035c9da0f146c9ba3e244fe1added369",
+        "bytes": 4743
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/param.f",
+        "sha256": "044b89b65936d5d8f293f6fbfd456a6197974e587c734ebac65a7c4724b3e34c",
+        "bytes": 2578
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/parity.f",
+        "sha256": "efa7d2f62691d2daecbccee0ac699c458096077054cd7243e7bc810c2953647a",
+        "bytes": 3326
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/printderivl.f",
+        "sha256": "b4a560e6850560469ec6a933b1b53198554e015f363c9231c71ba1dd841c52f3",
+        "bytes": 2666
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/printener.f",
+        "sha256": "fab0d2f6a565762ae36f1cbf8e6bcd1f0c1a208d9502ad85aeed56f64073e21b",
+        "bytes": 2580
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/pythag.f",
+        "sha256": "34cd272f0436dfa6482e087c1aff6b70d29f666756c9f3739ca43b00cfca5c93",
+        "bytes": 687
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/rejec.f",
+        "sha256": "ee8939ee9c250d0672d1d5b68528975797539b5989eb841e85b44bf83822ed4f",
+        "bytes": 2320
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/resum.f",
+        "sha256": "ccf0670e5b0ee2809c653bb4d7810236b39f971c45f45427926b5a7aac4f9610",
+        "bytes": 9574
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/rottor.f",
+        "sha256": "6e68e573e865d00c61bd19122dd078bcffb88eaed66dac97fe9e30bbb643aebf",
+        "bytes": 9598
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/rule.f",
+        "sha256": "bcbfa8911437eb4a36fceff43cee3ebcb2db9663ea40d74cf21041b9bcbb048c",
+        "bytes": 644
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/setup.f",
+        "sha256": "2cbd8781b54ca003c5dff807d238e4a41498f08561620bd28e88e940502a1361",
+        "bytes": 16493
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/vrtdi.f",
+        "sha256": "06067de05bcaf02caf7ad76d068d83a2179af1e49e99e476e933dd07aac116a6",
+        "bytes": 139572
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/vset.f",
+        "sha256": "176f69abbb5707a9db5e52158627e2d8564f009f8b03a3602eafb60482a93a14",
+        "bytes": 47686
+      },
+      {
+        "path": "src/methanol_hyperfine/data/belgi/source/vtors.f",
+        "sha256": "c216c7db9818fece4a02e607a4524099edcf407ef77d9cbb111a56d2635c8355",
+        "bytes": 6670
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "fit": "L26",
+  "families": 14,
+  "transitions": 128,
+  "maximum_grid_position_error_kHz": 3.4340868637627864e-07,
+  "rule": {
+    "Lorentz_HWHM_kHz": 5.0,
+    "modulation_amplitude_kHz": 3.0,
+    "phase": "positive isolated-line center",
+    "height_fraction": 0.1,
+    "prominence_fraction": 0.05,
+    "grid_kHz": 0.02,
+    "verification_grid_kHz": 0.01,
+    "statistical_strengths": true,
+    "crossovers": false
+  },
+  "scope": "Declared numerical feature-selection rule; not calibrated experimental resolution",
+  "threshold_sensitivity": "Separate 5%/2.5% and 20%/10% height/prominence results retained for every transition"
+}

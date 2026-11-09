@@ -1,0 +1,95 @@
+{
+  "source_pdf": "Belov et al. (2016), https://doi.org/10.1063/1.4954941",
+  "source_pdf_sha256": "326a6834a3ceace051aee46100c96540d34919150389c2c2a38d496cbe4b414f",
+  "embedded_image": "Figure 2 raster image in the source article",
+  "embedded_image_sha256": "2315b830b794756ab0ac1cb6609d7f749de1db7a1cd4705d45cfdb7506ffa1da",
+  "original_profile": "data/processed/excited-profiles/Belov-F2.csv",
+  "original_profile_sha256": "d949d84a0eb628610e840d9c9f07bcd00fca18c926bbf44f709286b58fe08f9c",
+  "corrected_profile": "data/processed/belov-profile-check-v1/Belov-F2.csv",
+  "corrected_profile_sha256": "1ccacba06dce759bd016ec0db27c82be418f1a04c75c77e57969448f205a34e2",
+  "samples": 176,
+  "unchanged_intact_centroids": 175,
+  "removed_clipped_components_source_xy": [
+    [
+      95.0,
+      277.5
+    ],
+    [
+      96.77142857142857,
+      329.42857142857144
+    ],
+    [
+      97.0,
+      540.0
+    ],
+    [
+      97.0,
+      379.0
+    ],
+    [
+      97.1875,
+      296.0625
+    ],
+    [
+      97.1875,
+      135.0
+    ],
+    [
+      97.5,
+      215.5
+    ],
+    [
+      97.5,
+      459.5
+    ],
+    [
+      98.38,
+      259.58
+    ]
+  ],
+  "restored_intact_centroid_source_xy": [
+    [
+      98.21153846153847,
+      259.5769230769231
+    ]
+  ],
+  "method": "Connected components labeled before spatial selection; intact axis strokes rejected by size. Black experimental markers only; red fitted curve excluded.",
+  "calibration": {
+    "axis": "linear kHz",
+    "ticks": [
+      [
+        116.5,
+        -150.0
+      ],
+      [
+        258.5,
+        -100.0
+      ],
+      [
+        401.5,
+        -50.0
+      ],
+      [
+        543.0,
+        0.0
+      ],
+      [
+        684.5,
+        50.0
+      ],
+      [
+        826.0,
+        100.0
+      ],
+      [
+        970.0,
+        150.0
+      ]
+    ],
+    "max_tick_residual_khz": 0.3649231994670856
+  },
+  "origin_khz": -2.0201060733739524,
+  "signal_sigma": 0.07291300702119703,
+  "normalization": "Subtract median of retained experimental ordinates; divide by their full range.",
+  "scope": "Belov Figure 2 triplet profile used as an independent model comparison; excluded from molecular parameter optimization"
+}

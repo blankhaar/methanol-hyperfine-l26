@@ -1,0 +1,16 @@
+Project-authored software: EUPL-1.2
+Copyright (c) 2026 Boy Lankhaar
+
+The LICENSE file contains the European Union Public Licence, version 1.2.
+It applies to the project-authored Python packages, numerical and figure scripts,
+tests, and the project Fortran prediction driver at
+src/methanol_hyperfine/data/belgi/fortran/belgi_wavefunctions.f.
+
+Exceptions: the upstream BELGI/GLOBALFIT files under
+src/methanol_hyperfine/data/belgi/source/, the Xu molecular constants under
+src/methanol_hyperfine/data/belgi/inputs/, externally authored scientific inputs,
+and third-party dependencies retain their own terms and notices. They are not
+relicensed under EUPL-1.2 by this package. Scientific data and publication assets
+are outside this software license grant.
+
+See docs/LICENSING.md and THIRD_PARTY_NOTICES.md for scope and attribution.

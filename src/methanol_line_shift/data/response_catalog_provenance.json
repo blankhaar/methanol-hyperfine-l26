@@ -1,0 +1,9 @@
+{
+  "endpoint_sha256": "0e97841825f14dae87d7bf4a2fbdd18a9e2f48264c584d6205d504d4d55ece69",
+  "fit_performed": false,
+  "hyperfine_recontracted": true,
+  "transitions": 136,
+  "component_rows": 3656,
+  "max_abs_centroid_Hz": 5.6843418860808054e-11,
+  "source_transition_list_sha256": "423ae15d4b19df7c7e5f5fb8c717acf5c77ade7716c7bf10aa91549b63766dee"
+}
