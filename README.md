@@ -70,16 +70,38 @@ intervals or a full nonlinear bootstrap.
 - `supplement/`: coupling coefficients, signed modes, conditional uncertainty ranges,
   magnetic components, line shifts and candidate experimental transitions.
 
+After installation, the following command rebuilds the eigenfunctions,
+spectra, all 768 conditional uncertainty draws, eight main tables, 27
+supplementary tables, and all twelve figures. It recomputes the plotted model
+curves; saved plotting arrays are used only for comparison. The public L26
+endpoint and experimental-response parameters are inputs, so this reproduces
+the published model without performing a new molecular fit.
+
+The two rendering environments preserve the paper's original appearance:
+main figures use Matplotlib 3.11.2 and supplementary plates use 3.10.7.
+With the numerical environment still activated:
+
 ```sh
-python current-figures/reproduce.py --output /absolute/new-figures \
-  --main-python /path/to/main-figure-python --atlas-python /path/to/atlas-python
-python reproduce.py --output /absolute/new-reproduction
-python scripts/run_tests.py
-python scripts/verify_manifest.py --source-tree
+python -m venv ../l26-main-figures-venv
+../l26-main-figures-venv/bin/python -m pip install numpy==2.3.5 matplotlib==3.11.2
+python scripts/reproduce_paper.py --output /absolute/new-paper-run \
+  --main-python "$PWD/../l26-main-figures-venv/bin/python" \
+  --atlas-python "$PWD/.venv/bin/python"
 ```
 
-Main figures were validated with Matplotlib 3.11.2; supplementary plates with
-3.10.7. Output directories must be fresh and outside the source tree.
+Results are in `figures/manuscript/figures/`, `figures/supplement/figures/`
+and `tables/` below the chosen output. `validation.json` reports the numerical,
+table and figure comparisons. The table builder retains publication layouts,
+display precision and literature values while recalculating every L26/theory
+cell and conditional interval. No private manuscript or local research files
+are needed. A full run takes several minutes, depending on hardware.
+
+For a quicker redraw using the packaged plotting arrays, use
+`current-figures/reproduce.py` with the same renderer options. `reproduce.py`
+alone runs the numerical regression/catalogue checks, including three reference
+uncertainty draws; it does not rebuild the complete paper products.
+
+Output directories must be fresh and outside the source tree.
 [VALIDATION.md](docs/VALIDATION.md) describes the numerical checks and their limits.
 
 ## Citation and license

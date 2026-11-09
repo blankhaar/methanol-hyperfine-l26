@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4187,
-      "sha256": "b3b8475bfb710cbe211583825685c73850f7223d10dd3fcf4c0bb2a6da659815"
+      "bytes": 5484,
+      "sha256": "8e7613b802536f40faab5b7a3df4233ce48cf64c676880910a1b871422132658"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -408,13 +408,13 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1794,
-      "sha256": "e771bcf4ba384dd3da3a1d7e5f51f4fabf04c1bd79292a3c140bf7a5dda583a2"
+      "bytes": 3303,
+      "sha256": "dcd81329959db4f444469fe4e0a6202fadfcd872c5d4c910f0c06ea371b5c88b"
     },
     {
       "path": "export-inventory.json",
-      "bytes": 17218,
-      "sha256": "a0f6b92b5938ce01230ddcf6ecf4fc00c64813a79073d88dd72626dfe97591f8"
+      "bytes": 17319,
+      "sha256": "364e712e720d0d1ef49c72dde56a008829fea45dca5f122df780b8f0bcb2a924"
     },
     {
       "path": "pyproject.toml",
@@ -505,6 +505,21 @@
       "path": "scripts/make_manifest.py",
       "bytes": 587,
       "sha256": "d12db48aa2b7e4f3a99f99dbe8648935059cb6ac32e28278e3cccf468391b137"
+    },
+    {
+      "path": "scripts/paper_figure_data.py",
+      "bytes": 7901,
+      "sha256": "b8d314532cbbaf3bf51cc81af1b9294da4e8af8facb6a3c65da06364937df060"
+    },
+    {
+      "path": "scripts/paper_tables.py",
+      "bytes": 14324,
+      "sha256": "fbff939797e165ba07b6709047d5ec12b1cba5ffaca73a36ad59874e76c2fa41"
+    },
+    {
+      "path": "scripts/reproduce_paper.py",
+      "bytes": 4343,
+      "sha256": "43d2d6a7a50f3850168c184863924214ca54fb3ce447ba9f4f5826bfed5b928a"
     },
     {
       "path": "scripts/run_tests.py",
